@@ -1,0 +1,438 @@
+[
+  {
+    "id": 4575,
+    "date": "2026-01-14T15:08:30",
+    "date_gmt": "2026-01-14T15:08:30",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=4575"
+    },
+    "modified": "2026-01-14T15:08:30",
+    "modified_gmt": "2026-01-14T15:08:30",
+    "slug": "family-portrait-photographer-zona-colonial-santo-domingo-republica-dominicana",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=family-portrait-photographer-zona-colonial-santo-domingo-republica-dominicana",
+    "title": {
+      "rendered": "Family Portrait Photographer Zona Colonial Santo Domingo Republica Dominicana"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/4575",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=4575"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2117,
+    "date": "2024-08-05T18:06:57",
+    "date_gmt": "2024-08-05T18:06:57",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=2117"
+    },
+    "modified": "2024-08-05T18:07:31",
+    "modified_gmt": "2024-08-05T18:07:31",
+    "slug": "2117",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=2117",
+    "title": {
+      "rendered": "Republica Domincana Santo Domingo sesion de fotos en estudio"
+    },
+    "featured_media": 2129,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/2117",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media/2129"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=2117"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2034,
+    "date": "2024-07-15T14:27:41",
+    "date_gmt": "2024-07-15T14:27:41",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=2034"
+    },
+    "modified": "2024-07-15T14:28:07",
+    "modified_gmt": "2024-07-15T14:28:07",
+    "slug": "fotografo-de-moda",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=fotografo-de-moda",
+    "title": {
+      "rendered": "Fotografo de Moda"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/2034",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=2034"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1655,
+    "date": "2024-06-01T22:17:10",
+    "date_gmt": "2024-06-01T22:17:10",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=1655"
+    },
+    "modified": "2024-06-01T22:17:10",
+    "modified_gmt": "2024-06-01T22:17:10",
+    "slug": "isla-saona-fotografo-profesional-sesion-de-fotos",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=isla-saona-fotografo-profesional-sesion-de-fotos",
+    "title": {
+      "rendered": "Isla Saona Fotografo Profesional &#8211; Sesion de fotos"
+    },
+    "featured_media": 1648,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/1655",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media/1648"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=1655"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1300,
+    "date": "2024-05-09T23:12:43",
+    "date_gmt": "2024-05-09T23:12:43",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=1300"
+    },
+    "modified": "2024-05-09T23:12:43",
+    "modified_gmt": "2024-05-09T23:12:43",
+    "slug": "real-estate-profesional-photographer-punta-cana-republica-dominicana",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=real-estate-profesional-photographer-punta-cana-republica-dominicana",
+    "title": {
+      "rendered": "Real Estate Profesional Photographer Punta Cana Republica Dominicana"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/1300",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=1300"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1200,
+    "date": "2024-05-08T21:48:29",
+    "date_gmt": "2024-05-08T21:48:29",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=1200"
+    },
+    "modified": "2024-05-09T01:42:26",
+    "modified_gmt": "2024-05-09T01:42:26",
+    "slug": "fotografo-de-eventos-santo-domingo-bricknell-rooftop",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=fotografo-de-eventos-santo-domingo-bricknell-rooftop",
+    "title": {
+      "rendered": "Fotografo De Eventos Santo Domingo &#8211; Bricknell Rooftop"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/1200",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=1200"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 913,
+    "date": "2024-04-25T12:05:16",
+    "date_gmt": "2024-04-25T12:05:16",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=913"
+    },
+    "modified": "2024-04-25T12:36:17",
+    "modified_gmt": "2024-04-25T12:36:17",
+    "slug": "contenido-foto-y-video-para-redes-sociales",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=contenido-foto-y-video-para-redes-sociales",
+    "title": {
+      "rendered": "Contenido foto y video para redes sociales"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/913",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=913"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 763,
+    "date": "2024-04-23T00:05:40",
+    "date_gmt": "2024-04-23T00:05:40",
+    "guid": {
+      "rendered": "https://babulashotsrd.com/?post_type=foogallery&#038;p=763"
+    },
+    "modified": "2024-04-23T00:29:12",
+    "modified_gmt": "2024-04-23T00:29:12",
+    "slug": "763",
+    "status": "publish",
+    "type": "foogallery",
+    "link": "https://babulashotsrd.com/?foogallery=763",
+    "title": {
+      "rendered": "Playa Punta Cana"
+    },
+    "featured_media": 0,
+    "template": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery/763",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/foogallery"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/types/foogallery"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/media?parent=763"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

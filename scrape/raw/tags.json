@@ -1,0 +1,7570 @@
+[
+  {
+    "id": 688,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/alimentos-y-bebidas/",
+    "name": "Alimentos y Bebidas",
+    "slug": "alimentos-y-bebidas",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/688",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=688"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "count": 1,
+    "description": "Anniversary session the photos",
+    "link": "https://babulashotsrd.com/tag/anniversary-session/",
+    "name": "Anniversary session",
+    "slug": "anniversary-session",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/42",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=42"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/beach/",
+    "name": "Beach",
+    "slug": "beach",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/40",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=40"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 746,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/beach-couple-photography/",
+    "name": "beach couple photography",
+    "slug": "beach-couple-photography",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/746",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=746"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 743,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/beach-photo-session-punta-cana/",
+    "name": "beach photo session punta cana",
+    "slug": "beach-photo-session-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/743",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=743"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/birthday-protographer-santo-domingo/",
+    "name": "birthday protographer santo domingo",
+    "slug": "birthday-protographer-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/18",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=18"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/boda-playa/",
+    "name": "boda playa",
+    "slug": "boda-playa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/161",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=161"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/boda-punta-cana/",
+    "name": "boda punta cana",
+    "slug": "boda-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/163",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=163"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/boda-rd/",
+    "name": "boda rd",
+    "slug": "boda-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/162",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=162"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 755,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/caribbean-photographer/",
+    "name": "caribbean photographer",
+    "slug": "caribbean-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/755",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=755"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 777,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/casa-de-campo/",
+    "name": "casa de campo",
+    "slug": "casa-de-campo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/777",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=777"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/cinematografico/",
+    "name": "cinematográfico",
+    "slug": "cinematografico",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/137",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=137"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/composition/",
+    "name": "composition",
+    "slug": "composition",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/127",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=127"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 691,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/contenido-en-el-beisbol/",
+    "name": "Contenido en el Béisbol",
+    "slug": "contenido-en-el-beisbol",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/691",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=691"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 360,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/contenido-profesional/",
+    "name": "contenido profesional",
+    "slug": "contenido-profesional",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/360",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=360"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "count": 3,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/couple/",
+    "name": "Couple",
+    "slug": "couple",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/44",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=44"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 744,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/couple-photo-session/",
+    "name": "couple photo session",
+    "slug": "couple-photo-session",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/744",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=744"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 175,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/creando-contenido-para-redes/",
+    "name": "Creando contenido para redes",
+    "slug": "creando-contenido-para-redes",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/175",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=175"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/creativo/",
+    "name": "creativo",
+    "slug": "creativo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/131",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=131"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/creator-digital/",
+    "name": "creator digital",
+    "slug": "creator-digital",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/176",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=176"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/cumpleanos/",
+    "name": "cumpleanos",
+    "slug": "cumpleanos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/52",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=52"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/cumpleanos-en-centro-de-santo-domingo/",
+    "name": "Cumpleaños en Centro De Santo Domingo",
+    "slug": "cumpleanos-en-centro-de-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/129",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=129"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 748,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/destination-photo-session/",
+    "name": "destination photo session",
+    "slug": "destination-photo-session",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/748",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=748"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "count": 12,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/dominican-republic/",
+    "name": "Dominican Republic",
+    "slug": "dominican-republic",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/39",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=39"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 745,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/dominican-republic-photo-session/",
+    "name": "dominican republic photo session",
+    "slug": "dominican-republic-photo-session",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/745",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=745"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 742,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/dominican-republic-photographer/",
+    "name": "dominican republic photographer",
+    "slug": "dominican-republic-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/742",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=742"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/elegance/",
+    "name": "elegance",
+    "slug": "elegance",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/124",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=124"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 752,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/engagement-photo-session-punta-cana/",
+    "name": "engagement photo session punta cana",
+    "slug": "engagement-photo-session-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/752",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=752"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/estilizado/",
+    "name": "Estilizado",
+    "slug": "estilizado",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/130",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=130"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/estudio-fotografico/",
+    "name": "estudio fotografico",
+    "slug": "estudio-fotografico",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/167",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=167"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/estudio-para-fotos/",
+    "name": "estudio para fotos",
+    "slug": "estudio-para-fotos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/168",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=168"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "count": 5,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/estudio-santo-domingo/",
+    "name": "estudio santo domingo",
+    "slug": "estudio-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/165",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=165"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 205,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/eventos/",
+    "name": "eventos",
+    "slug": "eventos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/205",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=205"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 236,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/excursioon-con-fotos-saona/",
+    "name": "excursioon con fotos saona",
+    "slug": "excursioon-con-fotos-saona",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/236",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=236"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 737,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/family-portrait-photo-sessions-in-santo-domingo/",
+    "name": "Family Portrait Photo Sessions in Santo Domingo",
+    "slug": "family-portrait-photo-sessions-in-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/737",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=737"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fashion-photographer/",
+    "name": "Fashion photographer",
+    "slug": "fashion-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/121",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=121"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/footografo-de-boda-punta-cana/",
+    "name": "footografo de boda punta cana",
+    "slug": "footografo-de-boda-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/160",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=160"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotgrafo-profesinal-saona/",
+    "name": "fotgrafo profesinal saona",
+    "slug": "fotgrafo-profesinal-saona",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/235",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=235"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/foto-session-en-la-playa/",
+    "name": "foto session en la playa",
+    "slug": "foto-session-en-la-playa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/171",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=171"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 177,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/foto-video-para-redes/",
+    "name": "foto video para redes",
+    "slug": "foto-video-para-redes",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/177",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=177"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-beisbol-republica-dominicana/",
+    "name": "Fotografía de béisbol República Dominicana",
+    "slug": "fotografia-de-beisbol-republica-dominicana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/140",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=140"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 734,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-comida/",
+    "name": "fotografía de comida",
+    "slug": "fotografia-de-comida",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/734",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=734"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 732,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-comida-para-delivery/",
+    "name": "fotografía de comida para delivery",
+    "slug": "fotografia-de-comida-para-delivery",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/732",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=732"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 733,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-comida-para-restaurantes/",
+    "name": "fotografía de comida para restaurantes",
+    "slug": "fotografia-de-comida-para-restaurantes",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/733",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=733"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 736,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-menus/",
+    "name": "fotografía de menús",
+    "slug": "fotografia-de-menus",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/736",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=736"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-moda/",
+    "name": "Fotografía de moda",
+    "slug": "fotografia-de-moda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/98",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=98"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 357,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-parejas/",
+    "name": "fotografía de parejas",
+    "slug": "fotografia-de-parejas",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/357",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=357"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-retrato/",
+    "name": "Fotografía de retrato",
+    "slug": "fotografia-de-retrato",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/109",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=109"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-de-retratos-caribena/",
+    "name": "fotografía de retratos caribeña",
+    "slug": "fotografia-de-retratos-caribena",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/383",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=383"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 355,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-en-exteriores/",
+    "name": "fotografía en exteriores",
+    "slug": "fotografia-en-exteriores",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/355",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=355"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 731,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-gastronomica/",
+    "name": "fotografía gastronómica",
+    "slug": "fotografia-gastronomica",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/731",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=731"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 735,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-gastronomica-comercial/",
+    "name": "fotografía gastronómica comercial",
+    "slug": "fotografia-gastronomica-comercial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/735",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=735"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-profesional/",
+    "name": "Fotografía Profesional",
+    "slug": "fotografia-profesional",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/24",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=24"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-profesional-de-juegos-de-beisbol/",
+    "name": "Fotografía profesional de juegos de béisbol",
+    "slug": "fotografia-profesional-de-juegos-de-beisbol",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/143",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=143"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 764,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografia-profesional-republica-dominicana/",
+    "name": "fotografía profesional República Dominicana",
+    "slug": "fotografia-profesional-republica-dominicana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/764",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=764"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 765,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-babula-shots-rd/",
+    "name": "fotógrafo Babula Shots RD",
+    "slug": "fotografo-babula-shots-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/765",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=765"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 696,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-baseball-santo-domingo/",
+    "name": "Fotografo Baseball Santo Domingo",
+    "slug": "fotografo-baseball-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/696",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=696"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 692,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-beisbol-rd/",
+    "name": "fotografo Béisbol rd",
+    "slug": "fotografo-beisbol-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/692",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=692"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-boda/",
+    "name": "fotografo boda",
+    "slug": "fotografo-boda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/173",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=173"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 625,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cabarete/",
+    "name": "fotografo cabarete",
+    "slug": "fotografo-cabarete",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/625",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=625"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 690,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-comida/",
+    "name": "fotografo comida",
+    "slug": "fotografo-comida",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/690",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=690"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 694,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-compromiso/",
+    "name": "fotografo compromiso",
+    "slug": "fotografo-compromiso",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/694",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=694"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "count": 3,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cumpleanos/",
+    "name": "fotografo cumpleanos",
+    "slug": "fotografo-cumpleanos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/50",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=50"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 695,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cumpleanos-de-ninos/",
+    "name": "fotografo cumpleaños de niños",
+    "slug": "fotografo-cumpleanos-de-ninos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/695",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=695"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "count": 4,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cupleanos/",
+    "name": "fotografo cupleanos",
+    "slug": "fotografo-cupleanos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/48",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=48"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cupleanos-santo-domingo/",
+    "name": "fotografo cupleanos santo domingo",
+    "slug": "fotografo-cupleanos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/16",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-baseball/",
+    "name": "Fotografo de Baseball",
+    "slug": "fotografo-de-baseball",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/139",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=139"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-beisbol-dominicano/",
+    "name": "Fotógrafo de béisbol dominicano",
+    "slug": "fotografo-de-beisbol-dominicano",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/142",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=142"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-boda/",
+    "name": "fotografo de boda",
+    "slug": "fotografo-de-boda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/159",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=159"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 197,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-bodas/",
+    "name": "fotógrafo de bodas",
+    "slug": "fotografo-de-bodas",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/197",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=197"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 685,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-bodas-en-republica-dominicana/",
+    "name": "Fotografo de Bodas en Republica Dominicana",
+    "slug": "fotografo-de-bodas-en-republica-dominicana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/685",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=685"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 730,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-comida-republica-dominicana/",
+    "name": "fotógrafo de comida República Dominicana",
+    "slug": "fotografo-de-comida-republica-dominicana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/730",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=730"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 387,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-exteriores-rd/",
+    "name": "fotógrafo de exteriores RD",
+    "slug": "fotografo-de-exteriores-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/387",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=387"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 347,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-de-moda/",
+    "name": "fotografo de moda",
+    "slug": "fotografo-de-moda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/347",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=347"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-deportes/",
+    "name": "fotografo deportes",
+    "slug": "fotografo-deportes",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/117",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=117"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 626,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-dron/",
+    "name": "fotografo dron",
+    "slug": "fotografo-dron",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/626",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=626"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 773,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-en-casa-de-campo/",
+    "name": "Fotógrafo en Casa de Campo",
+    "slug": "fotografo-en-casa-de-campo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/773",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=773"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 763,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-en-santo-domingo/",
+    "name": "fotógrafo en Santo Domingo",
+    "slug": "fotografo-en-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/763",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=763"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 203,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-eventos/",
+    "name": "fotografo eventos",
+    "slug": "fotografo-eventos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/203",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=203"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-eventos-santo-domingo/",
+    "name": "fotografo eventos santo domingo",
+    "slug": "fotografo-eventos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/204",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=204"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 349,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-fashion-week-rd/",
+    "name": "fotografo fashion week rd",
+    "slug": "fotografo-fashion-week-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/349",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=349"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 693,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-fiesta-de-bodas/",
+    "name": "fotografo Fiesta de Bodas",
+    "slug": "fotografo-fiesta-de-bodas",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/693",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=693"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-jarabacoa/",
+    "name": "fotografo jarabacoa",
+    "slug": "fotografo-jarabacoa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/57",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=57"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 623,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-kite/",
+    "name": "fotografo kite",
+    "slug": "fotografo-kite",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/623",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=623"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 348,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-pasarela/",
+    "name": "fotografo pasarela",
+    "slug": "fotografo-pasarela",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/348",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=348"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-pro/",
+    "name": "fotografo pro",
+    "slug": "fotografo-pro",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/53",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=53"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-profesional/",
+    "name": "fotografo profesional",
+    "slug": "fotografo-profesional",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/56",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=56"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-punta-cana/",
+    "name": "fotografo punta cana",
+    "slug": "fotografo-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/17",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=17"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-quincenera/",
+    "name": "fotografo quincenera",
+    "slug": "fotografo-quincenera",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/55",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=55"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 350,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-rd/",
+    "name": "fotografo rd",
+    "slug": "fotografo-rd",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/350",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=350"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "count": 19,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-santo-domingo/",
+    "name": "fotografo santo domingo",
+    "slug": "fotografo-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/15",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-santo-dominigo/",
+    "name": "fotografo santo dominigo",
+    "slug": "fotografo-santo-dominigo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/51",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=51"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-saona-island/",
+    "name": "Fotografo Saona Island",
+    "slug": "fotografo-saona-island",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/232",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=232"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 624,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-surfing/",
+    "name": "fotografo surfing",
+    "slug": "fotografo-surfing",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/624",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=624"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-zona-colonila/",
+    "name": "fotografo zona colonila",
+    "slug": "fotografo-zona-colonila",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/63",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=63"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 689,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotos-de-comida/",
+    "name": "Fotos de comida",
+    "slug": "fotos-de-comida",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/689",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=689"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 385,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotos-de-playa-punta-cana/",
+    "name": "fotos de playa Punta Cana",
+    "slug": "fotos-de-playa-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/385",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=385"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotos-en-estudio-santo-domingo-con-bailarina/",
+    "name": "Fotos en Estudio Santo Domingo con Bailarina",
+    "slug": "fotos-en-estudio-santo-domingo-con-bailarina",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/164",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=164"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotos-estudio/",
+    "name": "fotos estudio",
+    "slug": "fotos-estudio",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/198",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=198"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 199,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotos-estudio-santo-domingo/",
+    "name": "fotos estudio santo domingo",
+    "slug": "fotos-estudio-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/199",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=199"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/glamour/",
+    "name": "glamour",
+    "slug": "glamour",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/126",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=126"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "count": 1,
+    "description": "Mis disculpas por la confusión anterior. Aquí tienes una versión extendida:\r\n\r\nLa \"hora dorada\" es un período breve pero mágico al amanecer o al atardecer, donde la luz suave y cálida baña el paisaje, creando una atmósfera encantadora y realzando los colores de forma única. Es el momento ideal para capturar fotografías impresionantes, ya que la luz difusa y dorada crea sombras suaves y resalta los detalles de una manera espectacular, agregando un toque de calidez y romanticismo a las imágenes. Esta hora especial ofrece oportunidades únicas para fotógrafos y amantes de la naturaleza, permitiéndoles capturar momentos y paisajes con una calidad visual excepcional que difícilmente se puede replicar en otros momentos del día.",
+    "link": "https://babulashotsrd.com/tag/golden-hour/",
+    "name": "Golden hour",
+    "slug": "golden-hour",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/38",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=38"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/grabando-videos-profesionales/",
+    "name": "Grabando Videos Profesionales",
+    "slug": "grabando-videos-profesionales",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/207",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=207"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 758,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/headshot-corporativo-para-perfil-profesional-en-santo-domingo/",
+    "name": "Headshot corporativo para perfil profesional en Santo Domingo",
+    "slug": "headshot-corporativo-para-perfil-profesional-en-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/758",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=758"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 753,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/honeymoon-photography-dominican-republic/",
+    "name": "honeymoon photography dominican republic",
+    "slug": "honeymoon-photography-dominican-republic",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/753",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=753"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/impactante/",
+    "name": "impactante",
+    "slug": "impactante",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/136",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/jarabacoa-quincenera/",
+    "name": "jarabacoa quincenera",
+    "slug": "jarabacoa-quincenera",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/59",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=59"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/jarabacoa-session-de-fotos/",
+    "name": "Jarabacoa session de fotos",
+    "slug": "jarabacoa-session-de-fotos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/58",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=58"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 775,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/la-romana-sesion-de-fotos-en-playa-minitas/",
+    "name": "La Romana | Sesión de Fotos en Playa Minitas",
+    "slug": "la-romana-sesion-de-fotos-en-playa-minitas",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/775",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=775"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/love/",
+    "name": "Love",
+    "slug": "love",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/43",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=43"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 346,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/matrimonio/",
+    "name": "matrimonio",
+    "slug": "matrimonio",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/346",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=346"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/minimalista/",
+    "name": "minimalista",
+    "slug": "minimalista",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/134",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/narrative/",
+    "name": "narrative",
+    "slug": "narrative",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/125",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=125"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 750,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/natural-photo-session/",
+    "name": "natural photo session",
+    "slug": "natural-photo-session",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/750",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=750"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographer-couples/",
+    "name": "photographer couples",
+    "slug": "photographer-couples",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/174",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=174"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "count": 20,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographer-punta-cana/",
+    "name": "photographer punta cana",
+    "slug": "photographer-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/8",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=8"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographer-republica-daomincana/",
+    "name": "photographer republica daomincana",
+    "slug": "photographer-republica-daomincana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/10",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=10"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographer-santo-domingo/",
+    "name": "photographer santo domingo",
+    "slug": "photographer-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/54",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=54"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographer-santo-dominigo/",
+    "name": "photographer santo dominigo",
+    "slug": "photographer-santo-dominigo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/9",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=9"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 757,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/photographers-zona-colonial/",
+    "name": "Photographers Zona Colonial",
+    "slug": "photographers-zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/757",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=757"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/piloto-dron-punta-cana/",
+    "name": "piloto dron punta cana",
+    "slug": "piloto-dron-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/209",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=209"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 345,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/pre-boda/",
+    "name": "pre boda",
+    "slug": "pre-boda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/345",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=345"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "count": 17,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/professional-photographer/",
+    "name": "Professional photographer",
+    "slug": "professional-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/41",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=41"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 738,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/professional-photographer-in-zona-colonial/",
+    "name": "Professional Photographer in Zona Colonial",
+    "slug": "professional-photographer-in-zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/738",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=738"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 739,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/professional-photographer-in-zona-colonial-santo-domingo/",
+    "name": "Professional Photographer in Zona Colonial Santo Domingo",
+    "slug": "professional-photographer-in-zona-colonial-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/739",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=739"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 771,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/propuestas-de-matrimonio-en-la-playa/",
+    "name": "Propuestas de Matrimonio en la Playa",
+    "slug": "propuestas-de-matrimonio-en-la-playa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/771",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=771"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/punta-cana/",
+    "name": "Punta Cana",
+    "slug": "punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/45",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=45"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 747,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/punta-cana-beach-photographer/",
+    "name": "punta cana beach photographer",
+    "slug": "punta-cana-beach-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/747",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=747"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 740,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/punta-cana-photographer/",
+    "name": "punta cana photographer",
+    "slug": "punta-cana-photographer",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/740",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=740"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 741,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/punta-cana-photography/",
+    "name": "punta cana photography",
+    "slug": "punta-cana-photography",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/741",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=741"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 759,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retrato-en-estudio/",
+    "name": "retrato en estudio",
+    "slug": "retrato-en-estudio",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/759",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=759"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 351,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos/",
+    "name": "retratos",
+    "slug": "retratos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/351",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=351"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 384,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-con-fondo-natural/",
+    "name": "retratos con fondo natural",
+    "slug": "retratos-con-fondo-natural",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/384",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=384"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 388,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-con-luz-calida/",
+    "name": "retratos con luz cálida",
+    "slug": "retratos-con-luz-calida",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/388",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=388"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 358,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-en-zona-colonial/",
+    "name": "retratos en Zona Colonial",
+    "slug": "retratos-en-zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/358",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=358"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 756,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-fotografo/",
+    "name": "Retratos fotografo",
+    "slug": "retratos-fotografo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/756",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=756"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 761,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-profesionales-santo-domingo/",
+    "name": "retratos profesionales Santo Domingo",
+    "slug": "retratos-profesionales-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/761",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=761"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 353,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/retratos-urbanos/",
+    "name": "retratos urbanos",
+    "slug": "retratos-urbanos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/353",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=353"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 749,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/romantic-beach-photos/",
+    "name": "romantic beach photos",
+    "slug": "romantic-beach-photos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/749",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=749"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/santo-domingo-fotografo/",
+    "name": "santo domingo fotografo",
+    "slug": "santo-domingo-fotografo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/166",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=166"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/santo-domingo-zona-colonial/",
+    "name": "santo domingo zona colonial",
+    "slug": "santo-domingo-zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/62",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=62"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/saona-island-fotografo/",
+    "name": "saona island fotografo",
+    "slug": "saona-island-fotografo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/233",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=233"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/servicio-cumpleanos-fotografo/",
+    "name": "servicio cumpleanos fotografo",
+    "slug": "servicio-cumpleanos-fotografo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/49",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=49"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 686,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/servicio-de-fotografia-profesional-para-corporativos/",
+    "name": "Servicio de Fotografía Profesional para Corporativos",
+    "slug": "servicio-de-fotografia-profesional-para-corporativos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/686",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=686"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/servicios-de-fotografia-de-beisbol/",
+    "name": "Servicios de fotografía de béisbol",
+    "slug": "servicios-de-fotografia-de-beisbol",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/141",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=141"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 356,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/servicios-de-fotografia-en-santo-domingo/",
+    "name": "servicios de fotografía en Santo Domingo",
+    "slug": "servicios-de-fotografia-en-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/356",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=356"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 234,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-de-fotos/",
+    "name": "sesion de fotos",
+    "slug": "sesion-de-fotos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/234",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=234"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 762,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-de-fotos-en-santo-domingo/",
+    "name": "sesión de fotos en Santo Domingo",
+    "slug": "sesion-de-fotos-en-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/762",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=762"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 768,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-de-fotos-en-zona-colonial/",
+    "name": "Sesión de Fotos en Zona Colonial",
+    "slug": "sesion-de-fotos-en-zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/768",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=768"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 760,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-de-fotos-en-zona-colonial-santo-domingo/",
+    "name": "Sesion de fotos en Zona Colonial Santo Domingo",
+    "slug": "sesion-de-fotos-en-zona-colonial-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/760",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=760"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 231,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-de-fotos-isla-saona/",
+    "name": "sesion de fotos isla saona",
+    "slug": "sesion-de-fotos-isla-saona",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/231",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=231"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 386,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesion-fotografica-en-la-isla/",
+    "name": "sesión fotográfica en la isla",
+    "slug": "sesion-fotografica-en-la-isla",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/386",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=386"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 354,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesiones-de-fotos-santo-domingo/",
+    "name": "sesiones de fotos Santo Domingo",
+    "slug": "sesiones-de-fotos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/354",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=354"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesiones-familiares/",
+    "name": "Sesiones Familiares",
+    "slug": "sesiones-familiares",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/31",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=31"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 201,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sesison-de-fotos-playa-punta-cana/",
+    "name": "sesison de fotos playa punta cana",
+    "slug": "sesison-de-fotos-playa-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/201",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=201"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "count": 7,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-de-fotos/",
+    "name": "session de fotos",
+    "slug": "session-de-fotos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/60",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=60"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 772,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-de-fotos-playa/",
+    "name": "session de fotos playa",
+    "slug": "session-de-fotos-playa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/772",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=772"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 200,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-de-fotos-punta-cana/",
+    "name": "session de fotos punta cana",
+    "slug": "session-de-fotos-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/200",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=200"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "count": 7,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-de-fotos-santo-domingo/",
+    "name": "session de fotos santo domingo",
+    "slug": "session-de-fotos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/146",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=146"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "count": 1,
+    "description": "session de photos engagment\r\n",
+    "link": "https://babulashotsrd.com/tag/session-de-photos-engagment/",
+    "name": "session de photos engagment",
+    "slug": "session-de-photos-engagment",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/12",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=12"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-pre-boda/",
+    "name": "session pre boda",
+    "slug": "session-pre-boda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/170",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=170"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/session-se-fotos-wedding/",
+    "name": "session se fotos wedding",
+    "slug": "session-se-fotos-wedding",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/11",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=11"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sofisticado/",
+    "name": "sofisticado",
+    "slug": "sofisticado",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/133",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=133"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/storytelling/",
+    "name": "storytelling",
+    "slug": "storytelling",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/128",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=128"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sunset/",
+    "name": "Sunset",
+    "slug": "sunset",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/46",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 751,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/sunset-beach-photography/",
+    "name": "sunset beach photography",
+    "slug": "sunset-beach-photography",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/751",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=751"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 754,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/tropical-beach-photography/",
+    "name": "tropical beach photography",
+    "slug": "tropical-beach-photography",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/754",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=754"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/video-drone-punta-cana/",
+    "name": "video drone punta cana",
+    "slug": "video-drone-punta-cana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/208",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=208"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 359,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/videografo-santo-domingo/",
+    "name": "videografo Santo Domingo",
+    "slug": "videografo-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/359",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=359"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 687,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/wedding-ceremony/",
+    "name": "Wedding Ceremony",
+    "slug": "wedding-ceremony",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/687",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=687"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/zona-colonial/",
+    "name": "zona colonial",
+    "slug": "zona-colonial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/61",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=61"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 769,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/zona-colonial-santo-domingo/",
+    "name": "Zona Colonial Santo Domingo",
+    "slug": "zona-colonial-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/769",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

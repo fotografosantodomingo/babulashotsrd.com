@@ -1,0 +1,452 @@
+[
+  {
+    "id": 47,
+    "count": 15,
+    "description": "¿Deseas conmemorar un aniversario especial con una sesión de fotos inolvidable? ¡Estamos aquí para ayudarte! Ofrecemos servicios de fotografía para sesiones de aniversario en Santo Domingo, capturando momentos preciosos y emotivos que perdurarán para siempre. Ya sea que celebres tu primer año juntos o un hito significativo, trabajaremos contigo para crear imágenes que reflejen el amor y la felicidad de esta ocasión especial. Desde románticas sesiones al aire libre hasta íntimas sesiones en estudio, nos aseguraremos de capturar cada momento mágico. Celebra tu amor con nuestras hermosas fotos de aniversario en Santo Domingo.",
+    "link": "https://babulashotsrd.com/category/aniversary-boda-pre-boda/",
+    "name": "Aniversary - Boda - Pre Boda",
+    "slug": "aniversary-boda-pre-boda",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/47",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=47"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "count": 8,
+    "description": "Sesion de fotos  y videos Contenido Profesional Santo Domingo Punta Cana Republica Dominicana",
+    "link": "https://babulashotsrd.com/category/contenido-profesional/",
+    "name": "Contenido Profesional",
+    "slug": "contenido-profesional",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/206",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=206"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "count": 8,
+    "description": "En la República Dominicana, los cumpleaños son ocasiones especiales llenas de alegría y celebración. La familia y los amigos se reúnen para honrar al cumpleañero y hacer que se sienta querido y especial. Por lo general, la celebración comienza con una comida abundante que incluye platos tradicionales dominicanos como arroz con habichuelas, pollo guisado, tostones y ensalada. También se sirven deliciosos pasteles y postres típicos como el bizcocho dominicano, que es esponjoso y decorado con frutas frescas y crema. \r\n\r\nDurante la celebración, es común cantar el tradicional \"Feliz Cumpleaños\" y compartir buenos deseos para el año que viene. La música y el baile son elementos clave de la celebración, con ritmos como merengue, bachata y salsa que llenan el ambiente de energía y diversión. Además, es costumbre que el cumpleañero sople las velas de su pastel y haga un deseo antes de cortarlo y compartirlo con los invitados.\r\n\r\nLos regalos también son una parte importante de los cumpleaños en la República Dominicana. Los amigos y familiares suelen traer obsequios especiales para el cumpleañero, que pueden incluir desde artículos prácticos hasta objetos simbólicos o simplemente muestras de afecto y aprecio.\r\n\r\nEn resumen, los cumpleaños en la República Dominicana son ocasiones llenas de amor, comida deliciosa, música animada y momentos compartidos con seres queridos que hacen que este día sea inolvidable para el celebrante.",
+    "link": "https://babulashotsrd.com/category/happy-b-day/",
+    "name": "Cumpleanos",
+    "slug": "happy-b-day",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/14",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=14"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "count": 5,
+    "description": "El fotógrafo deportivo es un artista que capta la emoción y la intensidad de eventos deportivos a través de su lente. Con habilidad y pasión, se sumerge en el corazón de la acción para capturar momentos decisivos que reflejan la fuerza, la destreza y la competitividad de los atletas. Utilizando técnicas avanzadas de composición y dominio de la luz, transforma la velocidad y la energía del deporte en imágenes impactantes que cuentan historias por sí mismas. Su trabajo requiere paciencia, agilidad y un ojo agudo para anticipar movimientos y reacciones. Cada fotografía no solo congela el tiempo, sino que también revela la emoción cruda y la belleza intrínseca del deporte. El fotógrafo deportivo no solo documenta eventos, sino que también inspira a través de su arte, celebrando la pasión y el sacrificio de los atletas y transmitiendo la emoción de la competición a quienes admiran su trabajo.",
+    "link": "https://babulashotsrd.com/category/fotografo-de-deportes/",
+    "name": "Deportes",
+    "slug": "fotografo-de-deportes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/13",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "count": 5,
+    "description": "",
+    "link": "https://babulashotsrd.com/category/estudio-santo-domingoo/",
+    "name": "Estudio Santo Domingoo",
+    "slug": "estudio-santo-domingoo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/169",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=169"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 202,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/category/eventos/",
+    "name": "Eventos",
+    "slug": "eventos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/202",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=202"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "count": 3,
+    "description": "¿Quieres destacar tu estilo o promocionar tu marca a través de fotografías de moda excepcionales? ¡Estás en el lugar indicado! Ofrecemos servicios de fotografía de moda en Santo Domingo, capturando la esencia y la elegancia en cada imagen. Desde sesiones en exteriores hasta sesiones en estudio, trabajamos contigo para crear imágenes que reflejen tu estilo único y personalidad. Eleva tu presencia en el mundo de la moda con nuestro equipo de fotógrafos profesionales en Santo Domingo.\r\n\r\n\r\n\r\n",
+    "link": "https://babulashotsrd.com/category/fashion/",
+    "name": "fotograf-fashion-moda-santo-domingo-rd",
+    "slug": "fashion",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/119",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=119"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 361,
+    "count": 9,
+    "description": "",
+    "link": "https://babulashotsrd.com/category/fotografia-exterior/",
+    "name": "Fotografia Exterior",
+    "slug": "fotografia-exterior",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/361",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=361"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 776,
+    "count": 2,
+    "description": "",
+    "link": "https://babulashotsrd.com/category/session-de-fotos/",
+    "name": "Session de Fotos",
+    "slug": "session-de-fotos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/776",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=776"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 19,
+    "description": "",
+    "link": "https://babulashotsrd.com/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
