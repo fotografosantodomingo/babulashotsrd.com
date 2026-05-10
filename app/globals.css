@@ -56,6 +56,8 @@ a {
 img {
   display: block;
   max-width: 100%;
+  /* Never dim photos — opacity overrides anywhere are intentional bugs. */
+  opacity: 1;
 }
 
 h1,
@@ -513,10 +515,15 @@ p {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  /* Sit behind hero content + media so we never dim the photo. */
+  z-index: 0;
 }
 :root[data-theme="dark"] .hero::after {
   background: linear-gradient(90deg, rgba(10, 25, 21, .9), rgba(10, 25, 21, .62) 42%, rgba(10, 25, 21, .12)), linear-gradient(180deg, rgba(10,25,21,.1), rgba(10,25,21,.72));
 }
+/* The hero-with-image variant has no background image of its own, so the
+   dark gradient overlay would only darken the photo — disable it there. */
+.hero.hero-with-image::after { display: none; }
 
 .hero-image {
   display: none;
@@ -645,6 +652,31 @@ p {
   background: var(--dark);
   color: #fff;
   border-color: var(--dark);
+}
+
+/* WhatsApp brand green pill — used for every WhatsApp CTA across the site. */
+.button-whatsapp {
+  background: #25d366;
+  color: #fff;
+  border-color: #25d366;
+  gap: .55rem;
+  border-radius: 999px;
+  padding: .78rem 1.2rem;
+  transition: background-color .15s ease, transform .15s ease, box-shadow .15s ease;
+  box-shadow: 0 6px 18px rgba(37, 211, 102, .25);
+}
+.button-whatsapp:hover,
+.button-whatsapp:focus-visible {
+  background: #1eb455;
+  border-color: #1eb455;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(37, 211, 102, .32);
+}
+.button-whatsapp .button-icon {
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+  display: block;
 }
 
 .button-outline {
@@ -1762,6 +1794,45 @@ p {
 /* ============================================
    Homepage hero with image (side-by-side photo + copy)
    ============================================ */
+
+/* Cover parallax — full-width photo banner sitting between the sticky header
+   and the hero. Desktop uses background-attachment:fixed so the photo holds
+   its position while content scrolls over it (classic parallax). Mobile falls
+   back to scroll-with-page since iOS Safari ignores `fixed`. */
+.cover-parallax {
+  position: relative;
+  width: 100%;
+  height: clamp(360px, 70vh, 720px);
+  overflow: hidden;
+}
+.cover-parallax-bg {
+  position: absolute;
+  inset: 0;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cover-parallax::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  background: linear-gradient(180deg, transparent, var(--bg));
+  pointer-events: none;
+}
+:root[data-theme="dark"] .cover-parallax::after {
+  background: linear-gradient(180deg, transparent, var(--dark));
+}
+@media (hover: none) and (pointer: coarse) {
+  /* iOS Safari + most mobile browsers ignore background-attachment:fixed and
+     would otherwise scale to viewport, cropping the image. Force normal scroll. */
+  .cover-parallax-bg { background-attachment: scroll; }
+  .cover-parallax { height: clamp(280px, 50vh, 460px); }
+}
+
 .hero-with-image {
   display: grid;
   grid-template-columns: 1fr;
@@ -1769,8 +1840,13 @@ p {
   align-items: center;
   padding-bottom: var(--y);
 }
-.hero-with-image .hero-content { z-index: 2; }
+.hero-with-image .hero-content {
+  position: relative;
+  z-index: 2;
+}
 .hero-with-image .hero-media {
+  position: relative;
+  z-index: 2; /* keep the photo above any overlay; never apply opacity to photos */
   margin: 0;
   border-radius: 14px;
   overflow: hidden;
@@ -1782,11 +1858,22 @@ p {
   height: 100%;
   object-fit: cover;
   display: block;
+  opacity: 1;
 }
 @media (min-width: 900px) {
   .hero-with-image {
     grid-template-columns: 1.05fr 1fr;
     gap: clamp(2rem, 5vw, 4rem);
+  }
+}
+/* Mobile: photos edge-to-edge, no border-radius, no border. */
+@media (max-width: 719px) {
+  .hero-with-image .hero-media {
+    border-radius: 0;
+    border: 0;
+    margin-left: calc(var(--x) * -1);
+    margin-right: calc(var(--x) * -1);
+    width: calc(100% + (var(--x) * 2));
   }
 }
 

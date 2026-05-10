@@ -244,17 +244,30 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
   ];
 
   const heroImage = {
-    src: "/wp-content/uploads/2026/03/pareja-en-zona-colonial-santo-domingo-fotografo-768x512.webp",
+    src: "/wp-content/uploads/2026/05/babula-shots-volleyball-hero.webp",
     alt: lang === "en"
-      ? "Babula Shots photographer on assignment in Zona Colonial, Santo Domingo"
-      : "Fotógrafo profesional Babula Shots en sesión en Zona Colonial, Santo Domingo",
-    width: 768,
-    height: 512
+      ? "Editorial sports portrait by Babula Shots — Dominican Republic national volleyball player on court"
+      : "Retrato editorial deportivo de Babula Shots — jugadora de voleibol del equipo nacional en cancha",
+    width: 2457,
+    height: 1536
   };
+
+  const coverAlt = lang === "en"
+    ? "Editorial portrait by Babula Shots — golden hour fashion session in the Dominican Republic"
+    : "Retrato editorial Babula Shots — sesión de moda al atardecer en República Dominicana";
 
   return (
     <main>
       <SeoJsonLd data={schema as Record<string, unknown>[]} />
+
+      <section className="cover-parallax" aria-label={coverAlt}>
+        <div
+          className="cover-parallax-bg"
+          role="img"
+          aria-label={coverAlt}
+          style={{ backgroundImage: `url("/wp-content/uploads/2026/05/babula-shots-corn-field-cover.webp")` }}
+        />
+      </section>
 
       <section className="hero hero-with-image" id="hero">
         <div className="hero-content">
@@ -262,8 +275,11 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
           <h1>{t.h1}</h1>
           <p>{t.intro}</p>
           <div className="hero-actions">
-            <a className="button button-light" href={whatsappUrl(niche.whatsappContext)} rel="noopener">
-              WhatsApp {phoneDisplay}
+            <a className="button button-whatsapp" href={whatsappUrl(niche.whatsappContext)} rel="noopener" aria-label={`WhatsApp ${phoneDisplay}`}>
+              <svg className="button-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M16.003 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.26.594 4.46 1.722 6.39L3.2 28.8l6.55-1.715a12.74 12.74 0 0 0 6.252 1.595h.005c7.069 0 12.798-5.73 12.798-12.8 0-3.42-1.331-6.633-3.747-9.05A12.713 12.713 0 0 0 16.003 3.2zm0 23.36h-.004a10.62 10.62 0 0 1-5.42-1.484l-.388-.231-3.886 1.018 1.039-3.79-.253-.39a10.598 10.598 0 0 1-1.617-5.683c0-5.873 4.778-10.65 10.654-10.65 2.846 0 5.521 1.108 7.531 3.121a10.561 10.561 0 0 1 3.119 7.535c0 5.873-4.778 10.654-10.775 10.554zm5.834-7.973c-.32-.16-1.892-.933-2.184-1.04-.293-.107-.506-.16-.72.16-.213.32-.826 1.04-1.013 1.252-.187.213-.373.24-.693.08-.32-.16-1.351-.498-2.574-1.587-.951-.85-1.594-1.9-1.781-2.22-.187-.32-.02-.493.14-.652.143-.143.32-.374.48-.561.16-.187.213-.32.32-.534.107-.213.053-.4-.027-.561-.08-.16-.72-1.733-.987-2.373-.26-.624-.524-.539-.72-.55l-.613-.011a1.179 1.179 0 0 0-.853.4c-.293.32-1.12 1.094-1.12 2.667 0 1.573 1.146 3.094 1.306 3.307.16.213 2.255 3.443 5.464 4.83 2.547 1.092 3.067.875 3.622.823.555-.053 1.892-.773 2.158-1.52.267-.747.267-1.387.187-1.52-.08-.133-.293-.213-.613-.373z" />
+              </svg>
+              <span>WhatsApp {phoneDisplay}</span>
             </a>
             <a className="button button-ghost" href={`tel:${phoneE164}`}>
               {phoneDisplay}
@@ -411,8 +427,11 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
               <p>{t.contactLead}</p>
             </div>
             <div className="booking-cta-actions">
-              <a className="button button-light" href={whatsappUrl(niche.whatsappContext)} rel="noopener">
-                WhatsApp {phoneDisplay}
+              <a className="button button-whatsapp" href={whatsappUrl(niche.whatsappContext)} rel="noopener" aria-label={`WhatsApp ${phoneDisplay}`}>
+                <svg className="button-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M16.003 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.26.594 4.46 1.722 6.39L3.2 28.8l6.55-1.715a12.74 12.74 0 0 0 6.252 1.595h.005c7.069 0 12.798-5.73 12.798-12.8 0-3.42-1.331-6.633-3.747-9.05A12.713 12.713 0 0 0 16.003 3.2zm0 23.36h-.004a10.62 10.62 0 0 1-5.42-1.484l-.388-.231-3.886 1.018 1.039-3.79-.253-.39a10.598 10.598 0 0 1-1.617-5.683c0-5.873 4.778-10.65 10.654-10.65 2.846 0 5.521 1.108 7.531 3.121a10.561 10.561 0 0 1 3.119 7.535c0 5.873-4.778 10.654-10.775 10.554zm5.834-7.973c-.32-.16-1.892-.933-2.184-1.04-.293-.107-.506-.16-.72.16-.213.32-.826 1.04-1.013 1.252-.187.213-.373.24-.693.08-.32-.16-1.351-.498-2.574-1.587-.951-.85-1.594-1.9-1.781-2.22-.187-.32-.02-.493.14-.652.143-.143.32-.374.48-.561.16-.187.213-.32.32-.534.107-.213.053-.4-.027-.561-.08-.16-.72-1.733-.987-2.373-.26-.624-.524-.539-.72-.55l-.613-.011a1.179 1.179 0 0 0-.853.4c-.293.32-1.12 1.094-1.12 2.667 0 1.573 1.146 3.094 1.306 3.307.16.213 2.255 3.443 5.464 4.83 2.547 1.092 3.067.875 3.622.823.555-.053 1.892-.773 2.158-1.52.267-.747.267-1.387.187-1.52-.08-.133-.293-.213-.613-.373z" />
+                </svg>
+                <span>WhatsApp {phoneDisplay}</span>
               </a>
               <a className="button button-ghost" href={`tel:${phoneE164}`}>
                 {t.callBtn} {phoneDisplay}
