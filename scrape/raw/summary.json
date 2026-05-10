@@ -1,13 +1,13 @@
 {
-  "scrapedAt": "2026-05-10T17:55:55.048Z",
+  "scrapedAt": "2026-05-10T21:26:30.691Z",
   "origin": "https://babulashotsrd.com",
   "pages": {
     "total": 68,
-    "kept": 65
+    "kept": 66
   },
   "posts": {
     "total": 67,
-    "kept": 64
+    "kept": 66
   },
   "categories": {
     "total": 10,
@@ -15,15 +15,12 @@
   },
   "tags": {
     "total": 276,
-    "kept": 172
+    "kept": 176
   },
-  "images": 4287,
+  "images": 4382,
   "killedSlugs": [
     "sesion-de-fotos",
-    "sesion-de-fotos-de-cumpleanos-en-santo-domingo-con-fotografo-profesional",
-    "sesion-de-fotos-exterior-en-santo-domingo-rd",
     "session-de-fotos-santo-domingo-estudio",
-    "fotografo-en-estudio-santo-domingo",
     "estudio"
   ]
 }

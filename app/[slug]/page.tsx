@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ContentArticle } from "@/components/ContentArticle";
-import { findBySlug, getSeo, pages, plainTitle, posts } from "@/lib/parentContent";
+import { findBySlug, getSeo, pages, plainExcerpt, plainTitle, posts } from "@/lib/parentContent";
+import { getEnContent } from "@/lib/enContent";
 import { canonicalUrl } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
 const RESERVED = new Set([
   "blog", "category", "tag", "en", "servicios", "ubicaciones", "precios", "faq",
+  // Custom-rendered routes (have their own app/<slug>/page.tsx)
+  "galeria-de-fotos",
   // Sesión de fotos topical authority cluster
   "sesion-de-fotos", "sesion-de-fotos-pareja", "sesion-de-fotos-cumpleanos",
   "sesion-de-fotos-corporativas", "headshots-profesionales-santo-domingo",
@@ -27,11 +30,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const path = `/${slug}/`;
   const seo = getSeo(`https://estudio.babulashotsrd.com${path}`) ?? getSeo(entry.link);
   const title = seo?.title ?? plainTitle(entry);
-  const description = seo?.description ?? "";
+  const titleText = plainTitle(entry);
+  const description =
+    seo?.description ||
+    plainExcerpt(entry, 160) ||
+    `${titleText} — fotografía profesional Babula Shots en República Dominicana.`;
+  const en = getEnContent(path);
+  const languages: Record<string, string> = {
+    "es-DO": canonicalUrl(path),
+    es: canonicalUrl(path),
+    "x-default": canonicalUrl(path)
+  };
+  if (en) languages.en = canonicalUrl(en.enPath);
   return {
     title,
     description,
-    alternates: { canonical: canonicalUrl(path), languages: { "es-DO": canonicalUrl(path) } },
+    alternates: { canonical: canonicalUrl(path), languages },
     openGraph: {
       title: seo?.ogTitle ?? title,
       description: seo?.ogDescription ?? description,

@@ -103,7 +103,7 @@ export default async function TagArchive({ params }: PageProps) {
                 const img = extractFirstImage(p);
                 return (
                   <Link key={p.slug} className="card" href={`/${p.slug}/`}>
-                    {img ? <img src={img.src} alt={img.alt} loading="lazy" decoding="async" /> : null}
+                    {img ? <img src={img.src} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /> : null}
                     <span>Articulo</span>
                     <h3>{plainTitle(p)}</h3>
                     <p>{plainExcerpt(p, 160)}</p>

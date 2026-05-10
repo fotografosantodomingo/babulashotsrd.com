@@ -18,10 +18,7 @@ const UA = "babula-parent-migrator/1.0 (+rebuild)";
 // URLs we will NOT migrate. They get 301'd to estudio in the new build.
 const KILL_SLUGS = new Set([
   "sesion-de-fotos",
-  "sesion-de-fotos-de-cumpleanos-en-santo-domingo-con-fotografo-profesional",
-  "sesion-de-fotos-exterior-en-santo-domingo-rd",
   "session-de-fotos-santo-domingo-estudio",
-  "fotografo-en-estudio-santo-domingo",
   "estudio"
 ]);
 

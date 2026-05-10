@@ -59,6 +59,17 @@ for (const html of htmlPaths) {
   modified = modified.replace(/<link rel="preload"[^>]*as="script"[^>]*\/?>/g, "");
   modified = stripRscStylesheetDirectives(modified);
   modified = stripFrameworkScripts(modified);
+  // Per-route <html lang>. Next.js App Router only lets the root layout
+  // declare <html lang>, but our /en/ routes need lang="en" for SEO. Patch
+  // here based on the file's path under out/en/. Also patch og:locale.
+  const relPath = html.slice(outDir.length).replace(/\\/g, "/");
+  if (relPath.startsWith("/en/")) {
+    modified = modified.replace(/<html\s+lang="[^"]*"/i, '<html lang="en"');
+    modified = modified.replace(
+      /<meta property="og:locale" content="[^"]*"/i,
+      '<meta property="og:locale" content="en_US"'
+    );
+  }
   if (modified !== original) {
     await writeFile(html, modified);
     touched++;

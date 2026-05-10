@@ -23,7 +23,15 @@ const blogOgDescription =
 export const metadata: Metadata = {
   title: seo?.title ?? "Blog del estudio | Babula Shots",
   description: blogDescription,
-  alternates: { canonical: canonicalUrl("/blog/") },
+  alternates: {
+    canonical: canonicalUrl("/blog/"),
+    languages: {
+      "es-DO": canonicalUrl("/blog/"),
+      es: canonicalUrl("/blog/"),
+      en: canonicalUrl("/en/blog/"),
+      "x-default": canonicalUrl("/blog/")
+    }
+  },
   openGraph: {
     title: seo?.ogTitle ?? seo?.title ?? "Blog del estudio",
     description: blogOgDescription,
@@ -81,7 +89,7 @@ export default function BlogIndex() {
               const img = extractFirstImage(p);
               return (
                 <Link key={p.slug} className="card" href={`/${p.slug}/`}>
-                  {img ? <img src={img.src} alt={img.alt} loading="lazy" decoding="async" /> : null}
+                  {img ? <img src={img.src} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /> : null}
                   <span>Articulo</span>
                   <h3>{plainTitle(p)}</h3>
                   <p>{plainExcerpt(p, 180)}</p>

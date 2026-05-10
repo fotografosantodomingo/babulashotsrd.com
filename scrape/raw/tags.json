@@ -968,6 +968,50 @@
     }
   },
   {
+    "id": 144,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/cumpleanos-santo-domingo/",
+    "name": "cumpleanos santo domingo",
+    "slug": "cumpleanos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/144",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=144"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
     "id": 748,
     "count": 1,
     "description": "",
@@ -2816,6 +2860,50 @@
     }
   },
   {
+    "id": 147,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-cumpleanos-santo-domingo/",
+    "name": "fotografo cumpleanos santo domingo",
+    "slug": "fotografo-cumpleanos-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/147",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=147"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
     "id": 48,
     "count": 4,
     "description": "",
@@ -3376,6 +3464,50 @@
       "wp:post_type": [
         {
           "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=773"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 697,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-en-estudio-santo-domingo/",
+    "name": "Fotografo en estudio Santo Domingo",
+    "slug": "fotografo-en-estudio-santo-domingo",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/697",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=697"
         }
       ],
       "curies": [
@@ -4080,6 +4212,50 @@
       "wp:post_type": [
         {
           "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=232"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "count": 1,
+    "description": "",
+    "link": "https://babulashotsrd.com/tag/fotografo-session-de-fotos/",
+    "name": "fotografo session de fotos",
+    "slug": "fotografo-session-de-fotos",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags/145",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://babulashotsrd.com/wp-json/wp/v2/posts?tags=145"
         }
       ],
       "curies": [

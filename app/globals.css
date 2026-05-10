@@ -120,20 +120,42 @@ p {
 
 .brand {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  gap: .1rem;
+  text-align: left;
+  gap: .65rem;
   color: inherit;
-  font-weight: 800;
   letter-spacing: .04em;
+  line-height: 1;
+}
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg);
+  display: block;
+  flex-shrink: 0;
+  /* Optical-centre adjustment: the logo PNG has slightly more padding at the
+     bottom than the top, so nudge it up a hair to align with the text x-height. */
+  transform: translateY(-1px);
 }
 
 .brand-niche {
-  font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+  display: inline-flex;
+  align-items: baseline;
+  gap: .35em;
+  font-size: clamp(1rem, 2.2vw, 1.3rem);
   text-transform: uppercase;
-  font-weight: 800;
   letter-spacing: .08em;
+  white-space: nowrap;
+  line-height: 1;
+}
+.brand-strong {
+  font-weight: 800;
+}
+.brand-light {
+  font-weight: 300;
+  opacity: .85;
 }
 
 .brand-tag {
@@ -476,6 +498,10 @@ p {
   align-items: flex-end;
   padding: clamp(7rem, 16vh, 12rem) var(--x) clamp(2.5rem, 6vw, 5.5rem);
   overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+}
+:root[data-theme="dark"] .hero {
   background:
     linear-gradient(135deg, #0a1f1a 0%, #11463b 55%, #0a1f1a 100%),
     var(--dark);
@@ -486,6 +512,9 @@ p {
   content: "";
   position: absolute;
   inset: 0;
+  pointer-events: none;
+}
+:root[data-theme="dark"] .hero::after {
   background: linear-gradient(90deg, rgba(10, 25, 21, .9), rgba(10, 25, 21, .62) 42%, rgba(10, 25, 21, .12)), linear-gradient(180deg, rgba(10,25,21,.1), rgba(10,25,21,.72));
 }
 
@@ -514,8 +543,12 @@ p {
 .plain-hero > p:not(.eyebrow) {
   max-width: 46rem;
   margin-top: 1.2rem;
-  color: rgba(255, 255, 255, .86);
+  color: var(--muted);
   font-size: clamp(1.08rem, 1.9vw, 1.35rem);
+}
+:root[data-theme="dark"] .hero-content > p:not(.eyebrow),
+:root[data-theme="dark"] .plain-hero > p:not(.eyebrow) {
+  color: rgba(255, 255, 255, .86);
 }
 
 .plain-hero {
@@ -538,6 +571,9 @@ p {
 }
 
 .hero .eyebrow {
+  color: var(--accent);
+}
+:root[data-theme="dark"] .hero .eyebrow {
   color: rgba(255, 255, 255, .7);
 }
 
@@ -546,20 +582,32 @@ p {
   flex-wrap: wrap;
   gap: .45rem;
   margin-bottom: .9rem;
-  color: rgba(255,255,255,.72);
+  color: var(--muted);
   font-size: .86rem;
   font-weight: 720;
 }
 
 .breadcrumbs a {
-  color: #fff;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+  color: var(--text);
+  border-bottom: 1px solid var(--line);
 }
 
 .breadcrumbs span + span::before,
 .breadcrumbs a + span::before {
   content: "/";
   margin-right: .45rem;
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .hero .breadcrumbs {
+  color: rgba(255,255,255,.72);
+}
+:root[data-theme="dark"] .hero .breadcrumbs a {
+  color: #fff;
+  border-bottom-color: rgba(255,255,255,.5);
+}
+:root[data-theme="dark"] .hero .breadcrumbs span + span::before,
+:root[data-theme="dark"] .hero .breadcrumbs a + span::before {
   color: rgba(255,255,255,.5);
 }
 
@@ -647,6 +695,17 @@ p {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+}
+
+/* 4-up variant for the homepage subdomain row. Falls back to 2-up on
+   medium screens and 1-up on phones (handled in the mobile breakpoint). */
+.card-grid-4 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (min-width: 1024px) {
+  .card-grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .authority-grid {
@@ -1534,6 +1593,97 @@ p {
   }
 }
 
+/* ============================================
+   Smart gallery — preserves natural aspect ratios (no crop, no ratio change)
+   and arranges by photo count + orientation. Used both for the curated
+   /galeria-de-fotos/ component and for WP-embedded `wp-block-gallery` blocks
+   that are rewritten by rewriteGalleries() in lib/parentContent.ts.
+   ============================================ */
+.smart-gallery {
+  display: grid;
+  gap: 0;
+  margin: 1.6em 0;
+  grid-template-columns: 1fr;
+}
+.smart-gallery .sg-item {
+  margin: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.smart-gallery img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain; /* never crop; preserve natural aspect ratio */
+}
+
+/* Mobile: single column, no gaps, edge-to-edge */
+@media (max-width: 719px) {
+  .smart-gallery {
+    grid-template-columns: 1fr !important;
+    /* Bleed beyond the page padding so photos go side-to-side */
+    margin-left: calc(var(--x) * -1);
+    margin-right: calc(var(--x) * -1);
+  }
+  .smart-gallery .sg-item { width: 100% !important; max-width: none !important; }
+}
+
+/* Desktop layouts — only kick in at ≥720px */
+@media (min-width: 720px) {
+  /* 1 photo: centred, big but not full width */
+  .smart-gallery.sg-1 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .smart-gallery.sg-1 .sg-item { width: 80%; max-width: 1000px; }
+  .smart-gallery.sg-wide.sg-1 .sg-item { max-width: 1100px; }
+  .smart-gallery.sg-tall.sg-1 .sg-item { width: 55%; max-width: 640px; }
+
+  /* 2 photos: side-by-side, no gaps */
+  .smart-gallery.sg-2 { grid-template-columns: 1fr 1fr; }
+
+  /* 3 photos: 3 columns row */
+  .smart-gallery.sg-3 { grid-template-columns: repeat(3, 1fr); }
+
+  /* 4 photos: 2×2 grid, no gaps (wide); 4-up row (tall) */
+  .smart-gallery.sg-wide.sg-4,
+  .smart-gallery.sg-mixed.sg-4 { grid-template-columns: 1fr 1fr; }
+  .smart-gallery.sg-tall.sg-4 { grid-template-columns: repeat(4, 1fr); }
+
+  /* 5 photos: 5-up row for tall, 3+2 brick for wide */
+  .smart-gallery.sg-tall.sg-5 { grid-template-columns: repeat(5, 1fr); }
+  .smart-gallery.sg-wide.sg-5,
+  .smart-gallery.sg-mixed.sg-5 { grid-template-columns: repeat(3, 1fr); }
+
+  /* 6 photos: 6 tall in a row, 3×2 wide */
+  .smart-gallery.sg-tall.sg-6 { grid-template-columns: repeat(6, 1fr); }
+  .smart-gallery.sg-wide.sg-6,
+  .smart-gallery.sg-mixed.sg-6 { grid-template-columns: repeat(3, 1fr); }
+
+  /* 7+ photos: 4 cols for tall, 3 cols for wide */
+  .smart-gallery.sg-tall.sg-many { grid-template-columns: repeat(4, 1fr); }
+  .smart-gallery.sg-wide.sg-many,
+  .smart-gallery.sg-mixed.sg-many { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Captions for curated galleries — keep aspect ratio of the image, drop a
+   subtle caption strip underneath when present. */
+.smart-gallery .sg-item figcaption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: .5rem .75rem;
+  font-size: .8rem;
+  color: #fff;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.6) 100%);
+  opacity: 0;
+  transition: opacity .2s ease;
+  pointer-events: none;
+}
+.smart-gallery .sg-item:hover figcaption,
+.smart-gallery .sg-item:focus-within figcaption { opacity: 1; }
+
+
 .wp-content .wp-block-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -1573,6 +1723,219 @@ p {
   width: min(1100px, calc(100% - (var(--x) * 2)));
   margin-inline: auto;
   padding: clamp(5rem, 10vw, 8rem) 0 var(--y);
+}
+
+/* ============================================
+   Dark-mode override for WP inline color styles.
+   The WP block editor hard-codes color:#000000 / #000 / white backgrounds
+   on many old posts. In dark mode that becomes unreadable. We neutralise
+   inline colors and let the theme variables take over.
+   ============================================ */
+:root[data-theme=dark] .wp-content [style*="color:#000"],
+:root[data-theme=dark] .wp-content [style*="color: #000"],
+:root[data-theme=dark] .wp-content [style*="color:rgb(0"],
+:root[data-theme=dark] .wp-content [style*="color: rgb(0"],
+:root[data-theme=dark] .wp-content .has-black-color,
+:root[data-theme=dark] .wp-content .has-text-color:not(.has-background) {
+  color: var(--text) !important;
+}
+:root[data-theme=dark] .wp-content [style*="background-color:#fff"],
+:root[data-theme=dark] .wp-content [style*="background-color: #fff"],
+:root[data-theme=dark] .wp-content [style*="background:#fff"],
+:root[data-theme=dark] .wp-content [style*="background: #fff"],
+:root[data-theme=dark] .wp-content .has-white-background-color,
+:root[data-theme=dark] .wp-content .has-background.has-white-background-color {
+  background-color: var(--panel) !important;
+  color: var(--text) !important;
+}
+
+/* Light-mode safety: WP can also stamp color:#fff on headings/paragraphs.
+   That becomes invisible on our cream background — force readable. */
+:root:not([data-theme=dark]) .wp-content [style*="color:#fff"],
+:root:not([data-theme=dark]) .wp-content [style*="color: #fff"],
+:root:not([data-theme=dark]) .wp-content [style*="color:rgb(255"],
+:root:not([data-theme=dark]) .wp-content [style*="color: rgb(255"],
+:root:not([data-theme=dark]) .wp-content .has-white-color {
+  color: var(--text) !important;
+}
+
+/* ============================================
+   Homepage hero with image (side-by-side photo + copy)
+   ============================================ */
+.hero-with-image {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding-bottom: var(--y);
+}
+.hero-with-image .hero-content { z-index: 2; }
+.hero-with-image .hero-media {
+  margin: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  aspect-ratio: 3 / 2;
+}
+.hero-with-image .hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (min-width: 900px) {
+  .hero-with-image {
+    grid-template-columns: 1.05fr 1fr;
+    gap: clamp(2rem, 5vw, 4rem);
+  }
+}
+
+/* ============================================
+   Subdomain cards with cover image
+   ============================================ */
+.card.card-with-image {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card.card-with-image > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--line);
+}
+.card.card-with-image > span {
+  margin: 1rem 1.25rem 0;
+}
+.card.card-with-image > h3 {
+  margin: .35rem 1.25rem 0;
+}
+.card.card-with-image > p {
+  margin: .55rem 1.25rem;
+}
+.card.card-with-image > p:last-child {
+  margin-bottom: 1.25rem;
+}
+
+/* ============================================
+   Featured gallery grid (homepage)
+   ============================================ */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.featured-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  aspect-ratio: 4 / 5;
+  background: var(--panel);
+}
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .25s ease;
+}
+.featured-card:hover img { transform: scale(1.04); }
+.featured-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: .7rem .9rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .02em;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.65) 100%);
+}
+
+/* ============================================
+   Curated gallery grid — used by /galeria-de-fotos/ and /en/photogallery/
+   ============================================ */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .85rem;
+  margin: 1.5rem 0 2rem;
+}
+.gallery-item {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+.gallery-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.gallery-image-wrap {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,.62) 100%);
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+.gallery-overlay-cta {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .02em;
+  padding: .45rem 1rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(2px);
+}
+.gallery-link:hover .gallery-overlay,
+.gallery-link:focus-visible .gallery-overlay { opacity: 1; }
+.gallery-link:hover img { transform: scale(1.04); }
+.gallery-item figcaption {
+  padding: .65rem .8rem .85rem;
+  font-size: .85rem;
+  color: var(--muted);
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+.gallery-title {
+  color: var(--text);
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1.25;
+}
+.gallery-caption-text { color: var(--muted); }
+@media (min-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -1879,4 +2242,120 @@ p {
 }
 .article .breadcrumbs a:hover {
   border-bottom-color: var(--text);
+}
+
+/* ============================================
+   Topical link block (subdomain authority distribution)
+   Renders between WP content and the booking CTA on every keep page.
+   ============================================ */
+.topical-links {
+  margin: 3rem 0 2.5rem;
+  padding: 2rem 1.75rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-alt, var(--bg));
+}
+.topical-links .section-tag {
+  margin: 0 0 .35rem;
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.topical-links h2 {
+  margin: 0 0 .35rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.25;
+}
+.topical-links > p {
+  margin: 0 0 1.1rem;
+  color: var(--muted);
+}
+.topical-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .55rem;
+}
+.topical-links li a {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: .9rem;
+  padding: .85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--bg);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.topical-links li a:hover {
+  border-color: var(--accent);
+  transform: translateX(2px);
+}
+.topical-tag {
+  font-size: .72rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: .25rem .55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.topical-label {
+  font-weight: 500;
+  line-height: 1.3;
+}
+.topical-arrow {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+@media (min-width: 720px) {
+  .topical-links ul { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+}
+
+/* ============================================
+   Gallery article — render embedded images as a tight grid
+   instead of the default single-column WP figure flow.
+   ============================================ */
+.article-gallery .wp-content img,
+.article-gallery .wp-content figure {
+  margin: 0;
+}
+.article-gallery .wp-content > p img,
+.article-gallery .wp-content > figure {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.article-gallery .wp-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: .75rem;
+}
+.article-gallery .wp-content p,
+.article-gallery .wp-content h1,
+.article-gallery .wp-content h2,
+.article-gallery .wp-content h3,
+.article-gallery .wp-content h4 {
+  grid-column: 1 / -1;
+}
+.article-gallery .wp-content p:has(img),
+.article-gallery .wp-content figure {
+  grid-column: span 1;
+}
+.article-gallery .wp-content p:has(img) {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 720px) {
+  .article-gallery .wp-content {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
 }

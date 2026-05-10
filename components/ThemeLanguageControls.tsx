@@ -1,6 +1,14 @@
+"use client";
+import { usePathname } from "next/navigation";
+import { getEnMirror, getEsMirror } from "@/lib/langMirrors";
+
 type Props = { es: string; en: string };
 
-export function ThemeLanguageControls({ es = "/", en = "/en/" }: Partial<Props> = {}) {
+export function ThemeLanguageControls(props: Partial<Props> = {}) {
+  const pathname = usePathname() || "/";
+  const isEn = pathname.startsWith("/en");
+  const es = props.es ?? (isEn ? getEsMirror(pathname.endsWith("/") ? pathname : `${pathname}/`) : pathname);
+  const en = props.en ?? (isEn ? pathname : getEnMirror(pathname.endsWith("/") ? pathname : `${pathname}/`));
   return (
     <div className="header-controls" aria-label="Site preferences">
       <div className="lang-toggle" role="group" aria-label="Idioma">
