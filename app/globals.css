@@ -1653,7 +1653,23 @@ p {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: contain; /* never crop; preserve natural aspect ratio */
+  /* Neighbours in the same row share dimensions — uniform cover crop.
+     Single-photo galleries (sg-1) are exempt below and keep natural ratio. */
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Force a uniform aspect ratio per orientation so every tile in a multi-
+   photo gallery looks identical in size and crop, regardless of source. */
+.smart-gallery.sg-wide .sg-item  { aspect-ratio: 3 / 2; }
+.smart-gallery.sg-tall .sg-item  { aspect-ratio: 2 / 3; }
+.smart-gallery.sg-mixed .sg-item { aspect-ratio: 1 / 1; }
+
+/* Single-photo galleries: no crop, render at natural aspect ratio. */
+.smart-gallery.sg-1 .sg-item { aspect-ratio: auto; }
+.smart-gallery.sg-1 img {
+  height: auto;
+  object-fit: contain;
 }
 
 /* Mobile: single column, no gaps, edge-to-edge */
