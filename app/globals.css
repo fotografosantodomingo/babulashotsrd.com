@@ -2100,11 +2100,13 @@ p {
 .card-grid img {
   width: calc(100% + 2.4rem);
   margin: -1.2rem -1.2rem .8rem;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  object-position: center;
+  height: auto;            /* preserve natural ratio — no crop */
+  aspect-ratio: auto;
   display: block;
 }
+/* Cards size to their content; same-ratio photos in the same row line up. */
+.card-grid { align-items: start; }
+.card      { align-self: start; }
 /* Uniform text height on card titles and excerpts so the grid stays tidy
    even when articles have different summary lengths. */
 .card > h3 {
