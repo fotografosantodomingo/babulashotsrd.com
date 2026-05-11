@@ -1,0 +1,1511 @@
+{
+  "generatedAt": "2026-05-11T00:51:00.066Z",
+  "pages": [
+    {
+      "url": "https://babulashotsrd.com/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/index.html",
+      "bytes": 65887,
+      "gzipBytes": 15251,
+      "issues": [],
+      "details": {
+        "lang": "es-DO",
+        "title": "Estudio fotografico en Santo Domingo | Babula Shots",
+        "titleLen": 51,
+        "descLen": 110,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 38394,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 14,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 1,
+          "missingDecoding": 1,
+          "eagerCount": 2,
+          "lazyCount": 11,
+          "fetchpriorityHigh": 2
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 97,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "parent-home",
+      "site": "parent"
+    },
+    {
+      "url": "https://babulashotsrd.com/en/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/en/index.html",
+      "bytes": 66673,
+      "gzipBytes": 15159,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "meta-desc-long",
+          "sev": "low",
+          "msg": "Description may truncate (188 chars)"
+        }
+      ],
+      "details": {
+        "lang": "en",
+        "title": "Professional photographer in the Dominican Republic | Babula Shots",
+        "titleLen": 66,
+        "descLen": 188,
+        "hreflangs": [
+          "en",
+          "es-DO",
+          "es",
+          "x-default"
+        ],
+        "inlineCssBytes": 38394,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 14,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 1,
+          "missingDecoding": 1,
+          "eagerCount": 2,
+          "lazyCount": 11,
+          "fetchpriorityHigh": 2
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 97,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 98
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 98
+        }
+      },
+      "id": "parent-en-home",
+      "site": "parent"
+    },
+    {
+      "url": "https://babulashotsrd.com/galeria-de-fotos/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/galeria-de-fotos/index.html",
+      "bytes": 85397,
+      "gzipBytes": 16407,
+      "issues": [],
+      "details": {
+        "lang": "es-DO",
+        "title": "Galería de fotos | Babula Shots — Fotógrafo en República Dominicana",
+        "titleLen": 67,
+        "descLen": 164,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 38394,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ImageGallery",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 19,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 1,
+          "missingDecoding": 1,
+          "eagerCount": 4,
+          "lazyCount": 14,
+          "fetchpriorityHigh": 2
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 97,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "parent-gallery",
+      "site": "parent"
+    },
+    {
+      "url": "https://babulashotsrd.com/fotografo-de-bodas-en-republica-dominicana/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/fotografo-de-bodas-en-republica-dominicana/index.html",
+      "bytes": 112306,
+      "gzipBytes": 24666,
+      "issues": [
+        {
+          "cat": "perf",
+          "id": "inline-css-fragmented",
+          "sev": "low",
+          "msg": "3 <style> blocks (post-build inlining should produce one)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Fotógrafo de Bodas en República Dominicana | Babula Shots RD",
+        "titleLen": 60,
+        "descLen": 159,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "x-default",
+          "en"
+        ],
+        "inlineCssBytes": 45376,
+        "inlineStyleBlocks": 3,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "Organization",
+          "Person",
+          "WebPage",
+          "WebSite",
+          "WebPage",
+          "LocalBusiness",
+          "Service",
+          "FAQPage"
+        ],
+        "images": {
+          "total": 33,
+          "missingAlt": 0,
+          "emptyAlt": 17,
+          "missingDims": 0,
+          "missingLoading": 1,
+          "missingDecoding": 1,
+          "eagerCount": 3,
+          "lazyCount": 29,
+          "fetchpriorityHigh": 3
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 89,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "parent-article",
+      "site": "parent"
+    },
+    {
+      "url": "https://estudio.babulashotsrd.com/",
+      "file": "/Users/subdomainsbabulashots/Documents/estudio/out/index.html",
+      "bytes": 54213,
+      "gzipBytes": 12729,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "hreflang-no-en",
+          "sev": "low",
+          "msg": "Missing hreflang=en"
+        },
+        {
+          "cat": "perf",
+          "id": "image-dims",
+          "sev": "high",
+          "msg": "13/13 <img> missing width/height (CLS risk)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Estudio fotográfico Sesion de Fotos en Santo Domingo",
+        "titleLen": 52,
+        "descLen": 155,
+        "hreflangs": [
+          "es-DO",
+          "x-default"
+        ],
+        "inlineCssBytes": 29761,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "WebSite",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 13,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 13,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 12,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/03/fotos-de-perfil-premium-santo-domingo-768x960.webp"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/03/Fashion-Photographer-in-Dominican-Republic-1-768x512.jpg"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/03/Estudio-de-retratos-en-Santo-Domingo-768x586.webp"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2024/09/fotografo-alimentos-y-bebida-768x987.jpg"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/01/Sesion-de-Fotos-Retratos-Exteerior-Aire-Libre-Santo-Domingo-768x960.jpg"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/03/Estudio-Fotografico-para-Embarazadas-Session-de-fotos-en-RD-33-683x1024.webp"
+          }
+        ],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 88,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 98
+        },
+        "desktop": {
+          "performance": 90,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 98
+        }
+      },
+      "id": "estudio-home",
+      "site": "estudio"
+    },
+    {
+      "url": "https://boda.babulashotsrd.com/",
+      "file": "/Users/subdomainsbabulashots/Documents/boda/out/index.html",
+      "bytes": 71818,
+      "gzipBytes": 15807,
+      "issues": [],
+      "details": {
+        "lang": "es-DO",
+        "title": "Fotógrafo de bodas en República Dominicana | Babula Shots",
+        "titleLen": 57,
+        "descLen": 151,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 28103,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "WebPage",
+          "WebSite",
+          "LocalBusiness",
+          "Service",
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 6,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 5,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "boda-home",
+      "site": "boda"
+    },
+    {
+      "url": "https://inmobiliaria.babulashotsrd.com/",
+      "file": "/Users/subdomainsbabulashots/Documents/inmobiliaria/out/index.html",
+      "bytes": 67520,
+      "gzipBytes": 14650,
+      "issues": [
+        {
+          "cat": "perf",
+          "id": "lcp-fetchpriority",
+          "sev": "med",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Fotografia Inmobiliaria Profesional RD | Babula Shots",
+        "titleLen": 53,
+        "descLen": 149,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 23158,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 4,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 0,
+          "lazyCount": 4,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 94,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 96,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "inmobiliaria-home",
+      "site": "inmobiliaria"
+    },
+    {
+      "url": "https://dron.babulashotsrd.com/",
+      "file": "/Users/subdomainsbabulashots/Documents/drone/out/index.html",
+      "bytes": 50955,
+      "gzipBytes": 12279,
+      "issues": [
+        {
+          "cat": "a11y",
+          "id": "label",
+          "sev": "high",
+          "msg": "7 form control(s) without label"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Servicio de dron en Republica Dominicana | Babula Shots",
+        "titleLen": 55,
+        "descLen": 155,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 18338,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "WebPage",
+          "FAQPage"
+        ],
+        "images": {
+          "total": 4,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 3,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 90,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 90,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "drone-home",
+      "site": "drone"
+    },
+    {
+      "url": "https://babulashotsrd.com/blog/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/blog/index.html",
+      "bytes": 95268,
+      "gzipBytes": 19181,
+      "issues": [
+        {
+          "cat": "perf",
+          "id": "image-dims",
+          "sev": "high",
+          "msg": "1/65 <img> missing width/height (CLS risk)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Babula Shots Blog de Fotografia en RD",
+        "titleLen": 37,
+        "descLen": 58,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 38394,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "Blog",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 65,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 1,
+          "missingLoading": 1,
+          "missingDecoding": 1,
+          "eagerCount": 1,
+          "lazyCount": 63,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2026/01/Mejor-Fotografo-deportes-baseball-republica-Dominicana-28-600x400.webp"
+          }
+        ],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 82,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 88,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "parent-blog",
+      "site": "parent"
+    },
+    {
+      "url": "https://babulashotsrd.com/fotografo/",
+      "file": "/Users/subdomainsbabulashots/Documents/parent/out/fotografo/index.html",
+      "bytes": 81178,
+      "gzipBytes": 18612,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "title-short",
+          "sev": "med",
+          "msg": "Title too short (9 chars)"
+        },
+        {
+          "cat": "perf",
+          "id": "inline-css-fragmented",
+          "sev": "low",
+          "msg": "2 <style> blocks (post-build inlining should produce one)"
+        },
+        {
+          "cat": "perf",
+          "id": "image-dims",
+          "sev": "high",
+          "msg": "1/17 <img> missing width/height (CLS risk)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "FOTOGRAFO",
+        "titleLen": 9,
+        "descLen": 122,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "x-default",
+          "en"
+        ],
+        "inlineCssBytes": 39881,
+        "inlineStyleBlocks": 2,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "BreadcrumbList",
+          "Organization",
+          "WebPage",
+          "WebSite"
+        ],
+        "images": {
+          "total": 17,
+          "missingAlt": 0,
+          "emptyAlt": 2,
+          "missingDims": 1,
+          "missingLoading": 2,
+          "missingDecoding": 1,
+          "eagerCount": 1,
+          "lazyCount": 14,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [
+          {
+            "k": "no-dims",
+            "src": "https://estudio.babulashotsrd.com/wp-content/uploads/2025/01/Babula-Shots-Fotografo-Profesional-Inmobiliaria-Santo-Domingo-Republica-Dominicana-18.webp"
+          }
+        ],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 83,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 95
+        },
+        "desktop": {
+          "performance": 88,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 95
+        }
+      },
+      "id": "parent-fotografo",
+      "site": "parent"
+    },
+    {
+      "url": "https://estudio.babulashotsrd.com/en/",
+      "file": "/Users/subdomainsbabulashots/Documents/estudio/out/en/index.html",
+      "bytes": 49012,
+      "gzipBytes": 12010,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "lang-mismatch",
+          "sev": "high",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        },
+        {
+          "cat": "a11y",
+          "id": "heading-skip",
+          "sev": "low",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Photo studio in Santo Domingo | Babula Shots",
+        "titleLen": 44,
+        "descLen": 159,
+        "hreflangs": [
+          "es-DO",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 29761,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 0,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 0,
+          "lazyCount": 0,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 90
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 90
+        }
+      },
+      "id": "estudio-en",
+      "site": "estudio"
+    },
+    {
+      "url": "https://estudio.babulashotsrd.com/sesion-de-fotos/",
+      "file": "/Users/subdomainsbabulashots/Documents/estudio/out/sesion-de-fotos/index.html",
+      "bytes": 72728,
+      "gzipBytes": 17932,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "meta-desc-long",
+          "sev": "low",
+          "msg": "Description may truncate (181 chars)"
+        },
+        {
+          "cat": "seo",
+          "id": "hreflang-no-en",
+          "sev": "low",
+          "msg": "Missing hreflang=en"
+        },
+        {
+          "cat": "perf",
+          "id": "image-dims",
+          "sev": "high",
+          "msg": "7/7 <img> missing width/height (CLS risk)"
+        },
+        {
+          "cat": "perf",
+          "id": "lcp-fetchpriority",
+          "sev": "med",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Sesión de Fotos en Santo Domingo | Babula Shots Estudio",
+        "titleLen": 55,
+        "descLen": 181,
+        "hreflangs": [
+          "es-DO",
+          "x-default"
+        ],
+        "inlineCssBytes": 29761,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          [
+            "LocalBusiness",
+            "Photographer"
+          ],
+          "BreadcrumbList",
+          "Article",
+          "FAQPage"
+        ],
+        "images": {
+          "total": 7,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 7,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 6,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/02/fotografo-pro-de-moda-santo-domingo-sesion-de-fotos-estudio4.webp"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/02/fotografoo-sesion-fotos-estudio-santo-domingo-rd-9.webp"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2024/06/Estudio-sesion-de-fotos-republica-dominicana.jpg"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2025/03/Fotos-corporativas-en-estudio-1536x1013.webp"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2024/05/FOTOGRAFO-RETRATOS-santo-domingo-estudio-edited-scaled.jpg"
+          },
+          {
+            "k": "no-dims",
+            "src": "/wp-content/uploads/2024/06/Estudio-fotografo-santo-domingo.webp"
+          }
+        ],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 82,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 96
+        },
+        "desktop": {
+          "performance": 84,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 96
+        }
+      },
+      "id": "estudio-sesion",
+      "site": "estudio"
+    },
+    {
+      "url": "https://boda.babulashotsrd.com/en/",
+      "file": "/Users/subdomainsbabulashots/Documents/boda/out/en/index.html",
+      "bytes": 71789,
+      "gzipBytes": 15525,
+      "issues": [],
+      "details": {
+        "lang": "en",
+        "title": "Wedding photographer in Dominican Republic | Babula Shots",
+        "titleLen": 57,
+        "descLen": 158,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 28103,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "WebPage",
+          "WebSite",
+          "LocalBusiness",
+          "Service",
+          "FAQPage",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 6,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 5,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100
+        }
+      },
+      "id": "boda-en",
+      "site": "boda"
+    },
+    {
+      "url": "https://boda.babulashotsrd.com/servicios/",
+      "file": "/Users/subdomainsbabulashots/Documents/boda/out/servicios/index.html",
+      "bytes": 61492,
+      "gzipBytes": 14179,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "hreflang-missing",
+          "sev": "med",
+          "msg": "No hreflang alternates"
+        },
+        {
+          "cat": "a11y",
+          "id": "heading-skip",
+          "sev": "low",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Servicios Bodas | Babula Shots",
+        "titleLen": 30,
+        "descLen": 138,
+        "hreflangs": [],
+        "inlineCssBytes": 28103,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "BreadcrumbList",
+          "Service",
+          "Service",
+          "Service",
+          "Service",
+          "Service"
+        ],
+        "images": {
+          "total": 0,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 0,
+          "lazyCount": 0,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 95
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 95
+        }
+      },
+      "id": "boda-servicios",
+      "site": "boda"
+    },
+    {
+      "url": "https://inmobiliaria.babulashotsrd.com/en/",
+      "file": "/Users/subdomainsbabulashots/Documents/inmobiliaria/out/en/index.html",
+      "bytes": 66952,
+      "gzipBytes": 14644,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "lang-mismatch",
+          "sev": "high",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        },
+        {
+          "cat": "perf",
+          "id": "lcp-fetchpriority",
+          "sev": "med",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Real Estate Photography Dominican Republic | Babula Shots",
+        "titleLen": 57,
+        "descLen": 153,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 23158,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "images": {
+          "total": 4,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 0,
+          "lazyCount": 4,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 94,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 90
+        },
+        "desktop": {
+          "performance": 96,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 90
+        }
+      },
+      "id": "inmobiliaria-en",
+      "site": "inmobiliaria"
+    },
+    {
+      "url": "https://inmobiliaria.babulashotsrd.com/servicios/",
+      "file": "/Users/subdomainsbabulashots/Documents/inmobiliaria/out/servicios/index.html",
+      "bytes": 59159,
+      "gzipBytes": 13175,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "hreflang-missing",
+          "sev": "med",
+          "msg": "No hreflang alternates"
+        },
+        {
+          "cat": "a11y",
+          "id": "heading-skip",
+          "sev": "low",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Servicios Inmobiliaria | Babula Shots",
+        "titleLen": 37,
+        "descLen": 138,
+        "hreflangs": [],
+        "inlineCssBytes": 23158,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "BreadcrumbList",
+          "Service",
+          "Service",
+          "Service",
+          "Service"
+        ],
+        "images": {
+          "total": 0,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 0,
+          "lazyCount": 0,
+          "fetchpriorityHigh": 0
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 95
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 98,
+          "bestPractices": 100,
+          "seo": 95
+        }
+      },
+      "id": "inmobiliaria-serv",
+      "site": "inmobiliaria"
+    },
+    {
+      "url": "https://dron.babulashotsrd.com/en/",
+      "file": "/Users/subdomainsbabulashots/Documents/drone/out/en/index.html",
+      "bytes": 50690,
+      "gzipBytes": 12363,
+      "issues": [
+        {
+          "cat": "seo",
+          "id": "lang-mismatch",
+          "sev": "high",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        },
+        {
+          "cat": "a11y",
+          "id": "label",
+          "sev": "high",
+          "msg": "7 form control(s) without label"
+        }
+      ],
+      "details": {
+        "lang": "es-DO",
+        "title": "Drone service in Dominican Republic | Babula Shots",
+        "titleLen": 50,
+        "descLen": 146,
+        "hreflangs": [
+          "es-DO",
+          "es",
+          "en",
+          "x-default"
+        ],
+        "inlineCssBytes": 18338,
+        "inlineStyleBlocks": 1,
+        "dataInlinedBlocks": 1,
+        "externalStylesheets": 0,
+        "jsonLdCount": 1,
+        "jsonLdTypes": [
+          "Organization",
+          "ProfessionalService",
+          "WebPage",
+          "FAQPage"
+        ],
+        "images": {
+          "total": 4,
+          "missingAlt": 0,
+          "emptyAlt": 0,
+          "missingDims": 0,
+          "missingLoading": 0,
+          "missingDecoding": 0,
+          "eagerCount": 1,
+          "lazyCount": 3,
+          "fetchpriorityHigh": 1
+        },
+        "imgIssueSamples": [],
+        "h1Count": 1
+      },
+      "scores": {
+        "mobile": {
+          "performance": 100,
+          "accessibility": 90,
+          "bestPractices": 100,
+          "seo": 90
+        },
+        "desktop": {
+          "performance": 102,
+          "accessibility": 90,
+          "bestPractices": 100,
+          "seo": 90
+        }
+      },
+      "id": "drone-en",
+      "site": "drone"
+    }
+  ],
+  "systemicIssues": [
+    {
+      "id": "image-dims",
+      "cat": "perf",
+      "sev": "high",
+      "pages": [
+        "estudio-home",
+        "parent-blog",
+        "parent-fotografo",
+        "estudio-sesion"
+      ],
+      "examples": [
+        {
+          "page": "estudio-home",
+          "msg": "13/13 <img> missing width/height (CLS risk)"
+        },
+        {
+          "page": "parent-blog",
+          "msg": "1/65 <img> missing width/height (CLS risk)"
+        },
+        {
+          "page": "parent-fotografo",
+          "msg": "1/17 <img> missing width/height (CLS risk)"
+        }
+      ]
+    },
+    {
+      "id": "lcp-fetchpriority",
+      "cat": "perf",
+      "sev": "med",
+      "pages": [
+        "inmobiliaria-home",
+        "estudio-sesion",
+        "inmobiliaria-en"
+      ],
+      "examples": [
+        {
+          "page": "inmobiliaria-home",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        },
+        {
+          "page": "estudio-sesion",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        },
+        {
+          "page": "inmobiliaria-en",
+          "msg": "No <img> has fetchpriority=\"high\" — LCP image not prioritised"
+        }
+      ]
+    },
+    {
+      "id": "lang-mismatch",
+      "cat": "seo",
+      "sev": "high",
+      "pages": [
+        "estudio-en",
+        "inmobiliaria-en",
+        "drone-en"
+      ],
+      "examples": [
+        {
+          "page": "estudio-en",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        },
+        {
+          "page": "inmobiliaria-en",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        },
+        {
+          "page": "drone-en",
+          "msg": "EN page declares lang=\"es-DO\" (should be \"en\")"
+        }
+      ]
+    },
+    {
+      "id": "heading-skip",
+      "cat": "a11y",
+      "sev": "low",
+      "pages": [
+        "estudio-en",
+        "boda-servicios",
+        "inmobiliaria-serv"
+      ],
+      "examples": [
+        {
+          "page": "estudio-en",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        },
+        {
+          "page": "boda-servicios",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        },
+        {
+          "page": "inmobiliaria-serv",
+          "msg": "Heading levels skipped (e.g. h2 -> h4)"
+        }
+      ]
+    },
+    {
+      "id": "meta-desc-long",
+      "cat": "seo",
+      "sev": "low",
+      "pages": [
+        "parent-en-home",
+        "estudio-sesion"
+      ],
+      "examples": [
+        {
+          "page": "parent-en-home",
+          "msg": "Description may truncate (188 chars)"
+        },
+        {
+          "page": "estudio-sesion",
+          "msg": "Description may truncate (181 chars)"
+        }
+      ]
+    },
+    {
+      "id": "inline-css-fragmented",
+      "cat": "perf",
+      "sev": "low",
+      "pages": [
+        "parent-article",
+        "parent-fotografo"
+      ],
+      "examples": [
+        {
+          "page": "parent-article",
+          "msg": "3 <style> blocks (post-build inlining should produce one)"
+        },
+        {
+          "page": "parent-fotografo",
+          "msg": "2 <style> blocks (post-build inlining should produce one)"
+        }
+      ]
+    },
+    {
+      "id": "hreflang-no-en",
+      "cat": "seo",
+      "sev": "low",
+      "pages": [
+        "estudio-home",
+        "estudio-sesion"
+      ],
+      "examples": [
+        {
+          "page": "estudio-home",
+          "msg": "Missing hreflang=en"
+        },
+        {
+          "page": "estudio-sesion",
+          "msg": "Missing hreflang=en"
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "cat": "a11y",
+      "sev": "high",
+      "pages": [
+        "drone-home",
+        "drone-en"
+      ],
+      "examples": [
+        {
+          "page": "drone-home",
+          "msg": "7 form control(s) without label"
+        },
+        {
+          "page": "drone-en",
+          "msg": "7 form control(s) without label"
+        }
+      ]
+    },
+    {
+      "id": "hreflang-missing",
+      "cat": "seo",
+      "sev": "med",
+      "pages": [
+        "boda-servicios",
+        "inmobiliaria-serv"
+      ],
+      "examples": [
+        {
+          "page": "boda-servicios",
+          "msg": "No hreflang alternates"
+        },
+        {
+          "page": "inmobiliaria-serv",
+          "msg": "No hreflang alternates"
+        }
+      ]
+    },
+    {
+      "id": "title-short",
+      "cat": "seo",
+      "sev": "med",
+      "pages": [
+        "parent-fotografo"
+      ],
+      "examples": [
+        {
+          "page": "parent-fotografo",
+          "msg": "Title too short (9 chars)"
+        }
+      ]
+    }
+  ],
+  "siteAverages": {
+    "parent": {
+      "pages": 6,
+      "mobile": {
+        "performance": 90.8,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 98.8
+      },
+      "desktop": {
+        "performance": 97,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 98.8
+      }
+    },
+    "estudio": {
+      "pages": 3,
+      "mobile": {
+        "performance": 90,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 94.7
+      },
+      "desktop": {
+        "performance": 92,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 94.7
+      }
+    },
+    "boda": {
+      "pages": 3,
+      "mobile": {
+        "performance": 100,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 98.3
+      },
+      "desktop": {
+        "performance": 102,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 98.3
+      }
+    },
+    "inmobiliaria": {
+      "pages": 3,
+      "mobile": {
+        "performance": 96,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 95
+      },
+      "desktop": {
+        "performance": 98,
+        "accessibility": 99.3,
+        "bestPractices": 100,
+        "seo": 95
+      }
+    },
+    "drone": {
+      "pages": 2,
+      "mobile": {
+        "performance": 100,
+        "accessibility": 90,
+        "bestPractices": 100,
+        "seo": 95
+      },
+      "desktop": {
+        "performance": 102,
+        "accessibility": 90,
+        "bestPractices": 100,
+        "seo": 95
+      }
+    }
+  }
+}

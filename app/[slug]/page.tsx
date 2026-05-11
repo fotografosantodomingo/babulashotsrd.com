@@ -29,7 +29,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!entry) return {};
   const path = `/${slug}/`;
   const seo = getSeo(`https://estudio.babulashotsrd.com${path}`) ?? getSeo(entry.link);
-  const title = seo?.title ?? plainTitle(entry);
+  let title = seo?.title ?? plainTitle(entry);
+  // The WP slug `/fotografo/` was imported with title "FOTOGRAFO" (9 chars,
+  // all-caps) — useless for SERPs. Override with a proper full title.
+  if (slug === "fotografo") {
+    title = "Fotógrafo profesional en República Dominicana | Babula Shots";
+  }
   const titleText = plainTitle(entry);
   const description =
     seo?.description ||

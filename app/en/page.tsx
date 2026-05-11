@@ -5,7 +5,7 @@ import { canonicalUrl } from "@/lib/seo";
 const path = "/en/";
 const title = "Professional photographer in the Dominican Republic | Babula Shots";
 const description =
-  "Babula Shots — professional photography network in the Dominican Republic. Wedding, real estate, drone and studio coverage in Santo Domingo, Punta Cana and across DR. Bilingual ES/EN team.";
+  "Professional photography network in the Dominican Republic — wedding, real estate, drone and studio coverage in Santo Domingo and Punta Cana. Bilingual ES/EN.";
 
 export const metadata: Metadata = {
   title,
