@@ -44,7 +44,7 @@ export function SiteHeader() {
       <div className="header-row">
         <ThemeLanguageControls />
         <Link className="brand" href={lang === "en" ? "/en/" : "/"} aria-label={BRAND_NAME}>
-          <img className="brand-logo" src={BRAND_LOGO} alt={BRAND_NAME} width={40} height={40} loading="eager" decoding="async" fetchPriority="high" />
+          <img className="brand-logo" src={BRAND_LOGO} alt={`${BRAND_NAME} — professional photography network in the Dominican Republic`} width={40} height={40} loading="eager" decoding="async" fetchPriority="high" />
           <span className="brand-niche">
             <span className="brand-strong">{BRAND_STRONG}</span>
             <span className="brand-light"> {BRAND_LIGHT}</span>
@@ -80,7 +80,7 @@ export function SiteHeader() {
         <aside className="site-drawer-panel" role="dialog" aria-modal="true" aria-label={lang === "en" ? "Menu" : "Menú"}>
           <div className="site-drawer-header">
             <span className="brand">
-              <img className="brand-logo" src={BRAND_LOGO} alt={BRAND_NAME} width={36} height={36} />
+              <img className="brand-logo" src={BRAND_LOGO} alt={`${BRAND_NAME} — professional photography network logo`} width={36} height={36} loading="lazy" decoding="async" />
               <span className="brand-niche">
                 <span className="brand-strong">{BRAND_STRONG}</span>
                 <span className="brand-light"> {BRAND_LIGHT}</span>

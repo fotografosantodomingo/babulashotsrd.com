@@ -111,8 +111,8 @@ const SUBDOMAINS = (lang: Lang) => [
     image: {
       src: "/wp-content/uploads/2025/02/Sesion-de-fotos-en-Estudio6-1-768x512.webp",
       alt: lang === "en"
-        ? "Professional photo session in studio in Santo Domingo"
-        : "Sesión de fotos profesional en estudio fotográfico en Santo Domingo",
+        ? "Babula Shots Estudio — professional photo session in Santo Domingo photography studio with Profoto lighting"
+        : "Babula Shots Estudio — sesión de fotos profesional en estudio fotográfico en Santo Domingo con iluminación Profoto",
       width: 768,
       height: 512
     }
@@ -127,8 +127,8 @@ const SUBDOMAINS = (lang: Lang) => [
     image: {
       src: "/wp-content/uploads/2025/02/fotografo-de-bodas-republica-dominicana-5-768x512.webp",
       alt: lang === "en"
-        ? "Wedding photographer in the Dominican Republic covering a ceremony"
-        : "Fotógrafo de bodas en República Dominicana cubriendo ceremonia",
+        ? "Babula Shots Bodas — wedding photographer in the Dominican Republic covering a ceremony in Punta Cana"
+        : "Babula Shots Bodas — fotógrafo de bodas en República Dominicana cubriendo ceremonia en Punta Cana",
       width: 768,
       height: 512
     }
@@ -143,8 +143,8 @@ const SUBDOMAINS = (lang: Lang) => [
     image: {
       src: "/wp-content/uploads/2024/07/mejor-fotografo-de-inmobiliaria-RD-Santo-Domingo-Punta-Cana-768x867.png",
       alt: lang === "en"
-        ? "Professional real estate photography in the Dominican Republic"
-        : "Fotografía inmobiliaria profesional en República Dominicana",
+        ? "Babula Shots Inmobiliaria — professional real estate photography portfolio in Santo Domingo and Punta Cana, Dominican Republic"
+        : "Babula Shots Inmobiliaria — portafolio de fotografía inmobiliaria profesional en Santo Domingo y Punta Cana, República Dominicana",
       width: 768,
       height: 867
     }
@@ -159,8 +159,8 @@ const SUBDOMAINS = (lang: Lang) => [
     image: {
       src: "/wp-content/uploads/2026/04/santo-domingo-piloto-drone-servicio-profesional-768x512.webp",
       alt: lang === "en"
-        ? "Professional IDAC-certified drone pilot in Santo Domingo"
-        : "Piloto de drone profesional certificado IDAC en Santo Domingo",
+        ? "Babula Shots Drone — IDAC-certified aerial drone pilot in Santo Domingo flying DJI Mavic 3 Pro for real estate and events"
+        : "Babula Shots Drone — piloto de drone aéreo certificado IDAC en Santo Domingo operando DJI Mavic 3 Pro para inmobiliaria y eventos",
       width: 768,
       height: 512
     }
@@ -172,8 +172,8 @@ const FEATURED_GALLERY = (lang: Lang) => [
     hrefEs: "/galeria-de-fotos/",
     hrefEn: "/en/photogallery/",
     src: "/wp-content/uploads/2026/03/sesion-fotos-pareja-zona-colonial-santo-domingo-768x1151.webp",
-    altEs: "Galería de fotos — sesión de pareja Zona Colonial Santo Domingo",
-    altEn: "Photo gallery — couple session in Zona Colonial Santo Domingo",
+    altEs: "Babula Shots — sesión de fotos de pareja al atardecer en la Zona Colonial de Santo Domingo, República Dominicana",
+    altEn: "Babula Shots — golden-hour couple photo session in the Colonial Zone of Santo Domingo, Dominican Republic",
     width: 768,
     height: 1151,
     labelEs: "Galería de fotos",
@@ -183,8 +183,8 @@ const FEATURED_GALLERY = (lang: Lang) => [
     hrefEs: "/fashion-photographer-gallery/",
     hrefEn: "/en/fashion-photographer-gallery/",
     src: "/wp-content/uploads/2025/03/Fashion-week-2025-768x512.webp",
-    altEs: "Galería de moda — Fashion Week Republica Dominicana",
-    altEn: "Fashion gallery — Fashion Week Dominican Republic",
+    altEs: "Babula Shots — fotografía editorial de moda en pasarela de Fashion Week República Dominicana 2025",
+    altEn: "Babula Shots — editorial runway fashion photography at Fashion Week Dominican Republic 2025",
     width: 768,
     height: 512,
     labelEs: "Galería de moda",
@@ -194,8 +194,8 @@ const FEATURED_GALLERY = (lang: Lang) => [
     hrefEs: "/galeria-de-fotoslas-terrenas-kite-surf/",
     hrefEn: "/en/kitesurf-photo-gallery-las-terrenas/",
     src: "/wp-content/uploads/2026/04/Babula-Shots-Rd-10-768x432.webp",
-    altEs: "Galería de fotos kitesurf en Las Terrenas",
-    altEn: "Kitesurf photo gallery in Las Terrenas",
+    altEs: "Babula Shots — fotografía deportiva de kitesurf en la playa de Las Terrenas, Samaná, República Dominicana",
+    altEn: "Babula Shots — sports photography of kitesurfing on Las Terrenas beach, Samaná, Dominican Republic",
     width: 768,
     height: 432,
     labelEs: "Kitesurf Las Terrenas",
@@ -205,8 +205,8 @@ const FEATURED_GALLERY = (lang: Lang) => [
     hrefEs: "/fotografo-en-tortuga-bay-punta-cana-republica-dominicana/",
     hrefEn: "/en/tortuga-bay-photographer-punta-cana/",
     src: "/wp-content/uploads/2026/04/tortuga-bay-fotografo-republica-dominicana-768x432.webp",
-    altEs: "Sesión de fotos en Tortuga Bay Punta Cana República Dominicana",
-    altEn: "Photo session in Tortuga Bay Punta Cana Dominican Republic",
+    altEs: "Babula Shots — sesión fotográfica de destino en la playa de Tortuga Bay, Punta Cana, República Dominicana",
+    altEn: "Babula Shots — destination photography session on Tortuga Bay beach, Punta Cana, Dominican Republic",
     width: 768,
     height: 432,
     labelEs: "Tortuga Bay Punta Cana",
@@ -252,15 +252,15 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
   const heroImage = {
     src: "/wp-content/uploads/2026/05/babula-shots-volleyball-hero.webp",
     alt: lang === "en"
-      ? "Editorial sports portrait by Babula Shots — Dominican Republic national volleyball player on court"
-      : "Retrato editorial deportivo de Babula Shots — jugadora de voleibol del equipo nacional en cancha",
+      ? "Babula Shots editorial sports portrait — Dominican Republic national volleyball player in action on indoor court, professional photography in Santo Domingo"
+      : "Retrato editorial deportivo de Babula Shots — jugadora del equipo nacional de voleibol de República Dominicana en cancha, fotografía profesional en Santo Domingo",
     width: 2457,
     height: 1536
   };
 
   const coverAlt = lang === "en"
-    ? "Editorial portrait by Babula Shots — golden hour fashion session in the Dominican Republic"
-    : "Retrato editorial Babula Shots — sesión de moda al atardecer en República Dominicana";
+    ? "Babula Shots editorial fashion portrait — golden-hour session in a Dominican Republic corn field, professional photographer in Santo Domingo"
+    : "Retrato editorial de moda de Babula Shots — sesión al atardecer en un maizal de República Dominicana, fotógrafo profesional en Santo Domingo";
 
   return (
     <main>
