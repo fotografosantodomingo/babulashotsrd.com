@@ -15,7 +15,17 @@ import {
   topicalLinks,
   type PageOrPost
 } from "@/lib/parentContent";
-import { canonicalUrl, organizationSchema, phoneDisplay, phoneE164, siteUrl, whatsappUrl } from "@/lib/seo";
+import {
+  canonicalUrl,
+  isoAst,
+  organizationRef,
+  organizationSchema,
+  phoneDisplay,
+  phoneE164,
+  publisherRef,
+  siteUrl,
+  whatsappUrl
+} from "@/lib/seo";
 
 export function ContentArticle({ entry }: { entry: PageOrPost }) {
   const title = plainTitle(entry);
@@ -43,10 +53,10 @@ export function ContentArticle({ entry }: { entry: PageOrPost }) {
       description: excerpt,
       mainEntityOfPage: url,
       url,
-      datePublished: entry.date,
-      dateModified: entry.modified,
-      author: { "@type": "Organization", name: "Babula Shots" },
-      publisher: { "@type": "Organization", name: "Babula Shots" },
+      datePublished: isoAst(entry.date),
+      dateModified: isoAst(entry.modified),
+      author: organizationRef,
+      publisher: publisherRef,
       ...(featured ? { image: `${siteUrl}${featured.src}` } : {}),
       inLanguage: "es-DO"
     },

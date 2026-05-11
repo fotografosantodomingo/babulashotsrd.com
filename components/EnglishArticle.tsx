@@ -14,9 +14,11 @@ import {
 } from "@/lib/parentContent";
 import {
   canonicalUrl,
+  organizationRef,
   organizationSchema,
   phoneDisplay,
   phoneE164,
+  publisherRef,
   siteUrl,
   whatsappUrl
 } from "@/lib/seo";
@@ -54,8 +56,8 @@ export function EnglishArticle({ content }: { content: EnContent }) {
       mainEntityOfPage: url,
       url,
       inLanguage: "en",
-      author: { "@type": "Organization", name: "Babula Shots" },
-      publisher: { "@type": "Organization", name: "Babula Shots" },
+      author: organizationRef,
+      publisher: publisherRef,
       ...(heroImg ? { image: `${siteUrl}${heroImg.src}` } : {})
     },
     {

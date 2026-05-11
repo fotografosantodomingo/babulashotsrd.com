@@ -14,6 +14,7 @@ import {
   droneUrl,
   estudioUrl,
   inmobiliariaUrl,
+  localBusinessSchema,
   niche,
   organizationSchema,
   phoneDisplay,
@@ -222,12 +223,17 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
   const url = canonicalUrl(t.path);
   const schema = [
     organizationSchema,
+    // LocalBusiness with aggregateRating — apex homepage is the canonical place for
+    // the brand's review rich-results to surface in Google.
+    localBusinessSchema,
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": `${siteUrl}#website`,
       name: "Babula Shots",
       url,
       inLanguage: lang === "en" ? "en" : "es-DO",
+      publisher: { "@id": `${siteUrl}#organization` },
       potentialAction: {
         "@type": "SearchAction",
         target: `${siteUrl}/?s={search_term_string}`,
