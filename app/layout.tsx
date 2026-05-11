@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
+import { TawkChat } from "@/components/TawkChat";
 import { allLanguageRoutePairs } from "@/lib/languageRoutes";
 import { assetPath, siteUrl } from "@/lib/seo";
 import "./globals.css";
@@ -82,6 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <SiteFooter />
         <WhatsAppFab />
+        <TawkChat />
         <script
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
