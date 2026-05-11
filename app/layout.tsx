@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
-import { TawkChat } from "@/components/TawkChat";
 import { allLanguageRoutePairs } from "@/lib/languageRoutes";
 import { assetPath, siteUrl } from "@/lib/seo";
 import "./globals.css";
@@ -83,7 +82,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <SiteFooter />
         <WhatsAppFab />
-        <TawkChat />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){function l(){var T=window.Tawk_API||(window.Tawk_API={});window.Tawk_LoadStart=new Date();var s=document.createElement('script');s.async=true;s.src='https://embed.tawk.to/662b0680a0c6737bd1308ff1/1hsc12p8m';s.charset='UTF-8';s.setAttribute('crossorigin','*');document.body.appendChild(s);}if(window.requestIdleCallback){window.requestIdleCallback(l,{timeout:3000})}else{window.addEventListener('load',function(){setTimeout(l,1000)})}})();"
+          }}
+        />
         <script
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
