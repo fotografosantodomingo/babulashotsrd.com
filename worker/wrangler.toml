@@ -2,24 +2,33 @@ name = "babula-shared"
 main = "babula-shared.mjs"
 compatibility_date = "2026-05-10"
 
-# Routes will be configured AFTER DNS migration to Cloudflare.
-# When the zone `babulashotsrd.com` is on this CF account, uncomment:
-#
-# [[routes]]
-# pattern = "babulashotsrd.com/*"
-# zone_name = "babulashotsrd.com"
-#
-# [[routes]]
-# pattern = "*.babulashotsrd.com/*"
-# zone_name = "babulashotsrd.com"
-#
-# [[routes]]
-# pattern = "babulashotsrd.com/api/*"
-# zone_name = "babulashotsrd.com"
+# Worker intercepts only /api/* across the apex + all subdomains so it never
+# competes with Pages for page routes. Pages keeps serving everything else.
+# Note: wildcard `*.babulashotsrd.com` matters less than explicit per-host
+# routes when Pages owns the subdomain — list each host explicitly.
+[[routes]]
+pattern = "babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
 
-# Worker reads underlying Pages project as ASSETS binding (set after deploy):
-# [[assets]]
-# directory = "out"
+[[routes]]
+pattern = "www.babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
+
+[[routes]]
+pattern = "estudio.babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
+
+[[routes]]
+pattern = "boda.babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
+
+[[routes]]
+pattern = "inmobiliaria.babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
+
+[[routes]]
+pattern = "dron.babulashotsrd.com/api/*"
+zone_name = "babulashotsrd.com"
 
 [observability]
 enabled = true
