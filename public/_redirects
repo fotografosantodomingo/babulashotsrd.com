@@ -24,3 +24,8 @@
 # /precios/ was linked from 122 pages (footer + every article CTA) but never built
 /precios/ /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
 /precios /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
+# User-flagged 404s — external backlinks / stale GSC indexed URLs
+/estudio-fotografico-santo-domingo/ /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
+/estudio-fotografico-santo-domingo /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
+/quinceanera-fotografo-santo-domingo/ /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
+/quinceanera-fotografo-santo-domingo /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
