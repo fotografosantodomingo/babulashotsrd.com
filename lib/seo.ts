@@ -37,7 +37,8 @@ export function assetPath(path: string) {
 // The parent IS the Babula Shots Organization. Subdomains are sub-brands.
 // ──────────────────────────────────────────────────────────────────────────
 
-export const brandLogoUrl = `${siteUrl}/wp-content/uploads/2024/06/Babula-Shots-Logo.webp`;
+// Canonical brand logo. The previous /2024/06/...webp path didn't exist; this PNG does.
+export const brandLogoUrl = `${siteUrl}/wp-content/uploads/2023/05/cropped-babulashotslogo-1.png`;
 
 // ISO 8601 datetime helper. Dominican Republic = UTC-4 year-round (no DST).
 // Use for datePublished/dateModified — bare "YYYY-MM-DD" fails Rich Results

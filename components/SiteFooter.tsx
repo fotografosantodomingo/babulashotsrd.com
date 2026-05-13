@@ -94,8 +94,8 @@ export function SiteFooter() {
   const t = COPY[lang];
   const networkLinks = NETWORK(lang);
   const alsoAtLinks = ALSO_AT(lang);
-  const catPrefix = lang === "en" ? "/en/category/" : "/category/";
-  const tagPrefix = lang === "en" ? "/en/tag/" : "/tag/";
+  const catPrefix = "/category/";
+  const tagPrefix = "/tag/";
   const blogHref = lang === "en" ? "/en/blog/" : "/blog/";
 
   return (
@@ -148,30 +148,45 @@ export function SiteFooter() {
           ))}
         </ul>
       </div>
-      <div className="footer-areas" aria-label={t.sectionCats}>
-        <p className="footer-section-title">{t.sectionCats}</p>
-        <div>
-          {categories.map((c) => (
-            <Link key={c.slug} href={`${catPrefix}${c.slug}/`}>
-              {lang === "en" ? c.nameEn ?? c.name : c.name}
-            </Link>
-          ))}
-          <Link href={blogHref}>{t.linkBlog}</Link>
-          <Link href={t.linkGalleryHref}>{t.linkGallery}</Link>
-          <Link href={t.linkPricesHref}>{t.linkPrices}</Link>
-          <Link href={t.linkBookingHref}>{t.linkBooking}</Link>
+      {lang === "es" && (
+        <div className="footer-areas" aria-label={t.sectionCats}>
+          <p className="footer-section-title">{t.sectionCats}</p>
+          <div>
+            {categories.map((c) => (
+              <Link key={c.slug} href={`${catPrefix}${c.slug}/`}>
+                {c.name}
+              </Link>
+            ))}
+            <Link href={blogHref}>{t.linkBlog}</Link>
+            <Link href={t.linkGalleryHref}>{t.linkGallery}</Link>
+            <Link href={t.linkPricesHref}>{t.linkPrices}</Link>
+            <Link href={t.linkBookingHref}>{t.linkBooking}</Link>
+          </div>
         </div>
-      </div>
-      <div className="footer-areas" aria-label={t.sectionTags}>
-        <p className="footer-section-title">{t.sectionTags}</p>
-        <div>
-          {tags.slice(0, 18).map((tg) => (
-            <Link key={tg.slug} href={`${tagPrefix}${tg.slug}/`}>
-              {lang === "en" ? tg.nameEn ?? tg.name : tg.name}
-            </Link>
-          ))}
+      )}
+      {lang === "en" && (
+        <div className="footer-areas">
+          <p className="footer-section-title">{t.sectionNetwork}</p>
+          <div>
+            <Link href={blogHref}>{t.linkBlog}</Link>
+            <Link href={t.linkGalleryHref}>{t.linkGallery}</Link>
+            <Link href={t.linkPricesHref}>{t.linkPrices}</Link>
+            <Link href={t.linkBookingHref}>{t.linkBooking}</Link>
+          </div>
         </div>
-      </div>
+      )}
+      {lang === "es" && (
+        <div className="footer-areas" aria-label={t.sectionTags}>
+          <p className="footer-section-title">{t.sectionTags}</p>
+          <div>
+            {tags.slice(0, 18).map((tg) => (
+              <Link key={tg.slug} href={`${tagPrefix}${tg.slug}/`}>
+                {tg.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="footer-bottom">
         <p>(c) {new Date().getFullYear()} Babula Shots RD. {t.copyright}</p>
       </div>

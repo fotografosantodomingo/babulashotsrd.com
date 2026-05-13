@@ -19,3 +19,8 @@
 # --- SAME-ORIGIN 301 (internal cannibalization fix)
 /buscas-fotografo-de-baseball/ https://babulashotsrd.com/fotografo-baseball-santo-domingo/ 301
 /fotografo-baseball/ https://babulashotsrd.com/fotografo-baseball-santo-domingo/ 301
+
+# --- BROKEN-LINK FIXES (apex audit 2026-05-13)
+# /precios/ was linked from 122 pages (footer + every article CTA) but never built
+/precios/ /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
+/precios /sesion-de-fotos-estudio-fotografico-santo-domingo/ 301
