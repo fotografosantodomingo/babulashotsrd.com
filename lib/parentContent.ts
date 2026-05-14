@@ -4,6 +4,14 @@ import { resolve } from "node:path";
 const ROOT = resolve(process.cwd(), "scrape");
 const ORIGIN = "https://babulashotsrd.com";
 
+// Strip WP's -WxH size suffix from any wp-content image URL so we serve the
+// original. e.g. /foo-768x512.webp → /foo.webp; /foo-scaled.webp → /foo-scaled.webp
+// (untouched). Used by rewriteContentLinks() AND featuredImage() so both inline
+// content imgs and hero/article featured imgs always link to the original.
+function stripSizeSuffix(url: string): string {
+  return url.replace(/-\d+x\d+(\.(?:jpe?g|png|webp|gif|avif))/gi, "$1");
+}
+
 const QUOTE_SLUGS = new Set(["cotizacion-98-2024", "cotizacion-99-2024", "quotations-cart"]);
 
 type WpRendered = { rendered: string };
@@ -356,6 +364,21 @@ export function rewriteContentLinks(html: string): string {
     .replace(new RegExp(`href=["']${ORIGIN.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&")}/`, "g"), 'href="/')
     .replace(new RegExp(`src=["']${ORIGIN.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&")}/`, "g"), 'src="/');
 
+  // Force every <img> to use the ORIGINAL source file, not WP's -WxH thumbnails.
+  // Per user directive (2026-05-14): originals on this site are pre-optimized
+  // for web; always serve them so Retina renders sharp. Strip the size suffix
+  // from src and clear srcset/sizes so the browser can't pick a smaller variant.
+  out = out.replace(/<img\b[^>]*>/gi, (tag) => {
+    let next = tag;
+    next = next.replace(
+      /\ssrc=["']([^"']+)["']/i,
+      (_m, v) => ` src="${stripSizeSuffix(v)}"`
+    );
+    next = next.replace(/\ssrcset=["'][^"']*["']/gi, "");
+    next = next.replace(/\ssizes=["'][^"']*["']/gi, "");
+    return next;
+  });
+
   // FooGallery (and other lazy-load plugins) emit:
   //   <img src="data:image/svg+xml,..." data-src-fg="https://babulashotsrd.com/wp-content/uploads/cache/..." ...>
   // The placeholder src is meant to be swapped by client JS — which the WP
@@ -539,28 +562,13 @@ function rewriteGalleries(html: string): string {
 }
 
 function pickSmallerSize(fm: NonNullable<WpPost["_embedded"]>["wp:featuredmedia"]) {
+  // Always return the ORIGINAL full-size source URL.
+  // Per user directive (2026-05-14): hero images must use the original file,
+  // not any of WP's -WxH variants. Originals on this site are already optimized
+  // for web (~200-800 KB), so the bandwidth cost is acceptable and Retina
+  // displays render visibly sharper.
   if (!fm || !fm[0]) return null;
-  const sizes = fm[0].media_details?.sizes;
-  const fullUrl = fm[0].source_url;
-  if (!sizes) return fullUrl;
-  // Pick the LARGEST variant whose width is still <=1200px. This keeps heroes
-  // crisp on retina (~600px slot × 2dpr) without serving multi-megabyte
-  // originals. The previous version picked the first match in a fixed priority
-  // order and ended up serving "medium" (300px) for any image whose -medium_large
-  // / -large variants WP hadn't generated — visibly blurry on Retina.
-  // Include the original `full` size in the pool so small originals (e.g. 675px)
-  // win over their own tiny -medium thumbnails.
-  type Candidate = { src: string; width: number };
-  const candidates: Candidate[] = [];
-  for (const s of Object.values(sizes)) {
-    if (s?.source_url && s.width) candidates.push({ src: s.source_url, width: s.width });
-  }
-  const fullW = fm[0].media_details?.width;
-  if (fullUrl && fullW) candidates.push({ src: fullUrl, width: fullW });
-  const usable = candidates.filter((c) => c.width <= 1200);
-  if (usable.length === 0) return fullUrl;
-  usable.sort((a, b) => b.width - a.width);
-  return usable[0].src;
+  return fm[0].source_url;
 }
 
 export function featuredImage(p: WpPost): { src: string; alt: string; width?: number; height?: number } | null {
