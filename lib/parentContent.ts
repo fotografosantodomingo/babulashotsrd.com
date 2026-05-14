@@ -541,24 +541,26 @@ function rewriteGalleries(html: string): string {
 function pickSmallerSize(fm: NonNullable<WpPost["_embedded"]>["wp:featuredmedia"]) {
   if (!fm || !fm[0]) return null;
   const sizes = fm[0].media_details?.sizes;
-  if (!sizes) return fm[0].source_url;
-  const candidates = [
-    "medium_large",
-    "large",
-    "1536x1536",
-    "2048x2048",
-    "medium",
-    "thumbnail",
-    "full"
-  ];
-  for (const k of candidates) {
-    const s = sizes[k];
-    if (s?.source_url && s.width <= 1200) return s.source_url;
-  }
+  const fullUrl = fm[0].source_url;
+  if (!sizes) return fullUrl;
+  // Pick the LARGEST variant whose width is still <=1200px. This keeps heroes
+  // crisp on retina (~600px slot × 2dpr) without serving multi-megabyte
+  // originals. The previous version picked the first match in a fixed priority
+  // order and ended up serving "medium" (300px) for any image whose -medium_large
+  // / -large variants WP hadn't generated — visibly blurry on Retina.
+  // Include the original `full` size in the pool so small originals (e.g. 675px)
+  // win over their own tiny -medium thumbnails.
+  type Candidate = { src: string; width: number };
+  const candidates: Candidate[] = [];
   for (const s of Object.values(sizes)) {
-    if (s.source_url && s.width <= 1200) return s.source_url;
+    if (s?.source_url && s.width) candidates.push({ src: s.source_url, width: s.width });
   }
-  return fm[0].source_url;
+  const fullW = fm[0].media_details?.width;
+  if (fullUrl && fullW) candidates.push({ src: fullUrl, width: fullW });
+  const usable = candidates.filter((c) => c.width <= 1200);
+  if (usable.length === 0) return fullUrl;
+  usable.sort((a, b) => b.width - a.width);
+  return usable[0].src;
 }
 
 export function featuredImage(p: WpPost): { src: string; alt: string; width?: number; height?: number } | null {

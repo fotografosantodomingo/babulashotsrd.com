@@ -1719,6 +1719,52 @@ p {
   .smart-gallery.sg-tall.sg-many { grid-template-columns: repeat(4, 1fr); }
   .smart-gallery.sg-wide.sg-many,
   .smart-gallery.sg-mixed.sg-many { grid-template-columns: repeat(3, 1fr); }
+
+  /* sg-many MIXED: switch to masonry (column-count). Forcing a uniform 1:1
+     crop on a 76-photo runway gallery hides faces and runway context. Masonry
+     preserves each photo's native aspect ratio and packs them Pinterest-style. */
+  .smart-gallery.sg-mixed.sg-many {
+    display: block;
+    column-count: 3;
+    column-gap: 2px;
+    grid-template-columns: none;
+  }
+  .smart-gallery.sg-mixed.sg-many .sg-item {
+    width: 100%;
+    aspect-ratio: auto;
+    break-inside: avoid;
+    margin: 0 0 2px 0;
+    display: inline-block;
+  }
+  .smart-gallery.sg-mixed.sg-many .sg-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/* Tablet masonry — 2 columns instead of 3 */
+@media (min-width: 480px) and (max-width: 719px) {
+  .smart-gallery.sg-mixed.sg-many,
+  .smart-gallery.sg-wide.sg-many,
+  .smart-gallery.sg-tall.sg-many {
+    display: block;
+    column-count: 2;
+    column-gap: 2px;
+    grid-template-columns: none;
+  }
+  .smart-gallery.sg-many .sg-item {
+    width: 100%;
+    aspect-ratio: auto;
+    break-inside: avoid;
+    margin: 0 0 2px 0;
+    display: inline-block;
+  }
+  .smart-gallery.sg-many .sg-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 }
 
 /* Captions for curated galleries — keep aspect ratio of the image, drop a
@@ -2487,4 +2533,30 @@ p {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
   }
+}
+
+/* ============================================
+   Dark-mode overrides for WP-imported posts that bake light-mode colors
+   into inline style="..." attributes (e.g. /sesion-de-fotos-familiar-en-casa-de-campo/).
+   Without this, dark theme inherits dark grey text on parts of the page
+   where the imported white-card background doesn't apply.
+   Targets the most common Tailwind-style hex codes the imports use.
+   ============================================ */
+:root[data-theme="dark"] .wp-content [style*="background:#ffffff"],
+:root[data-theme="dark"] .wp-content [style*="background: #ffffff"],
+:root[data-theme="dark"] .wp-content [style*="background:#fff;"],
+:root[data-theme="dark"] .wp-content [style*="background:#f9fafb"],
+:root[data-theme="dark"] .wp-content [style*="background:#f8fafc"],
+:root[data-theme="dark"] .wp-content [style*="background:#fffbeb"] {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+:root[data-theme="dark"] .wp-content [style*="color:#111827"],
+:root[data-theme="dark"] .wp-content [style*="color: #111827"],
+:root[data-theme="dark"] .wp-content [style*="color:#1f2937"],
+:root[data-theme="dark"] .wp-content [style*="color:#374151"],
+:root[data-theme="dark"] .wp-content [style*="color:#4b5563"],
+:root[data-theme="dark"] .wp-content [style*="color:#6b7280"],
+:root[data-theme="dark"] .wp-content [style*="color:#9ca3af"] {
+  color: var(--dark-text) !important;
 }

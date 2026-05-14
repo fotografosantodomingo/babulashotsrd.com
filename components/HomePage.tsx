@@ -193,11 +193,11 @@ const FEATURED_GALLERY = (lang: Lang) => [
   {
     hrefEs: "/galeria-de-fotoslas-terrenas-kite-surf/",
     hrefEn: "/en/kitesurf-photo-gallery-las-terrenas/",
-    src: "/wp-content/uploads/2026/04/Babula-Shots-Rd-10-768x432.webp",
+    src: "/wp-content/uploads/2024/10/Fotografo-Profesional-en-estudio-Santo-Domingo-Republica-Domincana_-49-768x512.jpg",
     altEs: "Babula Shots — fotografía deportiva de kitesurf en la playa de Las Terrenas, Samaná, República Dominicana",
     altEn: "Babula Shots — sports photography of kitesurfing on Las Terrenas beach, Samaná, Dominican Republic",
     width: 768,
-    height: 432,
+    height: 512,
     labelEs: "Kitesurf Las Terrenas",
     labelEn: "Kitesurf Las Terrenas"
   },
