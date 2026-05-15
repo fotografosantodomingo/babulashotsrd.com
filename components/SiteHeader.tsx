@@ -3,7 +3,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeLanguageControls } from "@/components/ThemeLanguageControls";
 
-const BRAND_LOGO = "/wp-content/uploads/2023/05/cropped-cropped-babulashotslogo-1-270x270.png";
 const BRAND_NAME = "Babula Shots RD";
 const BRAND_STRONG = "Babula";
 const BRAND_LIGHT = "Shots RD";
@@ -44,7 +43,6 @@ export function SiteHeader() {
       <div className="header-row">
         <ThemeLanguageControls />
         <Link className="brand" href={lang === "en" ? "/en/" : "/"} aria-label={BRAND_NAME}>
-          <img className="brand-logo" src={BRAND_LOGO} alt={`${BRAND_NAME} — professional photography network in the Dominican Republic`} width={40} height={40} loading="eager" decoding="async" fetchPriority="high" />
           <span className="brand-niche">
             <span className="brand-strong">{BRAND_STRONG}</span>
             <span className="brand-light"> {BRAND_LIGHT}</span>
@@ -80,7 +78,6 @@ export function SiteHeader() {
         <aside className="site-drawer-panel" role="dialog" aria-modal="true" aria-label={lang === "en" ? "Menu" : "Menú"}>
           <div className="site-drawer-header">
             <span className="brand">
-              <img className="brand-logo" src={BRAND_LOGO} alt={`${BRAND_NAME} — professional photography network logo`} width={36} height={36} loading="lazy" decoding="async" />
               <span className="brand-niche">
                 <span className="brand-strong">{BRAND_STRONG}</span>
                 <span className="brand-light"> {BRAND_LIGHT}</span>
