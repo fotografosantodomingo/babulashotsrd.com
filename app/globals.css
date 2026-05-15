@@ -1681,6 +1681,9 @@ p {
     margin-right: calc(var(--x) * -1);
   }
   .smart-gallery .sg-item { width: 100% !important; max-width: none !important; }
+  /* sg-many on mobile: native aspect ratio + full bleed, no crop */
+  .smart-gallery.sg-many .sg-item { aspect-ratio: auto !important; }
+  .smart-gallery.sg-many img { height: auto; object-fit: contain; }
 }
 
 /* Desktop layouts — only kick in at ≥720px */
@@ -1720,23 +1723,25 @@ p {
   .smart-gallery.sg-wide.sg-many,
   .smart-gallery.sg-mixed.sg-many { grid-template-columns: repeat(3, 1fr); }
 
-  /* sg-many MIXED: switch to masonry (column-count). Forcing a uniform 1:1
-     crop on a 76-photo runway gallery hides faces and runway context. Masonry
-     preserves each photo's native aspect ratio and packs them Pinterest-style. */
-  .smart-gallery.sg-mixed.sg-many {
+  /* sg-many (wide / tall / mixed): switch to masonry (column-count). Forced
+     uniform crops on a 20-76 photo gallery lose runway context, faces, and
+     action moments. Masonry preserves each photo's native aspect ratio and
+     packs them Pinterest-style. Tall photos pack tighter at 4 columns. */
+  .smart-gallery.sg-many {
     display: block;
     column-count: 3;
     column-gap: 2px;
     grid-template-columns: none;
   }
-  .smart-gallery.sg-mixed.sg-many .sg-item {
+  .smart-gallery.sg-tall.sg-many { column-count: 4; }
+  .smart-gallery.sg-many .sg-item {
     width: 100%;
     aspect-ratio: auto;
     break-inside: avoid;
     margin: 0 0 2px 0;
     display: inline-block;
   }
-  .smart-gallery.sg-mixed.sg-many .sg-item img {
+  .smart-gallery.sg-many .sg-item img {
     width: 100%;
     height: auto;
     object-fit: contain;
