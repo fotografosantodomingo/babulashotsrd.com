@@ -2560,3 +2560,29 @@ p {
 :root[data-theme="dark"] .wp-content [style*="color:#9ca3af"] {
   color: var(--dark-text) !important;
 }
+
+/* ============================================
+   Compact single-line header (logo + menu + controls all inline) — 2026-05-14
+   .site-header is a non-grid block; the existing `grid-column: 2; grid-row: 1`
+   on .site-nav was a no-op, so the nav was dropping below .header-row. Make
+   .site-header a flex row, flatten .header-row via `display: contents` so its
+   children become flex items of .site-header, and let .site-nav take the
+   remaining width so brand / nav / controls share one row.
+   ============================================ */
+@media (min-width: 901px) {
+  .site-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: .5rem var(--x);
+  }
+  .header-row {
+    display: contents;
+  }
+  .site-nav {
+    flex: 1;
+    grid-column: auto;
+    grid-row: auto;
+    padding: 0;
+  }
+}
