@@ -62,14 +62,14 @@ export const postalAddress = {
   addressCountry: "DO"
 };
 
-// Brand-wide aggregate rating (5/5 from 23 reviews).
+// Brand-wide aggregate rating (4.9/5 from 91 Google reviews).
 export const aggregateRating = {
   "@type": "AggregateRating" as const,
-  ratingValue: "5",
+  ratingValue: "4.9",
   bestRating: "5",
   worstRating: "1",
-  ratingCount: "23",
-  reviewCount: "23"
+  ratingCount: "91",
+  reviewCount: "91"
 };
 
 // Santo Domingo center fallback. TODO: replace with actual studio coordinates.
