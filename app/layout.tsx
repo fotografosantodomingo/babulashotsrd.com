@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { ContactSection } from "@/components/ContactSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
@@ -77,10 +78,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "try{var t=localStorage.getItem('theme');if(t!=='dark'&&t!=='light'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.dataset.theme=t}catch(e){}"
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(/[?&]sent=ok\\b/.test(location.search))document.documentElement.classList.add('callback-sent')}catch(e){}"
+          }}
+        />
       </head>
       <body>
         <SiteHeader />
         {children}
+        <ContactSection />
         <SiteFooter />
         <WhatsAppFab />
         <script
