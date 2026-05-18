@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/wp-content/uploads/2024/06/social-card-1200x630.webp",
+        url: "/images/social-card-1200x630.webp",
         width: 1200,
         height: 630,
         alt: "Babula Shots Estudio"
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Estudio fotografico Sesion de Fotos en Santo Domingo | Babula Shots",
     description: "Estudio fotografico Sesion de Fotos en Santo Domingo. Retratos, comida, exteriores y empresas. Reserva tu sesion +1 809 720 9547",
-    images: ["/wp-content/uploads/2024/06/social-card-1200x630.webp"]
+    images: ["/images/social-card-1200x630.webp"]
   },
   robots: {
     index: true,

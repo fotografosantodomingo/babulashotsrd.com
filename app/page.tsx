@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       ? [{ url: seo.ogImage }]
       : [
           {
-            url: "/wp-content/uploads/2024/06/social-card-1200x630.webp",
+            url: "/images/social-card-1200x630.webp",
             width: 1200,
             height: 630,
             alt: "Babula Shots Estudio"

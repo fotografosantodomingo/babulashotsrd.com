@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Babula Shots",
     images: [
       {
-        url: "/wp-content/uploads/2024/06/social-card-1200x630.webp",
+        url: "/images/social-card-1200x630.webp",
         width: 1200,
         height: 630,
         alt: "Babula Shots — professional photography network in the Dominican Republic"
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description,
-    images: ["/wp-content/uploads/2024/06/social-card-1200x630.webp"]
+    images: ["/images/social-card-1200x630.webp"]
   }
 };
 
