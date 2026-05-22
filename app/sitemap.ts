@@ -15,7 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // (/galeria-de-fotos/ and /contacto/ are also static-overridden but the
     // WP scrape already contains pages with those slugs, so the loop below
     // emits them — no explicit entry needed.)
-    { url: canonicalUrl("/sobre/"), lastModified: now, changeFrequency: "yearly", priority: 0.6 }
+    { url: canonicalUrl("/sobre/"), lastModified: now, changeFrequency: "yearly", priority: 0.6 },
+    { url: canonicalUrl("/en/about-michal-babula/"), lastModified: now, changeFrequency: "yearly", priority: 0.6 }
   ];
   const RESERVED = new Set(["blog", "category", "tag", "en"]);
   for (const p of pages) {

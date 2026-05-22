@@ -4,6 +4,8 @@ import { EN_CONTENT } from "@/lib/enContent";
 
 const MANUAL_ES_TO_EN: Record<string, string> = {
   "/": "/en/",
+  // Hand-written static-route pairs (Next.js pages that don't come from WP scrape).
+  "/sobre/": "/en/about-michal-babula/",
   // KILL_SLUGS paths — no parent EN mirror (slug collides with subdomain
   // canonical). Route to the estudio subdomain EN hub.
   "/sesion-de-fotos/": "https://estudio.babulashotsrd.com/en/",
