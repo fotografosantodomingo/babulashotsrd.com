@@ -112,9 +112,15 @@ export const organizationSchema = {
     { "@type": "Organization", name: "Babula Shots Inmobiliaria", url: inmobiliariaUrl, "@id": `${inmobiliariaUrl}#organization` },
     { "@type": "Organization", name: "Babula Shots Drone", url: droneUrl, "@id": `${droneUrl}#organization` }
   ],
+  founder: {
+    "@type": "Person",
+    name: "Michal Nikodem Babula",
+    sameAs: "https://www.wikidata.org/wiki/Q139892966"
+  },
   sameAs: [
     estudioUrl, bodaUrl, inmobiliariaUrl, droneUrl, santoDomingoHubUrl,
-    "https://www.instagram.com/babulashotsrd/"
+    "https://www.instagram.com/babulashotsrd/",
+    "https://www.wikidata.org/wiki/Q139892828"
   ]
 };
 
@@ -137,7 +143,8 @@ export const localBusinessSchema = {
   aggregateRating,
   sameAs: [
     estudioUrl, bodaUrl, inmobiliariaUrl, droneUrl, santoDomingoHubUrl,
-    "https://www.instagram.com/babulashotsrd/"
+    "https://www.instagram.com/babulashotsrd/",
+    "https://www.wikidata.org/wiki/Q139892828"
   ]
 };
 
