@@ -1,26 +1,21 @@
 import type { Metadata } from "next";
 import { HomePage } from "@/components/HomePage";
-import { getSeo } from "@/lib/parentContent";
 import { canonicalUrl } from "@/lib/seo";
 
-const seo = getSeo("https://estudio.babulashotsrd.com/");
-
-const scrapedDescription = seo?.description ?? "";
-const extendedDescription =
-  scrapedDescription && scrapedDescription.length < 140
-    ? `${scrapedDescription} Cotiza por WhatsApp.`
-    : scrapedDescription ||
-      "Estudio fotografico en Santo Domingo: retratos, fotos de comida y bebida, exteriores y campanas para empresas.";
-
-const scrapedOgDescription = seo?.ogDescription ?? "";
-const extendedOgDescription =
-  scrapedOgDescription && scrapedOgDescription.length < 140
-    ? `${scrapedOgDescription} Cotiza por WhatsApp.`
-    : scrapedOgDescription || extendedDescription;
+// CTR-tuned apex homepage. Per 2026-05-10 GSC: apex ranks for "fotografo en
+// santo domingo" (pos 3.4, 125 imp, 9 clicks) + "fotografo" + "photographer
+// near me" — general photographer queries, NOT studio queries. The previous
+// metadata pulled from estudio's scraped SEO data by mistake and was mis-
+// targeted at "estudio fotografico". Per CANNIBALIZATION-FIX.md Step 3 the
+// apex needs to read as the NETWORK HUB, leaving studio queries to the
+// estudio subdomain.
+const homepageTitle = "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas";
+const homepageDescription =
+  "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.";
 
 export const metadata: Metadata = {
-  title: seo?.title ?? "Estudio fotografico en Santo Domingo | Babula Shots",
-  description: extendedDescription,
+  title: homepageTitle,
+  description: homepageDescription,
   alternates: {
     canonical: canonicalUrl("/"),
     languages: {
@@ -31,22 +26,20 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: seo?.ogTitle ?? seo?.title ?? "Estudio fotografico en Santo Domingo",
-    description: extendedOgDescription,
+    title: homepageTitle,
+    description: homepageDescription,
     url: canonicalUrl("/"),
     type: "website",
     locale: "es_DO",
-    siteName: "Babula Shots Estudio",
-    images: seo?.ogImage
-      ? [{ url: seo.ogImage }]
-      : [
-          {
-            url: "/images/social-card-1200x630.webp",
-            width: 1200,
-            height: 630,
-            alt: "Babula Shots Estudio"
-          }
-        ]
+    siteName: "Babula Shots",
+    images: [
+      {
+        url: "/images/social-card-1200x630.webp",
+        width: 1200,
+        height: 630,
+        alt: "Babula Shots — Fotógrafo en República Dominicana"
+      }
+    ]
   }
 };
 

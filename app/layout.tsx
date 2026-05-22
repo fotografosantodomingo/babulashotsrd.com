@@ -18,12 +18,12 @@ const routePairsJson = JSON.stringify(
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Estudio fotografico Sesion de Fotos en Santo Domingo | Babula Shots",
+    default: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas",
     template: "%s"
   },
-  description: "Estudio fotografico Sesion de Fotos en Santo Domingo. Retratos, comida, exteriores y empresas. Reserva tu sesion +1 809 720 9547",
+  description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.",
   openGraph: {
-    siteName: "Babula Shots - Fotografo Estudio Santo Domingo",
+    siteName: "Babula Shots",
     locale: "es_DO",
     type: "website",
     images: [
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: "/images/social-card-1200x630.webp",
         width: 1200,
         height: 630,
-        alt: "Babula Shots Estudio"
+        alt: "Babula Shots — Fotógrafo en República Dominicana"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Estudio fotografico Sesion de Fotos en Santo Domingo | Babula Shots",
-    description: "Estudio fotografico Sesion de Fotos en Santo Domingo. Retratos, comida, exteriores y empresas. Reserva tu sesion +1 809 720 9547",
+    title: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas",
+    description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.",
     images: ["/images/social-card-1200x630.webp"]
   },
   robots: {
