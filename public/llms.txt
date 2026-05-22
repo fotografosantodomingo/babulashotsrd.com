@@ -18,6 +18,7 @@ Hours: Mon–Sun, 9:00–18:00 Atlantic Standard Time (UTC-4)
 ## Apex pages
 
 - [Main site](https://babulashotsrd.com)
+- [About Michal Nikodem Babula (founder)](https://babulashotsrd.com/sobre/)
 - [Photo gallery](https://babulashotsrd.com/galeria-de-fotos/)
 - [Blog](https://babulashotsrd.com/blog/)
 - [Contact](https://babulashotsrd.com/contacto/)

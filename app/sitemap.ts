@@ -9,7 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
     { url: canonicalUrl("/"), lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: canonicalUrl("/blog/"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: canonicalUrl("/en/"), lastModified: now, changeFrequency: "weekly", priority: 0.9 }
+    { url: canonicalUrl("/en/"), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    // Static routes that don't have a WP-scrape counterpart — must be listed
+    // explicitly or they're invisible to search engines despite being live.
+    // (/galeria-de-fotos/ and /contacto/ are also static-overridden but the
+    // WP scrape already contains pages with those slugs, so the loop below
+    // emits them — no explicit entry needed.)
+    { url: canonicalUrl("/sobre/"), lastModified: now, changeFrequency: "yearly", priority: 0.6 }
   ];
   const RESERVED = new Set(["blog", "category", "tag", "en"]);
   for (const p of pages) {
