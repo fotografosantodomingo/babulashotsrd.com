@@ -36,6 +36,10 @@ const COPY = {
     networkH2: "Cuatro estudios especializados",
     networkLead:
       "Cada subdominio es un sitio independiente con catálogo, precios y FAQ específicos al servicio. Toda la red comparte el mismo equipo, la misma calidad de entrega, y el mismo número de contacto.",
+    coverageTag: "Cobertura",
+    coverageH2: "Páginas destacadas por ciudad y servicio",
+    coverageLead:
+      "Acceso directo a las ubicaciones y servicios más solicitados en cada vertical de la red Babula Shots.",
     featuredTag: "Trabajos destacados",
     featuredH2: "Galerías y locaciones",
     featuredLead: "Una muestra del trabajo reciente — sesiones, galerías de bodas, estudio y destinos en República Dominicana.",
@@ -72,6 +76,10 @@ const COPY = {
     networkH2: "Four specialised studios",
     networkLead:
       "Each sub-site is an independent studio with its own catalogue, pricing and FAQ. The whole network shares the same team, the same delivery standards and the same contact number.",
+    coverageTag: "Coverage",
+    coverageH2: "Featured pages by city and service",
+    coverageLead:
+      "Direct access to the most popular locations and services across the Babula Shots network.",
     featuredTag: "Featured work",
     featuredH2: "Galleries and locations",
     featuredLead: "A sample of recent work — sessions, wedding galleries, studio and destination shoots in the Dominican Republic.",
@@ -164,6 +172,54 @@ const SUBDOMAINS = (lang: Lang) => [
       width: 768,
       height: 512
     }
+  }
+];
+
+// Deep-link feed for cross-domain crawl. Apex has the strongest authority on
+// the network (313+ ranking keywords per memory:dr_seo_market); drone +
+// inmobiliaria deep pages get ~0 GSC impressions because Google barely knows
+// they exist. Surfacing 4 deep links per subdomain on the apex homepage feeds
+// Google a crawl path with descriptive anchors, accelerating indexation.
+const COVERAGE_LINKS = [
+  {
+    title: "Bodas",
+    base: bodaUrl,
+    links: [
+      { path: "/fotografo-bodas-punta-cana/", label: "Fotógrafo bodas Punta Cana" },
+      { path: "/fotografo-bodas-la-romana/", label: "Bodas Casa de Campo / La Romana" },
+      { path: "/fotografo-bodas-samana/", label: "Bodas Samaná" },
+      { path: "/fotografo-bodas-las-terrenas/", label: "Bodas Las Terrenas" }
+    ]
+  },
+  {
+    title: "Inmobiliaria",
+    base: inmobiliariaUrl,
+    links: [
+      { path: "/fotografia-inmobiliaria-punta-cana/", label: "Inmobiliaria Punta Cana" },
+      { path: "/fotografia-inmobiliaria-cap-cana/", label: "Inmobiliaria Cap Cana" },
+      { path: "/fotografia-inmobiliaria-casa-de-campo/", label: "Inmobiliaria Casa de Campo" },
+      { path: "/fotografia-drone-inmobiliaria/", label: "Drone para inmobiliaria" }
+    ]
+  },
+  {
+    title: "Drone",
+    base: droneUrl,
+    links: [
+      { path: "/dron-punta-cana/", label: "Drone Punta Cana" },
+      { path: "/dron-santo-domingo/", label: "Drone Santo Domingo" },
+      { path: "/dron-casa-de-campo/", label: "Drone Casa de Campo" },
+      { path: "/dron-construccion-ingenieria/", label: "Drone construcción" }
+    ]
+  },
+  {
+    title: "Estudio",
+    base: estudioUrl,
+    links: [
+      { path: "/estudio-fotografico-santo-domingo/", label: "Estudio Santo Domingo" },
+      { path: "/fotografia-corporativa-en-estudio-rd/", label: "Fotos corporativas" },
+      { path: "/headshots-profesionales-santo-domingo/", label: "Headshots profesionales" },
+      { path: "/fotografia-alimentos-bebidas-republica-dominicana/", label: "Fotografía gastronómica" }
+    ]
   }
 ];
 
@@ -319,6 +375,32 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
                   {s.url.replace("https://", "")} →
                 </p>
               </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <div className="section-heading">
+            <p className="section-tag">{t.coverageTag}</p>
+            <h2>{t.coverageH2}</h2>
+            <p>{t.coverageLead}</p>
+          </div>
+          <div className="card-grid card-grid-4">
+            {COVERAGE_LINKS.map((group) => (
+              <article key={group.title} className="card">
+                <h3>{group.title}</h3>
+                <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.9 }}>
+                  {group.links.map((link) => (
+                    <li key={link.path}>
+                      <a href={`${group.base}${link.path}`} rel="noopener">
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </article>
             ))}
           </div>
         </div>
