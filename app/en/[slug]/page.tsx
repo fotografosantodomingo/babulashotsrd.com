@@ -7,7 +7,7 @@ import { canonicalUrl } from "@/lib/seo";
 type PageProps = { params: Promise<{ slug: string }> };
 
 // EN slugs that already have a dedicated route file under app/en/<slug>/page.tsx
-const RESERVED = new Set(["photogallery"]);
+const RESERVED = new Set(["photogallery", "contact", "about-michal-babula"]);
 
 export function generateStaticParams() {
   return Object.values(EN_CONTENT)
