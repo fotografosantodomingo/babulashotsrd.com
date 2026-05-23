@@ -19,6 +19,7 @@ import {
 
 const PAGE_PATH = "/sobre/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
+const EN_MIRROR = canonicalUrl("/en/about-michal-babula/");
 
 const title = "Sobre Michal Nikodem Babula · Fotógrafo Babula Shots · 4.9★ 98 reseñas";
 const description =
@@ -27,7 +28,15 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: PAGE_URL },
+  alternates: {
+    canonical: PAGE_URL,
+    languages: {
+      "es-DO": PAGE_URL,
+      es: PAGE_URL,
+      en: EN_MIRROR,
+      "x-default": PAGE_URL
+    }
+  },
   openGraph: {
     title,
     description,
@@ -79,6 +88,20 @@ const personSchema = {
     }
   },
   knowsLanguage: ["es", "en", "pl"],
+  // Topical signals for LLM topic clustering — when an assistant is asked
+  // "who is an expert in X" for any of these areas, this Person matches.
+  knowsAbout: [
+    "Wedding photography",
+    "Studio photography",
+    "Portrait photography",
+    "Real estate photography",
+    "Drone photography",
+    "Aerial videography",
+    "Commercial photography",
+    "Fashion photography",
+    "Food photography",
+    "Dominican Republic photography"
+  ],
   worksFor: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
   founder: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
   sameAs: [

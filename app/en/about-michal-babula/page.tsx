@@ -91,6 +91,20 @@ const personSchema = {
     }
   },
   knowsLanguage: ["es", "en", "pl"],
+  // Topical signals for LLM topic clustering — when an assistant is asked
+  // "who is an expert in X" for any of these areas, this Person matches.
+  knowsAbout: [
+    "Wedding photography",
+    "Studio photography",
+    "Portrait photography",
+    "Real estate photography",
+    "Drone photography",
+    "Aerial videography",
+    "Commercial photography",
+    "Fashion photography",
+    "Food photography",
+    "Dominican Republic photography"
+  ],
   worksFor: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
   founder: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
   sameAs: [

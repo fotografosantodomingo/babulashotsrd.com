@@ -15,6 +15,7 @@ import {
 
 const PAGE_PATH = "/contacto/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
+const EN_MIRROR = canonicalUrl("/en/contact/");
 
 const title = "Contacto · Babula Shots · 809 720 9547 · 4.9★ 98 reseñas Google";
 const description =
@@ -23,7 +24,15 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: PAGE_URL },
+  alternates: {
+    canonical: PAGE_URL,
+    languages: {
+      "es-DO": PAGE_URL,
+      es: PAGE_URL,
+      en: EN_MIRROR,
+      "x-default": PAGE_URL
+    }
+  },
   openGraph: {
     title,
     description,
