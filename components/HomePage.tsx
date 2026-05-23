@@ -302,6 +302,49 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Babula Shots", item: url }
       ]
+    },
+    // Vertical Service entries — explicitly map each network vertical to its
+    // provider subdomain (LocalBusiness @id). Tells Google + LLMs the apex is
+    // a multi-service hub with delegated providers, not a single-service business.
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": `${siteUrl}/#service-wedding`,
+      name: lang === "en" ? "Wedding photography" : "Fotografía de bodas",
+      serviceType: "Wedding Photography",
+      areaServed: { "@type": "Country", name: "Dominican Republic" },
+      provider: { "@type": "LocalBusiness", "@id": `${bodaUrl}/#localbusiness` },
+      url: bodaUrl
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": `${siteUrl}/#service-studio`,
+      name: lang === "en" ? "Studio photography" : "Fotografía de estudio",
+      serviceType: "Studio Photography",
+      areaServed: { "@type": "Country", name: "Dominican Republic" },
+      provider: { "@type": "LocalBusiness", "@id": `${estudioUrl}/#localbusiness` },
+      url: estudioUrl
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": `${siteUrl}/#service-real-estate`,
+      name: lang === "en" ? "Real estate photography" : "Fotografía inmobiliaria",
+      serviceType: "Real Estate Photography",
+      areaServed: { "@type": "Country", name: "Dominican Republic" },
+      provider: { "@type": "LocalBusiness", "@id": `${inmobiliariaUrl}/#localbusiness` },
+      url: inmobiliariaUrl
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": `${siteUrl}/#service-drone`,
+      name: lang === "en" ? "Drone photography & video" : "Fotografía y video con drone",
+      serviceType: "Drone Photography",
+      areaServed: { "@type": "Country", name: "Dominican Republic" },
+      provider: { "@type": "LocalBusiness", "@id": `${droneUrl}/#localbusiness` },
+      url: droneUrl
     }
   ];
 
