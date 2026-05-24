@@ -864,7 +864,7 @@
           "@id": "https://babulashotsrd.com/#business",
           "name": "Babula Shots RD",
           "alternateName": "Sanclar Dominicana",
-          "image": "http://babulashotsrd.com/wp-content/uploads/2026/04/wedding-photographer-cap-cana-luxury-resort.webp",
+          "image": "https://babulashotsrd.com/wp-content/uploads/2026/04/wedding-photographer-cap-cana-luxury-resort.webp",
           "telePhone": "+1-809-720-9547",
           "url": "https://babulashotsrd.com",
           "priceRange": "$$$",
@@ -8241,10 +8241,10 @@
       "name": "Babula Shots RD",
       "url": "https://babulashotsrd.com/",
       "image": [
-        "http://babulashotsrd.com/wp-content/uploads/2026/03/fotografo-casa-de-campo-playa-minitas-republica-dominicana.webp",
-        "http://babulashotsrd.com/wp-content/uploads/2026/03/fotografo-profesional-casa-de-campo-republica-dominicana.webp",
-        "http://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-casa-de-campo-la-romana-fotografo.webp",
-        "http://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-la-romana-casa-de-campo-playa-minitas.webp"
+        "https://babulashotsrd.com/wp-content/uploads/2026/03/fotografo-casa-de-campo-playa-minitas-republica-dominicana.webp",
+        "https://babulashotsrd.com/wp-content/uploads/2026/03/fotografo-profesional-casa-de-campo-republica-dominicana.webp",
+        "https://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-casa-de-campo-la-romana-fotografo.webp",
+        "https://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-la-romana-casa-de-campo-playa-minitas.webp"
       ],
       "description": "Babula Shots RD ofrece servicios de fotografía, video y drone en Casa de Campo, Playa Minitas, La Romana y República Dominicana para parejas, familias, bodas, propuestas y contenido premium.",
       "areaServed": [
@@ -8541,7 +8541,7 @@
           },
           "image": {
             "@type": "ImageObject",
-            "url": "http://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-pareja-zona-colonial-santo-domingo.webp",
+            "url": "https://babulashotsrd.com/wp-content/uploads/2026/03/sesion-fotos-pareja-zona-colonial-santo-domingo.webp",
             "@id": "https://babulashotsrd.com/sesion-de-fotos-zona-colonial-santo-domingo-rd/#articleImage"
           },
           "datePublished": "2026-03-04T16:18:26+00:00",
