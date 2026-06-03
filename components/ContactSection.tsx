@@ -5,6 +5,7 @@ import { phoneDisplay, phoneE164, email, whatsappUrl, aggregateRating } from "@/
 
 const GOOGLE_REVIEW_URL = "https://g.page/r/Cfzh-OCc5eftEAE/review";
 const GOOGLE_PROFILE_URL = "https://share.google/aJphPsrVL2VXH9EWH";
+const TRUSTPILOT_URL = "https://www.trustpilot.com/review/fotografosantodomingo.com";
 
 export function ContactSection() {
   const pathname = usePathname() || "/";
@@ -23,6 +24,7 @@ export function ContactSection() {
         reviews: "reviews",
         leaveReview: "Leave a review",
         seeProfile: "See Google profile",
+        trustpilot: "See our Trustpilot reviews",
       }
     : {
         tag: "Contacto",
@@ -35,6 +37,7 @@ export function ContactSection() {
         reviews: "reseñas",
         leaveReview: "Dejar reseña",
         seeProfile: "Ver perfil de Google",
+        trustpilot: "Ver nuestras reseñas en Trustpilot",
       };
 
   const rating = aggregateRating.ratingValue;
@@ -77,6 +80,9 @@ export function ContactSection() {
             </li>
             <li>
               <a href={GOOGLE_REVIEW_URL} rel="noopener">{t.leaveReview} ★</a>
+            </li>
+            <li>
+              <a href={TRUSTPILOT_URL} rel="noopener" target="_blank">{t.trustpilot} ★</a>
             </li>
           </ul>
         </div>
