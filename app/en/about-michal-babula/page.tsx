@@ -21,7 +21,7 @@ const PAGE_PATH = "/en/about-michal-babula/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
 const ES_MIRROR = canonicalUrl("/sobre/");
 
-const title = "About Michal Nikodem Babula · Babula Shots Photographer · 4.9★ 98 Google Reviews";
+const title = "About Michal Nikodem Babula · Babula Shots Photographer · 4.9★ 100 Google Reviews";
 const description =
   "Professional photographer in Santo Domingo, Dominican Republic. Polish-Dominican founder of Babula Shots — weddings, studio, real estate and IDAC-certified drone since 2020.";
 

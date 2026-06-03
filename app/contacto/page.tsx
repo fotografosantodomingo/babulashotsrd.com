@@ -17,9 +17,9 @@ const PAGE_PATH = "/contacto/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
 const EN_MIRROR = canonicalUrl("/en/contact/");
 
-const title = "Contacto · Babula Shots · 809 720 9547 · 4.9★ 98 reseñas Google";
+const title = "Contacto · Babula Shots · 809 720 9547 · 4.9★ 100 reseñas Google";
 const description =
-  "Reserva fotografía profesional: WhatsApp, teléfono o email. Atención bilingüe ES/EN, lunes a domingo 9:00–18:00 hora local. 4.9★ con 98 reseñas en Google.";
+  "Reserva fotografía profesional: WhatsApp, teléfono o email. Atención bilingüe ES/EN, lunes a domingo 9:00–18:00 hora local. 4.9★ con 100 reseñas en Google.";
 
 export const metadata: Metadata = {
   title,

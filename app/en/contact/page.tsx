@@ -17,9 +17,9 @@ const PAGE_PATH = "/en/contact/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
 const ES_MIRROR = canonicalUrl("/contacto/");
 
-const title = "Contact · Babula Shots · +1 809 720 9547 · 4.9★ 98 Google Reviews";
+const title = "Contact · Babula Shots · +1 809 720 9547 · 4.9★ 100 Google Reviews";
 const description =
-  "Book professional photography: WhatsApp, phone or email. Bilingual support (ES/EN), Monday–Sunday 9:00–18:00 local time. 4.9★ from 98 Google reviews.";
+  "Book professional photography: WhatsApp, phone or email. Bilingual support (ES/EN), Monday–Sunday 9:00–18:00 local time. 4.9★ from 100 Google reviews.";
 
 export const metadata: Metadata = {
   title,

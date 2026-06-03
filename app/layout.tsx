@@ -18,10 +18,10 @@ const routePairsJson = JSON.stringify(
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas",
+    default: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 100 reseñas",
     template: "%s"
   },
-  description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.",
+  description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 100 reseñas Google.",
   openGraph: {
     siteName: "Babula Shots",
     locale: "es_DO",
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas",
-    description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.",
+    title: "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 100 reseñas",
+    description: "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 100 reseñas Google.",
     images: ["/images/social-card-1200x630.webp"]
   },
   robots: {

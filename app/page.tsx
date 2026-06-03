@@ -9,9 +9,9 @@ import { canonicalUrl } from "@/lib/seo";
 // targeted at "estudio fotografico". Per CANNIBALIZATION-FIX.md Step 3 the
 // apex needs to read as the NETWORK HUB, leaving studio queries to the
 // estudio subdomain.
-const homepageTitle = "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 98 reseñas";
+const homepageTitle = "Fotógrafo en Santo Domingo · Babula Shots · 4.9★ 100 reseñas";
 const homepageDescription =
-  "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 98 reseñas Google.";
+  "Red de fotografía profesional en República Dominicana: bodas, estudio, drone, inmobiliaria. Reserva 809 720 9547 · 4.9★ 100 reseñas Google.";
 
 export const metadata: Metadata = {
   title: homepageTitle,
