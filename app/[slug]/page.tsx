@@ -28,12 +28,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const entry = findBySlug(slug);
   if (!entry) return {};
   const path = `/${slug}/`;
-  const seo = getSeo(`https://estudio.babulashotsrd.com${path}`) ?? getSeo(entry.link);
+  const seo = getSeo(`https://babulashotsrd.com${path}`) ?? getSeo(entry.link);
   let title = seo?.title ?? plainTitle(entry);
   // The WP slug `/fotografo/` was imported with title "FOTOGRAFO" (9 chars,
   // all-caps) — useless for SERPs. Override with a proper full title.
   if (slug === "fotografo") {
     title = "Fotógrafo profesional en República Dominicana | Babula Shots";
+  }
+  // Per GSC 2026-06: this page ranked pos 5.8 for the bare head term "sesión de
+  // fotos" (0 clicks) — out-competing the estudio subdomain that should own that
+  // generic studio term. Re-angle the title to the outdoor/location intent this
+  // page can actually own, so the network stops cannibalizing itself.
+  if (slug === "sesion-de-fotos-exterior-en-santo-domingo-rd") {
+    title = "Sesión de Fotos en Exteriores en Santo Domingo | Locaciones al Aire Libre — Babula Shots";
   }
   const titleText = plainTitle(entry);
   const description =
