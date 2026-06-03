@@ -50,7 +50,7 @@ export function ContactSection() {
           <a className="reviews-badge" href={GOOGLE_PROFILE_URL} rel="noopener" aria-label={`${rating} ${t.ratedOn} — ${count} ${t.reviews}`}>
             <span className="reviews-badge-stars" aria-hidden="true">★★★★★</span>
             <span className="reviews-badge-meta">
-              <strong>{rating}</strong> {t.ratedOn} · <strong>{count}</strong> {t.reviews}
+              <strong data-g-rating>{rating}</strong> {t.ratedOn} · <strong data-g-count>{count}</strong> {t.reviews}
             </span>
             <span className="reviews-badge-arrow" aria-hidden="true">→</span>
           </a>

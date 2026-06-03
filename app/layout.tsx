@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
 import { allLanguageRoutePairs } from "@/lib/languageRoutes";
-import { assetPath, siteUrl } from "@/lib/seo";
+import { assetPath, googlePlaceId, googlePlacesKey, siteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const routePairsJson = JSON.stringify(
@@ -113,6 +113,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "9d9609d200c5496dba02da82d492914f"}'
+        />
+        {/* Live Google rating: refreshes the ContactSection badge to the real-time
+           Google count on load; falls back to the static count. Referrer-restricted key. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){function l(){try{fetch('https://places.googleapis.com/v1/places/" +
+              googlePlaceId +
+              "?fields=rating,userRatingCount&key=" +
+              googlePlacesKey +
+              "').then(function(r){return r.json()}).then(function(d){if(!d)return;if(d.rating){document.querySelectorAll('[data-g-rating]').forEach(function(e){e.textContent=String(d.rating)})}if(typeof d.userRatingCount==='number'){document.querySelectorAll('[data-g-count]').forEach(function(e){e.textContent=String(d.userRatingCount)})}}).catch(function(){})}catch(e){}}if(window.requestIdleCallback){requestIdleCallback(l,{timeout:4000})}else{window.addEventListener('load',function(){setTimeout(l,800)})}})();"
+          }}
         />
         <script
           dangerouslySetInnerHTML={{

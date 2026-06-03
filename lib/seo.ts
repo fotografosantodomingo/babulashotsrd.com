@@ -72,6 +72,13 @@ export const aggregateRating = {
   reviewCount: "100"
 };
 
+// Live Google rating fetch (client-side). ratingCount above is the static
+// fallback; this lets the visible badge update to the real-time Google count on
+// load. Key is referrer-restricted to babulashotsrd.com domains + Places API
+// only, so it's safe to expose client-side. See [[google_reviews_setup]].
+export const googlePlaceId = "ChIJwTKDbC2Jr44R_OH44Jzl5-0";
+export const googlePlacesKey = "AIzaSyAOW9duWy_e5aidAt0p-Q5Qwnjf2IuP3ds";
+
 // Santo Domingo center fallback. TODO: replace with actual studio coordinates.
 export const geoCoordinates = {
   "@type": "GeoCoordinates" as const,
