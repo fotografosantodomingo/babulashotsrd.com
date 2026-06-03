@@ -1,0 +1,35 @@
+name: Deploy to Cloudflare Pages
+
+# Auto-deploy for the apex site. The Cloudflare↔GitHub App was never connected
+# for this project (manual wrangler only); this workflow builds and uploads
+# out/ via wrangler on every push to main. The deploy step is skipped (run
+# stays green) until the CLOUDFLARE_API_TOKEN secret is set, then activates.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy to Cloudflare Pages
+        if: env.CF_API_TOKEN != ''
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out --project-name=babulashotsrd --branch=main
