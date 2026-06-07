@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { relatedFor, type PageNode } from "./linkEngine";
 
 const ROOT = resolve(process.cwd(), "scrape");
 const ORIGIN = "https://babulashotsrd.com";
@@ -648,8 +649,57 @@ export function extractFirstImage(p: WpPost): { src: string; alt: string; width?
   return null;
 }
 
+// ---- Semantic internal-link index (shared linkEngine) ----
+// Replaces the old chronological slice(0,3) with relevance-scored related
+// content (shared tags/categories + title-keyword overlap) across all
+// posts + pages. Falls back to recent posts so a page never loses links.
+const _catNameById = new Map(categories.map((c) => [c.id, c.name]));
+const _tagNameById = new Map(tags.map((t) => [t.id, t.name]));
+
+function _nodeFor(p: WpPost): PageNode {
+  const kws: string[] = [];
+  for (const id of p.categories || []) {
+    const n = _catNameById.get(id);
+    if (n) kws.push(n);
+  }
+  for (const id of p.tags || []) {
+    const n = _tagNameById.get(id);
+    if (n) kws.push(n);
+  }
+  return { url: pathOf(p), locale: "es", type: isPost(p) ? "post" : "page", title: plainTitle(p), keywords: kws };
+}
+
+const _linkNodes: PageNode[] = [];
+const _wpByUrl = new Map<string, WpPost>();
+for (const _p of [...posts, ...pages]) {
+  const n = _nodeFor(_p);
+  _linkNodes.push(n);
+  if (!_wpByUrl.has(n.url)) _wpByUrl.set(n.url, _p);
+}
+
 export function relatedPosts(current: WpPost, limit = 3): WpPost[] {
-  return posts.filter((p) => p.id !== current.id).slice(0, limit);
+  const links = relatedFor(_nodeFor(current), _linkNodes, { limit: limit * 3, minScore: 2 });
+  const out: WpPost[] = [];
+  const seen = new Set<number>([current.id]);
+  for (const l of links) {
+    const wp = _wpByUrl.get(l.url);
+    if (wp && !seen.has(wp.id)) {
+      out.push(wp);
+      seen.add(wp.id);
+    }
+    if (out.length >= limit) break;
+  }
+  // Safe fallback: never return fewer links than the old behavior did.
+  if (out.length < limit) {
+    for (const p of posts) {
+      if (!seen.has(p.id)) {
+        out.push(p);
+        seen.add(p.id);
+      }
+      if (out.length >= limit) break;
+    }
+  }
+  return out;
 }
 
 export function plainExcerpt(p: WpPost, maxLen = 220): string {
