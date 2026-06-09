@@ -7,6 +7,7 @@ import {
   extractFirstImage,
   featuredImage,
   getJsonLd,
+  sanitizeJsonLd,
   isPost,
   plainExcerpt,
   plainTitle,
@@ -42,7 +43,7 @@ export function ContentArticle({ entry }: { entry: PageOrPost }) {
 
   // Prefer the original AIO SEO JSON-LD blocks scraped from the legacy page (1:1 migration).
   // Fall back to a generated schema only when the legacy capture is missing.
-  const originalLd = getJsonLd(entry.link);
+  const originalLd = sanitizeJsonLd(getJsonLd(entry.link), title);
   const schema = originalLd.length > 0 ? originalLd : [
     organizationSchema,
     {

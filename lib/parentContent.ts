@@ -198,6 +198,41 @@ export function getJsonLd(url: string): JsonLdBlock[] {
   return jsonLdMap[url] || jsonLdMap[url.replace(/\/$/, "")] || [];
 }
 
+/**
+ * Sanitize scraped AIO SEO JSON-LD before injecting it.
+ * AIO sometimes emits a BreadcrumbList whose final (current-page) ListItem has
+ * neither `name` nor `item` → Google flags "Either 'name' or 'item.name' should
+ * be specified". Fill any ListItem missing a name (current-page item → page
+ * title; others → derived from the @id slug). Returns a deep-cloned, fixed copy.
+ */
+export function sanitizeJsonLd(blocks: JsonLdBlock[], fallbackName: string): JsonLdBlock[] {
+  const nameFromId = (id: unknown): string => {
+    if (typeof id !== "string") return "";
+    const seg = id.replace(/#.*$/, "").replace(/\/$/, "").split("/").pop() || "";
+    if (!seg || seg.includes(".")) return "";
+    return decodeEntities(decodeURIComponent(seg).replace(/[-_]+/g, " ")).replace(/\b\w/g, (c) => c.toUpperCase());
+  };
+  const fix = (node: any): any => {
+    if (Array.isArray(node)) return node.map(fix);
+    if (node && typeof node === "object") {
+      const out: any = {};
+      for (const k of Object.keys(node)) out[k] = fix(node[k]);
+      if (out["@type"] === "BreadcrumbList" && Array.isArray(out.itemListElement)) {
+        out.itemListElement = out.itemListElement.map((li: any) => {
+          if (li && typeof li === "object" && li["@type"] === "ListItem") {
+            const hasName = li.name || (li.item && typeof li.item === "object" && li.item.name);
+            if (!hasName) li.name = nameFromId(li["@id"] || li.item) || fallbackName;
+          }
+          return li;
+        });
+      }
+      return out;
+    }
+    return node;
+  };
+  return blocks.map(fix);
+}
+
 // ---- Topical internal links (distribute authority from legacy parent pages
 // to the specialised subdomain hubs that now own the topic) ----
 export type TopicLink = { label: string; href: string; tag: string };
