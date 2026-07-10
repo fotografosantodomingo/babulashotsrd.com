@@ -86,14 +86,24 @@ export const geoCoordinates = {
   longitude: -69.9312
 };
 
-// Cities the network serves — used in areaServed on LocalBusiness.
+// Cities the network serves — used in areaServed on LocalBusiness. Deliberately
+// broader than just Santo Domingo: per the domain split with
+// fotografosantodomingo.com (local Santo Domingo authority), the apex/network
+// is positioned as the NATIONAL authority, so areaServed should read as
+// covering the country, not just the capital.
 export const networkAreasServed = [
   { "@type": "City" as const, name: "Santo Domingo" },
   { "@type": "City" as const, name: "Punta Cana" },
-  { "@type": "City" as const, name: "La Romana" },
-  { "@type": "City" as const, name: "Las Terrenas" },
-  { "@type": "City" as const, name: "Bávaro" },
   { "@type": "City" as const, name: "Cap Cana" },
+  { "@type": "City" as const, name: "Bayahíbe" },
+  { "@type": "City" as const, name: "La Romana" },
+  { "@type": "City" as const, name: "Casa de Campo" },
+  { "@type": "City" as const, name: "Samaná" },
+  { "@type": "City" as const, name: "Las Terrenas" },
+  { "@type": "City" as const, name: "Puerto Plata" },
+  { "@type": "City" as const, name: "Santiago" },
+  { "@type": "City" as const, name: "Jarabacoa" },
+  { "@type": "City" as const, name: "Bávaro" },
   { "@type": "Country" as const, name: "Dominican Republic" }
 ];
 
@@ -139,6 +149,7 @@ export const localBusinessSchema = {
   "@type": "LocalBusiness",
   "@id": `${siteUrl}#localbusiness`,
   name: "Babula Shots",
+  alternateName: "Fotógrafo en Santo Domingo",
   url: siteUrl,
   image: brandLogoUrl,
   telephone: phoneE164,

@@ -7,6 +7,7 @@ import {
   extractFirstImage,
   featuredImage,
   getJsonLd,
+  homeLink,
   sanitizeJsonLd,
   isPost,
   plainExcerpt,
@@ -39,6 +40,7 @@ export function ContentArticle({ entry }: { entry: PageOrPost }) {
   const catTerms = entry._embedded?.["wp:term"]?.flat().filter((t) => t?.taxonomy === "category") ?? [];
   const related = post ? relatedPosts(entry, 3) : posts.slice(0, 3);
   const topics = topicalLinks(entry.slug, entry.link);
+  const home = homeLink(entry);
   const isGallery = /^(galeria|fashion-photographer-gallery)/i.test(entry.slug);
 
   // Prefer the original AIO SEO JSON-LD blocks scraped from the legacy page (1:1 migration).
@@ -102,6 +104,13 @@ export function ContentArticle({ entry }: { entry: PageOrPost }) {
             <h2>Servicios relacionados en la red Babula Shots</h2>
             <p>Cada subdominio es un estudio especializado con su propio catálogo, precios y FAQ.</p>
             <ul>
+              <li key={home.url}>
+                <Link href={home.url}>
+                  <span className="topical-tag">Babula Shots</span>
+                  <span className="topical-label">{home.anchor}</span>
+                  <span className="topical-arrow" aria-hidden="true">→</span>
+                </Link>
+              </li>
               {topics.map((t) => (
                 <li key={t.href}>
                   <a href={t.href} rel={t.href.startsWith("http") ? "noopener" : undefined}>

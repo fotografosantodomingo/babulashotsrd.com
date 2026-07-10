@@ -29,9 +29,9 @@ const COPY = {
   es: {
     path: "/",
     eyebrow: "Babula Shots — Red de fotografía profesional",
-    h1: "Fotógrafo profesional en República Dominicana",
+    h1: "Fotógrafo en Santo Domingo y en toda República Dominicana",
     intro:
-      "Cuatro estudios especializados bajo la misma red: bodas, fotografía inmobiliaria, drone aéreo y estudio profesional para retratos, comida y campañas. Cobertura en Santo Domingo, Punta Cana, Santiago, La Romana, Casa de Campo, Bávaro, Las Terrenas y toda República Dominicana.",
+      "Fotógrafo en Santo Domingo con cobertura en toda República Dominicana. Cuatro estudios especializados bajo la misma red: bodas, fotografía inmobiliaria, drone aéreo y estudio profesional para retratos, comida y campañas. Presencia en Punta Cana, Cap Cana, Bayahíbe, La Romana, Casa de Campo, Samaná, Las Terrenas, Puerto Plata, Santiago, Jarabacoa y el resto de República Dominicana.",
     networkTag: "La red Babula Shots",
     networkH2: "Cuatro estudios especializados",
     networkLead:
@@ -69,9 +69,9 @@ const COPY = {
   en: {
     path: "/en/",
     eyebrow: "Babula Shots — Professional photography network",
-    h1: "Professional photographer in the Dominican Republic",
+    h1: "Photographer in Santo Domingo and across the Dominican Republic",
     intro:
-      "Four specialised studios under one network: weddings, real estate photography, aerial drone services and a professional studio for portraits, food and editorial campaigns. Coverage in Santo Domingo, Punta Cana, Santiago, La Romana, Casa de Campo, Bávaro, Las Terrenas and across the Dominican Republic.",
+      "Photographer in Santo Domingo with coverage across the whole Dominican Republic. Four specialised studios under one network: weddings, real estate photography, aerial drone services and a professional studio for portraits, food and editorial campaigns. Serving Punta Cana, Cap Cana, Bayahíbe, La Romana, Casa de Campo, Samaná, Las Terrenas, Puerto Plata, Santiago, Jarabacoa and the rest of the Dominican Republic.",
     networkTag: "The Babula Shots network",
     networkH2: "Four specialised studios",
     networkLead:
@@ -287,6 +287,8 @@ export function HomePage({ lang = "es" as Lang }: { lang?: Lang } = {}) {
       "@type": "WebSite",
       "@id": `${siteUrl}#website`,
       name: "Babula Shots",
+      alternateName: lang === "en" ? "Photographer in Santo Domingo" : "Fotógrafo en Santo Domingo",
+      description: t.h1,
       url,
       inLanguage: lang === "en" ? "en" : "es-DO",
       publisher: { "@id": `${siteUrl}#organization` },

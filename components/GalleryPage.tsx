@@ -3,6 +3,8 @@ import { CrossSiteCta } from "@/components/CrossSiteCta";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
 import { galleryPhotos } from "@/lib/galleryData";
 import { getEnMirror } from "@/lib/langMirrors";
+import { anchorFor } from "@/lib/linkEngine";
+import { HOME_NODE } from "@/lib/parentContent";
 import {
   canonicalUrl,
   organizationSchema,
@@ -77,7 +79,11 @@ export function GalleryPage({ lang, path, h1, intro, description, altPath }: Gal
   const t = STRINGS[lang];
   const url = canonicalUrl(path);
   const altUrl = canonicalUrl(altPath);
-  const related = RELATED_LINKS[lang];
+  const homeAnchor = anchorFor({ url: path, locale: lang, type: "gallery", title: h1, keywords: [] }, HOME_NODE);
+  const related = [
+    { tag: "Babula Shots", label: homeAnchor, href: HOME_NODE.url },
+    ...RELATED_LINKS[lang]
+  ];
 
   const schema = [
     organizationSchema,

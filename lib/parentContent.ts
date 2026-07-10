@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { relatedFor, type PageNode } from "./linkEngine";
+import { anchorFor, relatedFor, type PageNode } from "./linkEngine";
 
 const ROOT = resolve(process.cwd(), "scrape");
 const ORIGIN = "https://babulashotsrd.com";
@@ -704,12 +704,40 @@ function _nodeFor(p: WpPost): PageNode {
   return { url: pathOf(p), locale: "es", type: isPost(p) ? "post" : "page", title: plainTitle(p), keywords: kws };
 }
 
-const _linkNodes: PageNode[] = [];
+// The apex homepage as a first-class graph node — previously absent, so it
+// could never be surfaced by relatedFor() and got zero automatic inbound
+// links from blog/article content. type: "pillar" gives it the same
+// authority-pull bonus service/location pages already get (see scorePair),
+// so it now shows up broadly instead of only via exact keyword overlap.
+// Anchor text is a branded/descriptive mix — see homeLink() below, which
+// rotates through these instead of hammering one exact-match phrase.
+export const HOME_NODE: PageNode = {
+  url: "/",
+  locale: "es",
+  type: "pillar",
+  title: "Fotógrafo en Santo Domingo y en toda República Dominicana",
+  keywords: ["fotografo", "santo domingo", "republica dominicana", "babula shots", "bodas", "estudio", "drone", "inmobiliaria"],
+  anchors: [
+    "Babula Shots",
+    "Fotógrafo en Santo Domingo",
+    "Fotografía profesional",
+    "Fotógrafo profesional en República Dominicana"
+  ]
+};
+
+const _linkNodes: PageNode[] = [HOME_NODE];
 const _wpByUrl = new Map<string, WpPost>();
 for (const _p of [...posts, ...pages]) {
   const n = _nodeFor(_p);
   _linkNodes.push(n);
   if (!_wpByUrl.has(n.url)) _wpByUrl.set(n.url, _p);
+}
+
+/** Homepage link for a given article, with a rotating (non exact-match-only)
+ * anchor — used to render an explicit "back to the network hub" link on
+ * article/service pages instead of relying only on generic "Inicio" nav. */
+export function homeLink(current: WpPost): { url: string; anchor: string } {
+  return { url: HOME_NODE.url, anchor: anchorFor(_nodeFor(current), HOME_NODE) };
 }
 
 export function relatedPosts(current: WpPost, limit = 3): WpPost[] {

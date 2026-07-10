@@ -3,10 +3,12 @@ import { CrossSiteCta } from "@/components/CrossSiteCta";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
 import { WpContent } from "@/components/WpContent";
 import type { EnContent } from "@/lib/enContent";
+import { anchorFor } from "@/lib/linkEngine";
 import {
   extractFirstImage,
   featuredImage,
   findBySlug,
+  HOME_NODE,
   isPost,
   plainTitle,
   topicalLinks,
@@ -30,6 +32,21 @@ const RELATED_LINKS_EN = [
   { tag: "Drone", label: "Aerial drone services", href: "https://dron.babulashotsrd.com/en/" }
 ];
 
+// English anchor pool for the homepage node — mirrors HOME_NODE.anchors (ES)
+// so EN articles also rotate branded/descriptive anchors instead of one phrase.
+const EN_HOME_NODE = {
+  ...HOME_NODE,
+  url: "/en/",
+  locale: "en" as const,
+  title: "Photographer in Santo Domingo and across the Dominican Republic",
+  anchors: [
+    "Babula Shots",
+    "Photographer in Santo Domingo",
+    "Professional photography",
+    "Professional photographer in the Dominican Republic"
+  ]
+};
+
 export function EnglishArticle({ content }: { content: EnContent }) {
   const esEntry: PageOrPost | undefined = findBySlug(content.esPath.replace(/^\/|\/$/g, ""));
   const featured = esEntry ? featuredImage(esEntry) : null;
@@ -42,6 +59,7 @@ export function EnglishArticle({ content }: { content: EnContent }) {
   // detection. The lib helper already understands wedding/boda/drone/etc, so
   // we just override the labels with EN copy via the static table above.
   const topics = esEntry ? topicalLinks(esEntry.slug, esEntry.link, "en") : [];
+  const homeAnchor = anchorFor({ url: content.enPath, locale: "en", type: "post", title: content.h1, keywords: [] }, EN_HOME_NODE);
 
   const isPostType = !!esEntry && isPost(esEntry);
 
@@ -104,24 +122,29 @@ export function EnglishArticle({ content }: { content: EnContent }) {
 
         <WpContent html={content.bodyHtml} />
 
-        {topics.length ? (
-          <aside className="topical-links" aria-label="Related services">
-            <p className="section-tag">Keep exploring</p>
-            <h2>Related services in the Babula Shots network</h2>
-            <p>Each sub-site is a specialised studio with its own catalogue, pricing and FAQ.</p>
-            <ul>
-              {topics.map((t) => (
-                <li key={t.href}>
-                  <a href={t.href} rel={t.href.startsWith("http") ? "noopener" : undefined}>
-                    <span className="topical-tag">{t.tag}</span>
-                    <span className="topical-label">{t.label}</span>
-                    <span className="topical-arrow" aria-hidden="true">→</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </aside>
-        ) : null}
+        <aside className="topical-links" aria-label="Related services">
+          <p className="section-tag">Keep exploring</p>
+          <h2>Related services in the Babula Shots network</h2>
+          <p>Each sub-site is a specialised studio with its own catalogue, pricing and FAQ.</p>
+          <ul>
+            <li key={EN_HOME_NODE.url}>
+              <Link href={EN_HOME_NODE.url}>
+                <span className="topical-tag">Babula Shots</span>
+                <span className="topical-label">{homeAnchor}</span>
+                <span className="topical-arrow" aria-hidden="true">→</span>
+              </Link>
+            </li>
+            {topics.map((t) => (
+              <li key={t.href}>
+                <a href={t.href} rel={t.href.startsWith("http") ? "noopener" : undefined}>
+                  <span className="topical-tag">{t.tag}</span>
+                  <span className="topical-label">{t.label}</span>
+                  <span className="topical-arrow" aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
 
         <aside className="article-cta" aria-label="Book your session">
           <div className="article-cta-text">
