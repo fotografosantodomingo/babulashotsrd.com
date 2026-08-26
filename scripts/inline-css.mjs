@@ -6,14 +6,14 @@ import { execSync } from "node:child_process";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = join(root, "out");
 
-const cssPaths = execSync(`find ${outDir}/_next -name '*.css'`).toString().trim().split("\n").filter(Boolean);
+const cssPaths = execSync(`find "${outDir}/_next" -name '*.css'`).toString().trim().split("\n").filter(Boolean);
 const cssByFile = new Map();
 for (const p of cssPaths) {
   cssByFile.set(p, (await readFile(p, "utf8")).trim());
 }
 
-const htmlPaths = execSync(`find ${outDir} -name '*.html'`).toString().trim().split("\n").filter(Boolean);
-const txtPaths = execSync(`find ${outDir} -name '*.txt'`).toString().trim().split("\n").filter(Boolean);
+const htmlPaths = execSync(`find "${outDir}" -name '*.html'`).toString().trim().split("\n").filter(Boolean);
+const txtPaths = execSync(`find "${outDir}" -name '*.txt'`).toString().trim().split("\n").filter(Boolean);
 
 function stripRscStylesheetDirectives(html) {
   let out = html;

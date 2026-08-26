@@ -4,6 +4,7 @@ out/
 .DS_Store
 *.log
 .wrangler/
+tsconfig.tsbuildinfo
 # 1.4 GB media — deployed via wrangler direct upload, not git.
 # When switching to git-based CF Pages auto-deploy, move media to CF R2 or LFS.
 public/wp-content/uploads/
