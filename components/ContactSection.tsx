@@ -25,6 +25,7 @@ export function ContactSection() {
         leaveReview: "Leave a review",
         seeProfile: "See Google profile",
         trustpilot: "See our Trustpilot reviews",
+        preferredSource: "Add us as a Preferred Source on Google",
       }
     : {
         tag: "Contacto",
@@ -38,6 +39,7 @@ export function ContactSection() {
         leaveReview: "Dejar reseña",
         seeProfile: "Ver perfil de Google",
         trustpilot: "Ver nuestras reseñas en Trustpilot",
+        preferredSource: "Agréganos como fuente preferida en Google",
       };
 
   const rating = aggregateRating.ratingValue;
@@ -85,6 +87,13 @@ export function ContactSection() {
               <a href={TRUSTPILOT_URL} rel="noopener" target="_blank">{t.trustpilot} ★</a>
             </li>
           </ul>
+          <div className="preferred-source">
+            <p className="preferred-source-label">{t.preferredSource}</p>
+            {/* Google Preferred Sources button — rendered client-side by
+               https://news.google.com/swg/js/v1/publisher.js (loaded in
+               app/layout.tsx). Attribute name is fixed by Google's API. */}
+            <div {...{ "google-add-preferred-source-btn": "" }} data-theme="light" data-lang={lang} />
+          </div>
         </div>
         <div className="contact-form">
           <CallbackForm locale={lang} />

@@ -72,6 +72,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es-DO" suppressHydrationWarning>
       <head>
+        {/* Google Preferred Sources button — renders inside any
+           [google-add-preferred-source-btn] element (see ContactSection). */}
+        <script async src="https://news.google.com/swg/js/v1/publisher.js" />
         <script
           dangerouslySetInnerHTML={{
             __html:
