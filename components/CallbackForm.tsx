@@ -80,6 +80,8 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
         encType="application/x-www-form-urlencoded"
         data-callback-form
         aria-label={t.legend}
+        toolname="request_photography_callback"
+        tooldescription="Request a callback from Babula Shots RD to discuss photography, video, or drone services across the network (studio, weddings, real estate, aerial) in the Dominican Republic. Collects name, phone, preferred day/time, and project details."
       >
         <input type="hidden" name="_subject" value="Babula Shots — nuevo callback (apex)" />
         <input type="hidden" name="_next" value="https://babulashotsrd.com/?sent=ok" />
@@ -96,6 +98,7 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
               name="name"
               required
               autoComplete="name"
+              toolparamdescription="Full name of the person requesting the callback"
             />
           </div>
 
@@ -109,6 +112,7 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
               placeholder={t.phonePlaceholder}
               autoComplete="tel"
               inputMode="tel"
+              toolparamdescription="Phone number with country code, used to call the customer back"
             />
           </div>
 
@@ -119,13 +123,14 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
               type="email"
               name="email"
               autoComplete="email"
+              toolparamdescription="Email address, used as a backup contact method"
             />
           </div>
 
           <div className="callback-grid">
             <div className="callback-row">
               <label htmlFor="cb-day">{t.day}</label>
-              <select id="cb-day" name="preferredDay" required defaultValue="">
+              <select id="cb-day" name="preferredDay" required defaultValue="" toolparamdescription="Preferred day of the week for the callback">
                 <option value="" disabled>
                   {t.chooseDay}
                 </option>
@@ -139,7 +144,7 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
 
             <div className="callback-row">
               <label htmlFor="cb-time">{t.time}</label>
-              <select id="cb-time" name="preferredTime" required defaultValue="">
+              <select id="cb-time" name="preferredTime" required defaultValue="" toolparamdescription="Preferred time window for the callback">
                 <option value="" disabled>
                   {t.chooseTime}
                 </option>
@@ -159,6 +164,7 @@ export function CallbackForm({ locale = "es" }: CallbackFormProps) {
               name="message"
               rows={3}
               placeholder={t.messagePlaceholder}
+              toolparamdescription="Optional details about the wedding date, location, etc."
             />
           </div>
 

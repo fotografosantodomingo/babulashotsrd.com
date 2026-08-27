@@ -76,6 +76,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   });
 
+  // ── 2b. Bautizos / Baptism satellite page pair (hands off to fsd) ────────
+  entries.push({
+    url: canonicalUrl("/bautizos/"),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    alternates: {
+      languages: {
+        "es-DO": canonicalUrl("/bautizos/"),
+        "es": canonicalUrl("/bautizos/"),
+        "en": canonicalUrl("/en/baptism/"),
+        "x-default": canonicalUrl("/bautizos/")
+      }
+    }
+  });
+  entries.push({
+    url: canonicalUrl("/en/baptism/"),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    alternates: {
+      languages: {
+        "es-DO": canonicalUrl("/bautizos/"),
+        "es": canonicalUrl("/bautizos/"),
+        "en": canonicalUrl("/en/baptism/"),
+        "x-default": canonicalUrl("/bautizos/")
+      }
+    }
+  });
+
   // ── 3. WP-scraped pages (Spanish-only, unless covered by EN_CONTENT) ─────
   // Pages in EN_CONTENT get their hreflang handled in step 4 below.
   const RESERVED = new Set(["blog", "category", "tag", "en"]);

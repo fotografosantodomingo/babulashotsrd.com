@@ -2019,6 +2019,24 @@ p {
 }
 
 /* ============================================
+   Uncropped photo stack — full-width, natural aspect ratio, no object-fit
+   crop. Used on satellite landing pages that link out to the full gallery
+   on fotografosantodomingo.com (e.g. /bautizos/).
+   ============================================ */
+.uncropped-photo-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+.uncropped-photo-stack img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* ============================================
    Curated gallery grid — used by /galeria-de-fotos/ and /en/photogallery/
    ============================================ */
 .gallery-grid {
