@@ -157,32 +157,34 @@ export default function BaptismPage() {
       />
 
       <section className="section">
-        <div className="wrap" style={{ maxWidth: "780px" }}>
-          <p className="eyebrow">Baptism photography</p>
-          <h1>Baptism Photographer in Santo Domingo and the Dominican Republic</h1>
+        <div className="wrap">
+          <div style={{ maxWidth: "70ch" }}>
+            <p className="eyebrow">Baptism photography</p>
+            <h1>Baptism Photographer in Santo Domingo and the Dominican Republic</h1>
 
-          <p>
-            Babula Shots shoots baptisms inside the stone churches of Santo Domingo&rsquo;s Zona
-            Colonial — gilded Baroque altarpieces, stained glass, walls that have stood for
-            centuries. We don&rsquo;t stage anything or get in the priest&rsquo;s way: we work the
-            aisles, chase the light coming through the high windows, and wait for the real moment —
-            the baby staring up at the priest, a grandmother tearing up, the godfather holding the
-            candle steady. Coverage runs 2 hours, from arrival through the full ceremony to the family
-            group shot at the altar once it&rsquo;s over. In Santo Domingo the package is{" "}
-            <strong>RD$16,000</strong>; anywhere else in the country it&rsquo;s a flat{" "}
-            <strong>RD$20,000</strong>, travel included, no line-item surprises later. A{" "}
-            <strong>50% deposit</strong> holds your date, and the rest is due the day of the session.
-            Edited, high-resolution photos land in a private online gallery, ready to download and
-            print.
-          </p>
+            <p>
+              Babula Shots shoots baptisms inside the stone churches of Santo Domingo&rsquo;s Zona
+              Colonial — gilded Baroque altarpieces, stained glass, walls that have stood for
+              centuries. We don&rsquo;t stage anything or get in the priest&rsquo;s way: we work the
+              aisles, chase the light coming through the high windows, and wait for the real moment —
+              the baby staring up at the priest, a grandmother tearing up, the godfather holding the
+              candle steady. Coverage runs 2 hours, from arrival through the full ceremony to the
+              family group shot at the altar once it&rsquo;s over. In Santo Domingo the package is{" "}
+              <strong>RD$16,000</strong>; anywhere else in the country it&rsquo;s a flat{" "}
+              <strong>RD$20,000</strong>, travel included, no line-item surprises later. A{" "}
+              <strong>50% deposit</strong> holds your date, and the rest is due the day of the
+              session. Edited, high-resolution photos land in a private online gallery, ready to
+              download and print.
+            </p>
 
-          <p>
-            We&rsquo;re not limited to Santo Domingo: we cover baptisms in Punta Cana, Bávaro, Cap
-            Cana, La Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa,
-            and the rest of the country, always at the flat RD$20,000 rate outside Santo Domingo.
-            Delivery is digital, through the private online gallery; if you&rsquo;d also like a
-            printed album or framed prints, we can arrange that as an optional add-on.
-          </p>
+            <p>
+              We&rsquo;re not limited to Santo Domingo: we cover baptisms in Punta Cana, Bávaro, Cap
+              Cana, La Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa,
+              and the rest of the country, always at the flat RD$20,000 rate outside Santo Domingo.
+              Delivery is digital, through the private online gallery; if you&rsquo;d also like a
+              printed album or framed prints, we can arrange that as an optional add-on.
+            </p>
+          </div>
 
           <div className="uncropped-photo-stack">
             {photos.map((photo) => (
@@ -198,14 +200,16 @@ export default function BaptismPage() {
       </section>
 
       <section className="section">
-        <div className="wrap" style={{ maxWidth: "780px" }}>
-          <h2>Frequently asked questions</h2>
-          {faqs.map((f) => (
-            <div key={f.q} style={{ marginBottom: "1.25rem" }}>
-              <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
-              <p>{f.a}</p>
-            </div>
-          ))}
+        <div className="wrap">
+          <div style={{ maxWidth: "70ch" }}>
+            <h2>Frequently asked questions</h2>
+            {faqs.map((f) => (
+              <div key={f.q} style={{ marginBottom: "1.25rem" }}>
+                <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
+                <p>{f.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

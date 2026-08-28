@@ -157,31 +157,34 @@ export default function BautizosPage() {
       />
 
       <section className="section">
-        <div className="wrap" style={{ maxWidth: "780px" }}>
-          <p className="eyebrow">Fotografía de bautizo</p>
-          <h1>Fotógrafo de Bautizo en Santo Domingo y República Dominicana</h1>
+        <div className="wrap">
+          <div style={{ maxWidth: "70ch" }}>
+            <p className="eyebrow">Fotografía de bautizo</p>
+            <h1>Fotógrafo de Bautizo en Santo Domingo y República Dominicana</h1>
 
-          <p>
-            En Babula Shots cubrimos bautizos dentro de las iglesias de piedra de la Zona Colonial de
-            Santo Domingo — altares barrocos dorados, vitrales, paredes con siglos de historia encima.
-            No armamos poses ni interrumpimos la misa: nos movemos entre los bancos, buscamos la luz
-            que entra por las ventanas altas y esperamos el momento real, sea el bebé mirando al
-            sacerdote, la abuela llorando o el padrino sosteniendo la vela con cuidado. La sesión dura
-            2 horas: llegada, ceremonia completa y el grupo familiar frente al altar al terminar. En
-            Santo Domingo el paquete cuesta <strong>RD$16,000</strong>; si el bautizo es en otra ciudad
-            del país cobramos <strong>RD$20,000 fijo</strong>, viáticos incluidos, sin sorpresas en la
-            factura después. Para reservar la fecha pedimos <strong>50% de depósito</strong>, y el
-            resto se paga el mismo día. Las fotos editadas llegan en una galería privada en línea, en
-            alta resolución, lista para descargar e imprimir.
-          </p>
+            <p>
+              En Babula Shots cubrimos bautizos dentro de las iglesias de piedra de la Zona Colonial
+              de Santo Domingo — altares barrocos dorados, vitrales, paredes con siglos de historia
+              encima. No armamos poses ni interrumpimos la misa: nos movemos entre los bancos,
+              buscamos la luz que entra por las ventanas altas y esperamos el momento real, sea el
+              bebé mirando al sacerdote, la abuela llorando o el padrino sosteniendo la vela con
+              cuidado. La sesión dura 2 horas: llegada, ceremonia completa y el grupo familiar frente
+              al altar al terminar. En Santo Domingo el paquete cuesta <strong>RD$16,000</strong>; si
+              el bautizo es en otra ciudad del país cobramos <strong>RD$20,000 fijo</strong>, viáticos
+              incluidos, sin sorpresas en la factura después. Para reservar la fecha pedimos{" "}
+              <strong>50% de depósito</strong>, y el resto se paga el mismo día. Las fotos editadas
+              llegan en una galería privada en línea, en alta resolución, lista para descargar e
+              imprimir.
+            </p>
 
-          <p>
-            No trabajamos solo en Santo Domingo: cubrimos bautizos en Punta Cana, Bávaro, Cap Cana, La
-            Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa y el resto
-            del país, siempre bajo la tarifa plana de RD$20,000 fuera de Santo Domingo. La entrega es
-            digital, a través de la galería privada en línea; si además quieres álbum impreso o fotos
-            enmarcadas, lo coordinamos como servicio adicional opcional.
-          </p>
+            <p>
+              No trabajamos solo en Santo Domingo: cubrimos bautizos en Punta Cana, Bávaro, Cap Cana,
+              La Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa y el
+              resto del país, siempre bajo la tarifa plana de RD$20,000 fuera de Santo Domingo. La
+              entrega es digital, a través de la galería privada en línea; si además quieres álbum
+              impreso o fotos enmarcadas, lo coordinamos como servicio adicional opcional.
+            </p>
+          </div>
 
           <div className="uncropped-photo-stack">
             {photos.map((photo) => (
@@ -197,14 +200,16 @@ export default function BautizosPage() {
       </section>
 
       <section className="section">
-        <div className="wrap" style={{ maxWidth: "780px" }}>
-          <h2>Preguntas frecuentes</h2>
-          {faqs.map((f) => (
-            <div key={f.q} style={{ marginBottom: "1.25rem" }}>
-              <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
-              <p>{f.a}</p>
-            </div>
-          ))}
+        <div className="wrap">
+          <div style={{ maxWidth: "70ch" }}>
+            <h2>Preguntas frecuentes</h2>
+            {faqs.map((f) => (
+              <div key={f.q} style={{ marginBottom: "1.25rem" }}>
+                <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
+                <p>{f.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
