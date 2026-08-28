@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
-import { canonicalUrl, email, organizationSchema, phoneDisplay, phoneE164, siteUrl } from "@/lib/seo";
+import { canonicalUrl, email, localBusinessSchema, organizationSchema, phoneDisplay, phoneE164, siteUrl } from "@/lib/seo";
 
 const PAGE_PATH = "/en/baptism/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
@@ -73,6 +73,32 @@ const serviceSchema = {
   }
 };
 
+const faqs = [
+  {
+    q: "Do you shoot baptisms outside Santo Domingo?",
+    a: "Yes — we cover the whole Dominican Republic, including Punta Cana, La Romana, Santiago and Puerto Plata, for a flat RD$20,000 rate that already includes travel."
+  },
+  {
+    q: "How do I receive the photos?",
+    a: "Edited photos arrive in a private online gallery, in high resolution, ready to download and print. If you want a printed album or framed prints, we can arrange that as an add-on."
+  },
+  {
+    q: "How much deposit do I need to book the date?",
+    a: "50% of the total to hold your date; the remaining balance is due the day of the baptism."
+  }
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${PAGE_URL}#faq`,
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a }
+  }))
+};
+
 const photos = [
   {
     src: "v1787789555/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_5_af3w37.webp",
@@ -110,10 +136,25 @@ const photos = [
 
 const CLOUDINARY_BASE = "https://res.cloudinary.com/dwewurxla/image/upload/f_auto,q_auto/";
 
+const imageSchemas = photos.map((photo) => ({
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  contentUrl: `${CLOUDINARY_BASE}${photo.src}`,
+  caption: photo.alt,
+  representativeOfPage: false
+}));
+
 export default function BaptismPage() {
   return (
     <main lang="en">
-      <SeoJsonLd data={[organizationSchema, serviceSchema, breadcrumbSchema] as Record<string, unknown>[]} />
+      <SeoJsonLd
+        data={
+          [organizationSchema, localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, ...imageSchemas] as Record<
+            string,
+            unknown
+          >[]
+        }
+      />
 
       <section className="section">
         <div className="wrap" style={{ maxWidth: "780px" }}>
@@ -153,6 +194,18 @@ export default function BaptismPage() {
             From RD$16,000 in Santo Domingo · flat RD$20,000 elsewhere in the country · 2-hour session
             · 50% deposit to book.
           </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap" style={{ maxWidth: "780px" }}>
+          <h2>Frequently asked questions</h2>
+          {faqs.map((f) => (
+            <div key={f.q} style={{ marginBottom: "1.25rem" }}>
+              <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
+              <p>{f.a}</p>
+            </div>
+          ))}
         </div>
       </section>
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SeoJsonLd } from "@/components/SeoJsonLd";
-import { canonicalUrl, email, organizationSchema, phoneDisplay, phoneE164, siteUrl } from "@/lib/seo";
+import { canonicalUrl, email, localBusinessSchema, organizationSchema, phoneDisplay, phoneE164, siteUrl } from "@/lib/seo";
 
 const PAGE_PATH = "/bautizos/";
 const PAGE_URL = canonicalUrl(PAGE_PATH);
@@ -73,6 +73,32 @@ const serviceSchema = {
   }
 };
 
+const faqs = [
+  {
+    q: "¿Hacen bautizos fuera de Santo Domingo?",
+    a: "Sí, cubrimos bautizos en toda República Dominicana — Punta Cana, La Romana, Santiago, Puerto Plata y otras ciudades — por una tarifa plana de RD$20,000 que ya incluye el viático."
+  },
+  {
+    q: "¿Cómo recibo las fotos?",
+    a: "Las fotos editadas llegan en una galería privada en línea, en alta resolución, lista para descargar e imprimir. Si quieres álbum impreso o fotos enmarcadas, lo coordinamos como servicio adicional."
+  },
+  {
+    q: "¿Cuánto hay que dejar de depósito para reservar la fecha?",
+    a: "El 50% del total para reservar la fecha; el resto se paga el mismo día del bautizo."
+  }
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${PAGE_URL}#faq`,
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a }
+  }))
+};
+
 const photos = [
   {
     src: "v1787789555/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_5_af3w37.webp",
@@ -110,10 +136,25 @@ const photos = [
 
 const CLOUDINARY_BASE = "https://res.cloudinary.com/dwewurxla/image/upload/f_auto,q_auto/";
 
+const imageSchemas = photos.map((photo) => ({
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  contentUrl: `${CLOUDINARY_BASE}${photo.src}`,
+  caption: photo.alt,
+  representativeOfPage: false
+}));
+
 export default function BautizosPage() {
   return (
     <main>
-      <SeoJsonLd data={[organizationSchema, serviceSchema, breadcrumbSchema] as Record<string, unknown>[]} />
+      <SeoJsonLd
+        data={
+          [organizationSchema, localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, ...imageSchemas] as Record<
+            string,
+            unknown
+          >[]
+        }
+      />
 
       <section className="section">
         <div className="wrap" style={{ maxWidth: "780px" }}>
@@ -152,6 +193,18 @@ export default function BautizosPage() {
             Desde RD$16,000 en Santo Domingo · RD$20,000 fijo en el resto del país · sesión de 2 horas
             · depósito del 50% para reservar.
           </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap" style={{ maxWidth: "780px" }}>
+          <h2>Preguntas frecuentes</h2>
+          {faqs.map((f) => (
+            <div key={f.q} style={{ marginBottom: "1.25rem" }}>
+              <h3 style={{ marginBottom: "0.35rem" }}>{f.q}</h3>
+              <p>{f.a}</p>
+            </div>
+          ))}
         </div>
       </section>
 
