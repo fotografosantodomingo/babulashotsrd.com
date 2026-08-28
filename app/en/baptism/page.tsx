@@ -118,7 +118,7 @@ export default function BaptismPage() {
       <section className="section">
         <div className="wrap" style={{ maxWidth: "780px" }}>
           <p className="eyebrow">Baptism photography</p>
-          <h1>Baptism Photography with Babula Shots</h1>
+          <h1>Baptism Photographer in Santo Domingo and the Dominican Republic</h1>
 
           <p>
             Babula Shots shoots baptisms inside the stone churches of Santo Domingo&rsquo;s Zona
@@ -133,6 +133,14 @@ export default function BaptismPage() {
             <strong>50% deposit</strong> holds your date, and the rest is due the day of the session.
             Edited, high-resolution photos land in a private online gallery, ready to download and
             print.
+          </p>
+
+          <p>
+            We&rsquo;re not limited to Santo Domingo: we cover baptisms in Punta Cana, Bávaro, Cap
+            Cana, La Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa,
+            and the rest of the country, always at the flat RD$20,000 rate outside Santo Domingo.
+            Delivery is digital, through the private online gallery; if you&rsquo;d also like a
+            printed album or framed prints, we can arrange that as an optional add-on.
           </p>
 
           <div className="uncropped-photo-stack">

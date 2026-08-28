@@ -118,7 +118,7 @@ export default function BautizosPage() {
       <section className="section">
         <div className="wrap" style={{ maxWidth: "780px" }}>
           <p className="eyebrow">Fotografía de bautizo</p>
-          <h1>Bautizos con Babula Shots</h1>
+          <h1>Fotógrafo de Bautizo en Santo Domingo y República Dominicana</h1>
 
           <p>
             En Babula Shots cubrimos bautizos dentro de las iglesias de piedra de la Zona Colonial de
@@ -132,6 +132,14 @@ export default function BautizosPage() {
             factura después. Para reservar la fecha pedimos <strong>50% de depósito</strong>, y el
             resto se paga el mismo día. Las fotos editadas llegan en una galería privada en línea, en
             alta resolución, lista para descargar e imprimir.
+          </p>
+
+          <p>
+            No trabajamos solo en Santo Domingo: cubrimos bautizos en Punta Cana, Bávaro, Cap Cana, La
+            Romana, Casa de Campo, Santiago, Puerto Plata, Samaná, Las Terrenas, Jarabacoa y el resto
+            del país, siempre bajo la tarifa plana de RD$20,000 fuera de Santo Domingo. La entrega es
+            digital, a través de la galería privada en línea; si además quieres álbum impreso o fotos
+            enmarcadas, lo coordinamos como servicio adicional opcional.
           </p>
 
           <div className="uncropped-photo-stack">
