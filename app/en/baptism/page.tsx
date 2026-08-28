@@ -75,6 +75,10 @@ const serviceSchema = {
 
 const photos = [
   {
+    src: "v1787789555/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_5_af3w37.webp",
+    alt: "Priest pouring water over the baby's head at the baptismal font, held by the godmother, with parents and godfather gathered around"
+  },
+  {
     src: "v1787789561/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_12_ic8dk0.webp",
     alt: "Father and daughter arriving together at the church's stone doorway before the baptism"
   },

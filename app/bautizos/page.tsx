@@ -75,6 +75,10 @@ const serviceSchema = {
 
 const photos = [
   {
+    src: "v1787789555/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_5_af3w37.webp",
+    alt: "Sacerdote derramando agua sobre la cabeza de la bebé en la pila bautismal, en brazos de la madrina, con padres y padrinos alrededor"
+  },
+  {
     src: "v1787789561/Fotografo_Bautismo_Santo_Domingo_Republiica_Dominicana_Babula_Shots_12_ic8dk0.webp",
     alt: "Padre y su hija llegando juntos a la puerta de piedra de la iglesia antes del bautizo"
   },
