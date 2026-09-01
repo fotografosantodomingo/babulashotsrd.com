@@ -2035,6 +2035,17 @@ p {
   display: block;
   border-radius: 12px;
 }
+.uncropped-photo-stack .photo-pair-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media (min-width: 700px) {
+  .uncropped-photo-stack .photo-pair-grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+}
 
 /* ============================================
    Curated gallery grid — used by /galeria-de-fotos/ and /en/photogallery/

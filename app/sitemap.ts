@@ -106,6 +106,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   });
 
+  // ── 2c. Family Zona Colonial satellite page pair (hands off to fsd) ──────
+  entries.push({
+    url: canonicalUrl("/familia-zona-colonial/"),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    alternates: {
+      languages: {
+        "es-DO": canonicalUrl("/familia-zona-colonial/"),
+        "es": canonicalUrl("/familia-zona-colonial/"),
+        "en": canonicalUrl("/en/family-zona-colonial/"),
+        "x-default": canonicalUrl("/familia-zona-colonial/")
+      }
+    }
+  });
+  entries.push({
+    url: canonicalUrl("/en/family-zona-colonial/"),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    alternates: {
+      languages: {
+        "es-DO": canonicalUrl("/familia-zona-colonial/"),
+        "es": canonicalUrl("/familia-zona-colonial/"),
+        "en": canonicalUrl("/en/family-zona-colonial/"),
+        "x-default": canonicalUrl("/familia-zona-colonial/")
+      }
+    }
+  });
+
   // ── 3. WP-scraped pages (Spanish-only, unless covered by EN_CONTENT) ─────
   // Pages in EN_CONTENT get their hreflang handled in step 4 below.
   const RESERVED = new Set(["blog", "category", "tag", "en"]);
